@@ -1,0 +1,19 @@
+appletviewer-error
+애플릿 뷰어에서 애플릿을 실행하는 중 에러가 발생하였습니다.
+
+error-no-name
+반드시 유효한 이름이어야 합니다.
+
+invalid-class-name
+잘못된 클래스 명입니다.
+
+invalid-package-name
+잘못된 패키지 명입니다.
+
+really-remove-class
+이 클래스를 삭제하면
+소스 파일도 영구 삭제될 것입니다.
+계속하시겠습니까?
+삭제
+취소
+null
