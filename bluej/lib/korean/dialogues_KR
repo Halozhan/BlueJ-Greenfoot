@@ -73,15 +73,14 @@ error-open-source
 이 클래스의 소스를 열 수 없습니다.
 
 error-writing-jar
-The jar file could not be written correctly.
-(Check the file system for access rights and
-disk space availability.)
+JAR 파일을 올바르게 작성할 수 없습니다.
+(액세스 권한과 디스크 공간 가용성을 확인하십시오.)
 
 error-file-exists
-The file you have selected already exists.
-Do you want to overwrite it?
-Overwrite
-Cancel
+선택한 파일은 이미 존재합니다.
+덮어쓰시겠습니까?
+덮어쓰기
+취소
 null
 
 invalid-class-name
