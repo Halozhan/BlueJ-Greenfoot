@@ -1,52 +1,49 @@
+# This file is written in Korean (EUC-KR).
+# PLEASE OPEN IT WITH THE CORRECT ENCODING.
+
 compile-while-executing
-You cannot compile while the machine
-is executing. This could cause strange
-problems!
+기계가 실행 중인 동안 컴파일할 수 없습니다.
+이는 이상한 문제를 일으킬 수 있습니다!
 
 exception-thrown
-An exception was thrown:
+예외가 발생했습니다:
 
 break-no-source
-Breakpoint hit in a file for which the
-source cannot be found.  Filename:
+소스를 찾을 수 없는 파일에서
+중단점이 설정되었습니다.  파일 이름:
 
 error-in-file
-An error occurred in a file for which the
-source cannot be found.
-class: source line number:
+소스를 찾을 수 없는 파일에서 오류가 발생했습니다.
+클래스: 소스 라인 번호:
 
 no-help
-No help available for this message.
-Please mail the text of the error message
-to mik@bluej.org - we will then
-add a help text to our help database. Thanks.
+이 메시지에 대한 도움말이 존재하지 않습니다.
+오류 메시지의 텍스트를 mik@bluej.org로 이메일로 보내주시면,
+우리는 도움말 데이터베이스에 도움말 텍스트를 추가할 예정입니다. 감사합니다.
 
 editor-crashed
-It seems that BlueJ crashed while writing this class
-to disk last time. The source code may be missing or 
-incomplete. There should be a backup of this class 
-in the project folder. If this class seems damaged,
-   1 - quit BlueJ
-   2 - backup your project folder (just in case)
-   3 - look into the project folder for a backup of
-       this java file. Rename it to the original
-       file name (with a '.java' suffix)
+이 클래스를 디스크에 작성하는 동안 BlueJ가 충돌한 것으로 보입니다.
+소스 코드가 누락되었거나 불완전할 수 있습니다.
+이 클래스에 대한 백업이 프로젝트 폴더에 있어야 합니다.
+만약 이 클래스가 손상되었다면,
+   1 - BlueJ를 종료하세요.
+   2 - 프로젝트 폴더를 백업하세요 (만약을 위해)
+   3 - 프로젝트 폴더에서 이 java 파일의 백업을 찾으세요.
+       원래 파일 이름으로 ( '.java' 접미사 포함) 이름을 바꾸세요.
 
 cannot-run-compiler
-Cannot run compiler. Is the
-program in your path?
-Name of compiler:
+컴파일러를 실행할 수 없습니다.
+프로그램이 경로에 있는지 확인해주세요.
+컴파일러의 이름:
 
 compiler-error
-Compiler error:
+컴파일러 오류:
 
 out-of-bounds
-Element specified is not
-within array bounds.
+지정된 요소는 배열 범위 내에 없습니다.
 
 cannot-access-element
-Unable to access the array
-element specified.
+지정된 배열 요소에 엑세스할 수 없습니다.
 
 appletviewer-error
 애플릿 뷰어에서 애플릿을 실행하는 중 에러가 발생하였습니다.
@@ -55,29 +52,25 @@ error-no-name
 유효한 이름을 지정해야 합니다.
 
 error-save-file
-An error occurred when trying to save
-the file. The file was not saved.
+파일 저장 중 오류가 발생했습니다.
+파일이 저장되지 않았습니다.
 
 cannot-save-keys
-An error occurred while trying to save
-the key bindings. The bindings were not
-saved.
+키 바인딩을 저장하는 중 오류가 발생했습니다.
+바인딩이 저장되지 않았습니다.
 
 error-no-templates
-The specified template directory (the directory where
-BlueJ finds the class templates) does not exist. It
-is defined with the property "bluej.templatePath" in
-<bluej-home>/lib/bluej.defs. Check and fix this property.
+지정된 템플릿 디렉토리(클래스 템플릿을 찾는 BlueJ의 디렉토리)가
+존재하지 않습니다. 이것은 <bluej-home>/lib/bluej.defs에서
+"bluej.templatePath" 속성으로 정의됩니다.
+이 속성을 확인하고 수정하세요.
 
 skeleton-error
-The default skeleton for the class could not be
-generated. This may be because of configuration
-error in the setup of BlueJ, or because of file
-system access problems.
+기본 클래스 스켈레톤을 생성할 수 없습니다.
+이는 BlueJ의 설정 오류나 파일 시스템 접근 문제 때문일 수 있습니다.
 
 error-open-source
-Cannot open the source
-of this class.
+이 클래스의 소스를 열 수 없습니다.
 
 error-writing-jar
 The jar file could not be written correctly.
@@ -98,34 +91,33 @@ invalid-package-name
 잘못된 패키지 이름입니다.
 
 must-be-identifier
-The name is not valid. It
-must be a Java identifier.
+이름이 유효하지 않습니다.
+이것은 Java 식별자여야 합니다.
 
 directory-exists-file
-A file with this name already exists,
-so the directory cannot be created.
+이 이름을 가진 파일이 이미 존재하기 때문에,
+디렉토리를 생성할 수 없습니다.
 
 directory-exists-non-empty
-This directory is not empty, so cannot
-be used as a destination for a project.
+이 디렉토리는 비어 있지 않으므로,
+프로젝트의 대상으로 사용할 수 없습니다.
 
 cannot-create-directory
-Cannot create the directory. Check that 
-it has a valid name and that the parent 
-directories exist and are writable.
+디렉토리를 생성할 수 없습니다.
+유효한 이름이 있는지와 부모 디렉토리가 존재하며
+쓰기 가능한지 확인해주세요.
 
 cannot-save-project
-The project could not be saved to the specified
-location. Check that you have write access, or
-choose another location.
+프로젝트를 지정한 위치에 저장할 수 없습니다.
+쓰기 권한이 있는지 확인하거나
+다른 위치를 선택해주세요.
 
 cannot-save-inside-self
-Cannot save a project inside itself.
-Please choose a different location to save to.
+프로젝트를 자기 자신 안에 저장할 수 없습니다.
+다른 위치를 선택해 주세요.
 
 file-does-not-exist
-The specified file
-does not exist.
+지정된 파일이 존재하지 않습니다.
 
 cannot-import
 Cannot import file. The file must
