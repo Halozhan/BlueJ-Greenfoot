@@ -116,178 +116,154 @@ cannot-save-inside-self
 다른 위치를 선택해 주세요.
 
 file-does-not-exist
-지정된 파일이 존재하지 않습니다.
+지정된 파일이 존재하지 않습니다 .
 
 cannot-import
-Cannot import file. The file must
-be a Java source file (its name
-must end in ".java").
+파일을 가져올 수 없습니다.
+파일은 Java 소스 파일이어야 합니다.
+(파일 이름이 ".java"로 끝나야 함)
 
 docdir-blocked-by-file
-The directory for the documentation could
-not be created in the project directory
-because there is a file with same name.
+프로젝트 디렉토리에서 문서 디렉토리를 만들 수 없습니다.
+동일한 이름의 파일이 있기 때문입니다.
 
 docdir-not-created
-The directory for the documentation could
-not be created in the project directory.
+프로젝트 디렉토리에서 문서 디렉토리를 만들 수 없습니다.
 
 no-permission-for-docdir
-The directory for the documentation could
-not be created in the project directory
-because of insufficient rights.
+권한이 충분하지 않아 프로젝트 디렉토리에서
+문서 디렉토리를 만들 수 없습니다.
 
 show-or-generate
-Do you want to show the documentation
-generated previously, or do you want
-to regenerate the whole documentation?
-Just Show
-Regenerate
-Cancel
+이전에 생성된 문서를 보여줄 것인지 아니면,
+전체 문서를 다시 생성할 것인지 선택하시겠습니까?
+보기만
+다시 생성
+취소
 
 doctool-error
-Javadoc reported an error. It could be that there is a
-syntax error in one of the files you tried to generate
-a documentation for. It could also be that the JDK
-documentation URL specified in the preferences is incorrect.
-Make sure that all your Java files are compiled and the
-documentation URL is accessible or disabled. Then try again.
-If this message appears again you should check the log file
-with the error messages from Javadoc:
+Javadoc에서 오류가 발생했습니다.
+문서를 생성하려고 한 파일 중 구문 오류가 있을 수 있습니다.
+또는 기본 환경 설정에서 지정한 JDK 문서 URL이 올바르지 않을 수 있습니다.
+모든 Java 파일이 컴파일되었는지,
+문서 URL이 접근 가능한지 확인하고 다시 시도해보세요.
+이 메시지가 다시 나타나면 Javadoc의 오류 메시지 로그 파일을 확인해야 합니다.
 
 severe-doc-trouble
-An exception occurred during the call
-to the external documentation tool.
+외부 문서 도구 호출 중 예외가 발생했습니다.
 
 no-java-sources-found
-No Java source files were
-found in this directory.
+이 디렉토리에서 Java 소스 파일을 찾을 수 없습니다.
 
 duplicate-name
-A class, package or file with this name already exists
-in this project. You cannot have two
-classes, packages or files with the same name.
+이 프로젝트에서 이미 이 이름으로 된 클래스, 패키지 또는 파일이 존재합니다.
+동일한 이름으로 두 개 이상의 클래스, 패키지 또는 파일을 가질 수 없습니다.
 
 class-library-conflict
-A class with this name already exists in the library
-"$".
-If you create this class, you will be able to
-edit and compile it, but not call its methods.
-Cancel
-Continue Anyway
+이름이 중복되는 클래스가 이미 "$" 라이브러리에 존재합니다.
+이 클래스를 생성하면 수정 및 컴파일은 가능하지만,
+해당 클래스의 메소드를 호출할 수는 없습니다.
+취소
+계속 진행하기
 null
 
 compile-class-library-conflict
-A class with this name already exists in the library
-"$".
-You are able to edit and compile your class, but 
-calling methods will execute code from the library class.
+이름이 "$"인 라이브러리에 이미 이 이름을 가진 클래스가 존재합니다.
+클래스를 수정하고 컴파일할 수는 있지만,
+메소드를 호출하면 라이브러리 클래스의 코드가 실행됩니다.
 
 windows-reserved-class-name
-The chosen class name cannot be used, because it
-conflicts with a reserved filename on some operating
-systems.
+선택한 클래스 이름은 일부 운영 체제에서
+예약된 파일 이름과 충돌하므로 사용할 수 없습니다.
 
 error-in-import
-An error occurred during the attempt to
-import the file. Check access rights and
-disk space.
+파일을 import하는 중에 오류가 발생했습니다.
+접근 권한과 디스크 공간을 확인하세요.
 
 no-class-selected-compile
-No class selected for compilation.
-Select a class by clicking on
-it before trying to compile.
+컴파일할 클래스가 선택되지 않았습니다.
+컴파일하기 전에 클래스를 클릭하여 선택하세요.
 
 no-class-selected
-Nothing selected for removal.
-Select a class, arrow or package by clicking on
-it before trying to remove.
+삭제할 대상이 선택되지 않았습니다.
+삭제하기 전에 클래스, 화살표 또는
+패키지를 클릭하여 선택하세요.
 
 really-remove-class
-이 클래스를 삭제하면
-소스 파일도 영구 삭제될 것입니다.
-계속하시겠습니까?
-삭제
+클래스를 삭제하면 해당 소스 파일이
+영구적으로 삭제됩니다.
+계속 하시겠습니까?
+제거
 취소
 null
 
 really-remove-files
-This will delete the files from
-the directory and cannot be undone.
-Do you want to continue?
-Remove
-Cancel
+이 디렉토리에서 파일을
+삭제하면 되돌릴 수 없습니다.
+계속 하시겠습니까?
+제거
+취소
 null
 
 really-remove-package
-Removing this package will permanently
-delete the package directory (including ALL
-the contents of that directory).
-Do you want to continue?
-Remove
-Cancel
+이 작업은 디렉토리에서 파일을 삭제하며
+되돌릴 수 없습니다.
+계속하시겠습니까?
+제거
+취소
 null
 
 remove-package-open
-The package you have selected for
-deletion has some sub-packages opened
-within BlueJ. You must close these
-packages before you will be allowed
-to delete this package.
+삭제하려는 패키지 내에 BlueJ에서 열린 하위 패키지가 있습니다.
+이 패키지를 삭제하기 전에 이러한 패키지를 닫아야 합니다.
 
 could-not-open-project
-The project could not be opened. Check that you have
-correct permissions on the folder and files within it.
+프로젝트를 열 수 없습니다.
+해당 폴더와 파일에 대한 올바른 권한을 확인하세요.
 
 not-yet-implemented
-Not Yet Implemented - sorry.
+아직 구현되지 않았습니다 - 죄송합니다.
 
 quit-all
-Quit all open projects?
-Quit All
-Cancel
+모든 열려있는 프로젝트를 종료하시겠습니까?
+종료
+취소
 null
 
 changed-on-disk
-The source file has changed on disk. Do you want to
-reload it from disk? This will discard changes made
-here in the editor.
-Reload
-Cancel
+디스크 상의 소스 파일이 변경되었습니다.
+디스크에서 다시 불러올까요? 이렇게 하면
+편집기에서 작업한 변경 사항이 모두 사라집니다.
+다시 불러오기
+취소
 null
 
 really-print
-The text is wider than the paper. Long lines
-will be cut off. You can avoid this by resizing
-the editor window to make it narrower. Do you
-want to print anyway?
-Print
-Cancel
+텍스트가 용지보다 넓습니다. 긴 줄은 자릅니다.
+편집기 창 크기를 좁히면 이를 피할 수 있습니다.
+그래도 인쇄하시겠습니까?
+인쇄
+취소
 null
 
 print-no-printers
-Java cannot find any printers.  Please install a printer to be able to print.
+Java는 프린터를 찾을 수 없습니다. 인쇄를 하기 위해서는 프린터를 설치해주십시오.
 
 open-non-bluej-already-bluej
-The directory you have selected is already
-a BlueJ project.
+선택한 디렉토리는 이미 BlueJ 프로젝트입니다.
 
 open-non-bluej-no-java
-No Java source files were
-found in this directory.
+해당 디렉토리에서 Java 소스
+파일을 찾을 수 없습니다.
 
 open-non-bluej-invalid
-You have indicated you wish to open this
-directory as a BlueJ project, however a file
-has been found with a package statement that
-is incompatible with the current directory
-structure. (For example, if the Java class
-Shape has a package line of com.aa, then the
-file Shape.java must be in a directory aa
-which is itself in a directory com. This com
-directory in turn must be in another directory
-which is the directory you should point BlueJ
-to when attempting to open it).
+당신은 이 디렉토리를 BlueJ 프로젝트로 열고자 한다는 것을
+표시했지만, 현재 디렉토리 구조와 호환되지 않는 패키지 문이
+포함된 파일이 발견되었습니다. (예를 들어, Java 클래스 Shape에
+com.aa의 패키지 라인이 있다면, Shape.java 파일은 com 디렉토리
+안에 있는 aa 디렉토리에 있어야 합니다. 이 com 디렉토리는 다시
+다른 디렉토리 안에 있어야 하며, 이 디렉토리가 당신이
+BlueJ를 열 때 가리키는 디렉토리여야 합니다).
 
 import-into-current
 You currently have a package open in this window.
