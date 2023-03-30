@@ -1,139 +1,142 @@
-okay=È®ÀÎ 
-cancel=Ãë¼Ò 
-close=´İ±â 
-continue=°è¼Ó
+# This file is written in UTF-8.
+# PLEASE OPEN IT WITH THE CORRECT ENCODING.
 
-main.invalidPackage=ÆĞÅ°Áö¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù.
+okay=í™•ì¸
+cancel=ì·¨ì†Œ
+close=ë‹«ê¸°
+continue=ê³„ì†
 
-compileException=ÄÄÆÄÀÏÁß ¿¹¿Ü»óÈ²
-compiler.thread.title=BlueJ ÄÄÆÄÀÏ·¯ ¾²·¹µå
-compiler.invalidcompiler=bluej.compiler.typeÀº À¯È¿ÇÑ ÄÄÆÄÀÏ·¯ Å¸ÀÔÀ¸·Î ¼³Á¤µÇÁö ¾Ê¾Ò½À´Ï´Ù.
-compiler.nocompiler=ÄÄÆÄÀÏ·¯¸¦ ½ÇÇàÇÒ ¼ö ¾ø½À´Ï´Ù.
+main.invalidPackage=íŒ¨í‚¤ì§€ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
 
-debugger.objectviewer.title=BlueJ:  Å¬·¡½ºÀÇ °´Ã¼ »óÅÂ °Ë»ç
-debugger.resultviewer.title=BlueJ:  ÇÔ¼öÀÇ °á°ú °ª
-debugger.objectviewer.staticListTitle=Á¤Àû ÇÊµå
-debugger.objectviewer.objListTitle=°´Ã¼ ÇÊµå
-debugger.objectviewer.inspect=°´Ã¼ »óÅÂ °Ë»ç
-debugger.objectviewer.get=ÂüÁ¶ °´Ã¼ °¡Á®¿À±â
-debugger.objectviewer.objectClassName=Å¬·¡½ºÀÇ °´Ã¼
+compileException=ì»´íŒŒì¼ì¤‘ ì˜ˆì™¸ìƒí™©
+compiler.thread.title=BlueJ ì»´íŒŒì¼ëŸ¬ ì“°ë ˆë“œ
+compiler.invalidcompiler=bluej.compiler.typeì€ ìœ íš¨í•œ ì»´íŒŒì¼ëŸ¬ íƒ€ì…ìœ¼ë¡œ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+compiler.nocompiler=ì»´íŒŒì¼ëŸ¬ë¥¼ ì‹¤í–‰í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
 
-debugger.objectwrapper.methodException=¸Ş¼Òµå Á¢±Ù ¿¹¿Ü:
-debugger.objectwrapper.invocationException=È£Ãâ½Ã ¹ß»ıÇÑ ¿¹¿Ü:
-debugger.objectwrapper.inspect=°´Ã¼ »óÅÂ °Ë»ç
-debugger.objectwrapper.remove=»èÁ¦
-debugger.objectwrapper.serializable=Á÷·ÄÈ­
-debugger.objectwrapper.redefined=ÀçÁ¤ÀÇ
-debugger.objectwrapper.inherited=»ó¼Ó
+debugger.objectviewer.title=BlueJ:  í´ë˜ìŠ¤ì˜ ê°ì²´ ìƒíƒœ ê²€ì‚¬
+debugger.resultviewer.title=BlueJ:  í•¨ìˆ˜ì˜ ê²°ê³¼ ê°’
+debugger.objectviewer.staticListTitle=ì •ì  í•„ë“œ
+debugger.objectviewer.objListTitle=ê°ì²´ í•„ë“œ
+debugger.objectviewer.inspect=ê°ì²´ ìƒíƒœ ê²€ì‚¬
+debugger.objectviewer.get=ì°¸ì¡° ê°ì²´ ê°€ì ¸ì˜¤ê¸°
+debugger.objectviewer.objectClassName=í´ë˜ìŠ¤ì˜ ê°ì²´
 
-debugger.threadstatus.finished=Á¾·á
-debugger.threadstatus.breakpoint=Áß´ÜÁ¡
-debugger.threadstatus.stopped=Á¤Áö
-debugger.threadstatus.monitor=¸ğ´ÏÅÍ
-debugger.threadstatus.notstarted=½ÃÀÛµÇÁö ¾ÊÀ½
-debugger.threadstatus.running=µ¿ÀÛÁß
+debugger.objectwrapper.methodException=ë©”ì†Œë“œ ì ‘ê·¼ ì˜ˆì™¸:
+debugger.objectwrapper.invocationException=í˜¸ì¶œì‹œ ë°œìƒí•œ ì˜ˆì™¸:
+debugger.objectwrapper.inspect=ê°ì²´ ìƒíƒœ ê²€ì‚¬
+debugger.objectwrapper.remove=ì‚­ì œ
+debugger.objectwrapper.serializable=ì§ë ¬í™”
+debugger.objectwrapper.redefined=ì¬ì •ì˜
+debugger.objectwrapper.inherited=ìƒì†
+
+debugger.threadstatus.finished=ì¢…ë£Œ
+debugger.threadstatus.breakpoint=ì¤‘ë‹¨ì 
+debugger.threadstatus.stopped=ì •ì§€
+debugger.threadstatus.monitor=ëª¨ë‹ˆí„°
+debugger.threadstatus.notstarted=ì‹œì‘ë˜ì§€ ì•ŠìŒ
+debugger.threadstatus.running=ë™ì‘ì¤‘
 debugger.threadstatus.sleeping=sleeping
-debugger.threadstatus.unknown=¹ÌÁ¤ÀÇ »óÅÂ
-debugger.threadstatus.waiting=´ë±âÁß
-debugger.threadstatus.zombie=Á»ºñ
+debugger.threadstatus.unknown=ë¯¸ì •ì˜ ìƒíƒœ
+debugger.threadstatus.waiting=ëŒ€ê¸°ì¤‘
+debugger.threadstatus.zombie=ì¢€ë¹„
 
 #Debugger messages
-debugger.jdiDebugger.noBreakpointMsg=Áß´ÜÁ¡ ÇØÁ¦: ÀÌ ¶óÀÎ¿¡¼­ Áß´ÜÁ¡À» Ã£À» ¼ö ¾ø½À´Ï´Ù.
-debugger.jdiDebugger.noLineNumberMsg=ÀÌ Å¬·¡½º´Â ¶óÀÎ ³Ñ¹ö Á¤º¸ ¾øÀÌ ÄÄÆÄÀÏ µÇ¾ú½À´Ï´Ù. Áß´ÜÁ¡À» ¼³Á¤ÇÒ ¼ö ¾ø½À´Ï´Ù.
-debugger.jdiDebugger.noCodeMsg=Áß´ÜÁ¡À» ¼³Á¤ÇÒ ¼ö ¾ø½À´Ï´Ù: ÀÌ ¶óÀÎ¿¡´Â ÄÚµå°¡ ¾ø½À´Ï´Ù.
-debugger.jdiDebugger.internalErrorMsg=Áß´ÜÁ¡À» ¼³Á¤ÇÏ´Âµ¿¾È ³»ºÎÀûÀÎ ¿¡·¯°¡ ¹ß»ıÇß½À´Ï´Ù.
+debugger.jdiDebugger.noBreakpointMsg=ì¤‘ë‹¨ì  í•´ì œ: ì´ ë¼ì¸ì—ì„œ ì¤‘ë‹¨ì ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+debugger.jdiDebugger.noLineNumberMsg=ì´ í´ë˜ìŠ¤ëŠ” ë¼ì¸ ë„˜ë²„ ì •ë³´ ì—†ì´ ì»´íŒŒì¼ ë˜ì—ˆìŠµë‹ˆë‹¤. ì¤‘ë‹¨ì ì„ ì„¤ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+debugger.jdiDebugger.noCodeMsg=ì¤‘ë‹¨ì ì„ ì„¤ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤: ì´ ë¼ì¸ì—ëŠ” ì½”ë“œê°€ ì—†ìŠµë‹ˆë‹¤.
+debugger.jdiDebugger.internalErrorMsg=ì¤‘ë‹¨ì ì„ ì„¤ì •í•˜ëŠ”ë™ì•ˆ ë‚´ë¶€ì ì¸ ì—ëŸ¬ê°€ ë°œìƒí–ˆìŠµë‹ˆë‹¤.
 
 #library browser configuration
-browser.title=BlueJ:  ¶óÀÌºê·¯¸® ºê¶ó¿ìÀú
+browser.title=BlueJ:  ë¼ì´ë¸ŒëŸ¬ë¦¬ ë¸Œë¼ìš°ì €
 browser.version=0.1
-browser.togglemessagebox.toggle.text=ÀÌ ¸Ş¼¼Áö¸¦ ´Ù½Ã Ç¥½ÃÇÏÁö ¾Ê°Ú½À´Ï´Ù.
+browser.togglemessagebox.toggle.text=ì´ ë©”ì„¸ì§€ë¥¼ ë‹¤ì‹œ í‘œì‹œí•˜ì§€ ì•Šê² ìŠµë‹ˆë‹¤.
 
-browser.librarychooser.loading.status=¶óÀÌºê·¯¸® ·ÎµùÁß...
-browser.librarychooser.loaded.status=¶óÀÌºê·¯¸®°¡ ·ÎµåµÊ.
-browser.librarychooser.openingarchive.status=¶óÀÌºê·¯¸® ·ÎµåµÇ¾ú½À´Ï´Ù.
+browser.librarychooser.loading.status=ë¼ì´ë¸ŒëŸ¬ë¦¬ ë¡œë”©ì¤‘...
+browser.librarychooser.loaded.status=ë¼ì´ë¸ŒëŸ¬ë¦¬ê°€ ë¡œë“œë¨.
+browser.librarychooser.openingarchive.status=ë¼ì´ë¸ŒëŸ¬ë¦¬ ë¡œë“œë˜ì—ˆìŠµë‹ˆë‹¤.
 browser.librarychooser.config.user=userlibs.properties
 
-browser.classchooser.classmenu.open=¿­±â
-browser.classchooser.classmenu.use=»ç¿ëÇÏ±â...
-browser.classchooser.packagemenu.open=¿­±â
-browser.classchooser.packagemenu.use=»ç¿ëÇÏ±â...
+browser.classchooser.classmenu.open=ì—´ê¸°
+browser.classchooser.classmenu.use=ì‚¬ìš©í•˜ê¸°...
+browser.classchooser.packagemenu.open=ì—´ê¸°
+browser.classchooser.packagemenu.use=ì‚¬ìš©í•˜ê¸°...
 
-browser.usepackage.dialog.text=ÆĞÅ°Áö¸¦ ¼±ÅÃÇÏ°í È®ÀÎÀ» Å¬¸¯ÇÏ¼¼¿ä.
+browser.usepackage.dialog.text=íŒ¨í‚¤ì§€ë¥¼ ì„ íƒí•˜ê³  í™•ì¸ì„ í´ë¦­í•˜ì„¸ìš”.
 
 browser.missingclass.text=The browser cannot locate the class $
 
 #library browser menus
-browser.menu.library=¶óÀÌºê·¯¸®
-browser.menu.library.properties=¿É¼Ç...
-browser.menu.library.addlibrary=Ãß°¡...
-browser.menu.library.addlibrary.title=Ãß°¡ ¶óÀÌºê·¯¸®
-browser.menu.library.refresh=»õ·Î°íÄ§
-browser.menu.library.close=´İ±â
+browser.menu.library=ë¼ì´ë¸ŒëŸ¬ë¦¬
+browser.menu.library.properties=ì˜µì…˜...
+browser.menu.library.addlibrary=ì¶”ê°€...
+browser.menu.library.addlibrary.title=ì¶”ê°€ ë¼ì´ë¸ŒëŸ¬ë¦¬
+browser.menu.library.refresh=ìƒˆë¡œê³ ì¹¨
+browser.menu.library.close=ë‹«ê¸°
 
 # Class Manager panel user interface elements and error messages
-classmgr.prefpaneltitle=¶óÀÌºê·¯¸®
-classmgr.userlibraries=»ç¿ëÀÚ ¶óÀÌºê·¯¸®
-classmgr.systemlibraries=½Ã½ºÅÛ ¶óÀÌºê·¯¸®
-classmgr.bootlibraries=ºÎÆ® ¶óÀÌºê·¯¸®
-classmgr.add=Ãß°¡
-classmgr.delete=»èÁ¦ 
-classmgr.statuscolumn=»óÅÂ
-classmgr.statusgood=·Îµå
-classmgr.statusbad=¿¡·¯
-classmgr.statusnew=·Îµå ½ÇÆĞ
-classmgr.locationcolumn=À§Ä¡
-classmgr.descriptioncolumn=¼³¸í
-classmgr.bootclass=ºÎÆ® Å¬·¡½º ¶óÀÌºê·¯¸®
-classmgr.bluejclass=BlueJ Å¬·¡½º ¶óÀÌºê·¯¸®
-classmgr.error.unresolvable=ÁöÁ¤µÇÁö ¾ÊÀº °æ·Î
-classmgr.error.nodescription=¼³¸í ¾øÀ½ 
-classmgr.error.missingclasspath=ÀÚ¹Ù Å¬·¡½º °æ·Î°¡ ÁöÁ¤µÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù. ÇöÀç µğ·ºÅä¸®¿¡ ÀÖ´Â Å¬·¡½º°¡ ÁöÁ¤µÇ¾î ÀÖÁö ¾ÊÀ¸¹Ç·Î Å¬·¡½º¸¦ ·ÎµùÇÒ ¼ö ¾ø½À´Ï´Ù.
-classmgr.error.missingbootclasspath=Sun ÇöÀç µğ·ºÅä¸®¿¡ ÀÖ´Â Å¬·¡½º°¡ ÁöÁ¤µÇ¾î ÀÖÁö ¾ÊÀ¸¹Ç·Î Å¬·¡½º¸¦ ·ÎµùÇÒ ¼ö ¾ø½À´Ï´ÙºÎÆ® Å¬·¡½º °æ·Î°¡ ÁöÁ¤µÇ¾î ÀÖÁö ¾Ê½À´Ï´Ù. BlueJ ´Â JDK 1.2 ÀÌÇÏÀÇ È¯°æ¿¡¼­ µ¿ÀÛÇÒ ¼ö ¾ø½À´Ï´Ù.
+classmgr.prefpaneltitle=ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.userlibraries=ì‚¬ìš©ì ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.systemlibraries=ì‹œìŠ¤í…œ ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.bootlibraries=ë¶€íŠ¸ ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.add=ì¶”ê°€
+classmgr.delete=ì‚­ì œ 
+classmgr.statuscolumn=ìƒíƒœ
+classmgr.statusgood=ë¡œë“œ
+classmgr.statusbad=ì—ëŸ¬
+classmgr.statusnew=ë¡œë“œ ì‹¤íŒ¨
+classmgr.locationcolumn=ìœ„ì¹˜
+classmgr.descriptioncolumn=ì„¤ëª…
+classmgr.bootclass=ë¶€íŠ¸ í´ë˜ìŠ¤ ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.bluejclass=BlueJ í´ë˜ìŠ¤ ë¼ì´ë¸ŒëŸ¬ë¦¬
+classmgr.error.unresolvable=ì§€ì •ë˜ì§€ ì•Šì€ ê²½ë¡œ
+classmgr.error.nodescription=ì„¤ëª… ì—†ìŒ 
+classmgr.error.missingclasspath=ìë°” í´ë˜ìŠ¤ ê²½ë¡œê°€ ì§€ì •ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤. í˜„ì¬ ë””ë ‰í† ë¦¬ì— ìˆëŠ” í´ë˜ìŠ¤ê°€ ì§€ì •ë˜ì–´ ìˆì§€ ì•Šìœ¼ë¯€ë¡œ í´ë˜ìŠ¤ë¥¼ ë¡œë”©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
+classmgr.error.missingbootclasspath=Sun í˜„ì¬ ë””ë ‰í† ë¦¬ì— ìˆëŠ” í´ë˜ìŠ¤ê°€ ì§€ì •ë˜ì–´ ìˆì§€ ì•Šìœ¼ë¯€ë¡œ í´ë˜ìŠ¤ë¥¼ ë¡œë”©í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤ë¶€íŠ¸ í´ë˜ìŠ¤ ê²½ë¡œê°€ ì§€ì •ë˜ì–´ ìˆì§€ ì•ŠìŠµë‹ˆë‹¤. BlueJ ëŠ” JDK 1.2 ì´í•˜ì˜ í™˜ê²½ì—ì„œ ë™ì‘í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤.
 
 # Preferences Manager user interface elements and error messages
 prefmgr.title=Preferences
 
 # Miscellaneous Preferences panel
-prefmgr.misc.prefpaneltitle=¿É¼Ç
-prefmgr.misc.editor.title=¿¡µğÅÍ ¼³Á¤
-prefmgr.misc.editorfontsize=±ÛÀÚ Å©±â
-prefmgr.misc.usesyntaxhilighting=¿¹¾à¾î °­Á¶ »ç¿ë
-prefmgr.misc.autoindent=ÀÚµ¿ µé¿©¾²±â (Enter ¿Í Tab Å°)
-prefmgr.misc.displaylinenumbers=¶óÀÎ ³Ñ¹ö Ç¥½Ã
-prefmgr.misc.makeBackup=¼Ò½º ÆÄÀÏ ¹é¾÷
-prefmgr.misc.matchBrackets=°ıÈ£ °Ë»ç
-prefmgr.misc.compiler.title=ÄÄÆÄÀÏ·¯ ¼³Á¤
-prefmgr.misc.usejdk14=JDK 1.4 »ç¿ëÇÏ±â
-prefmgr.misc.documentation.title=¹®¼­ ¼³Á¤
-prefmgr.misc.jdkurlpath=JDK ¹®¼­ URL
-prefmgr.misc.linkToLib=ÇÁ·ÎÁ§Æ® ¹®¼­È­¿¡ À§ÀÇ URL »ç¿ë
-prefmgr.misc.linkToLibNoteLine1=¸¸¾à À§ÀÇ URL À» ¹®¼­È­½Ã¿¡ »ç¿ëÇÑ´Ù¸é, Á¤È®ÇÏ°í ¿¢¼¼½º °¡´ÉÇØ¾ß ÇÕ´Ï´Ù.
-prefmgr.misc.linkToLibNoteLine2=±×·¸Áö¾ÊÀ¸¸é ¹®¼­È­´Â ½ÇÆĞÇÕ´Ï´Ù. ¿ÀÇÁ¶óÀÎ »óÅÂ·Î »ç¿ëÇÒ °æ¿ì ÀÌ ¿É¼ÇÀÇ Ã¼Å©¸¦ ÇØÁ¦ÇÏ½Ê½Ã¿À.
+prefmgr.misc.prefpaneltitle=ì˜µì…˜
+prefmgr.misc.editor.title=ì—ë””í„° ì„¤ì •
+prefmgr.misc.editorfontsize=ê¸€ì í¬ê¸°
+prefmgr.misc.usesyntaxhilighting=ì˜ˆì•½ì–´ ê°•ì¡° ì‚¬ìš©
+prefmgr.misc.autoindent=ìë™ ë“¤ì—¬ì“°ê¸° (Enter ì™€ Tab í‚¤)
+prefmgr.misc.displaylinenumbers=ë¼ì¸ ë„˜ë²„ í‘œì‹œ
+prefmgr.misc.makeBackup=ì†ŒìŠ¤ íŒŒì¼ ë°±ì—…
+prefmgr.misc.matchBrackets=ê´„í˜¸ ê²€ì‚¬
+prefmgr.misc.compiler.title=ì»´íŒŒì¼ëŸ¬ ì„¤ì •
+prefmgr.misc.usejdk14=JDK 1.4 ì‚¬ìš©í•˜ê¸°
+prefmgr.misc.documentation.title=ë¬¸ì„œ ì„¤ì •
+prefmgr.misc.jdkurlpath=JDK ë¬¸ì„œ URL
+prefmgr.misc.linkToLib=í”„ë¡œì íŠ¸ ë¬¸ì„œí™”ì— ìœ„ì˜ URL ì‚¬ìš©
+prefmgr.misc.linkToLibNoteLine1=ë§Œì•½ ìœ„ì˜ URL ì„ ë¬¸ì„œí™”ì‹œì— ì‚¬ìš©í•œë‹¤ë©´, ì •í™•í•˜ê³  ì—‘ì„¸ìŠ¤ ê°€ëŠ¥í•´ì•¼ í•©ë‹ˆë‹¤.
+prefmgr.misc.linkToLibNoteLine2=ê·¸ë ‡ì§€ì•Šìœ¼ë©´ ë¬¸ì„œí™”ëŠ” ì‹¤íŒ¨í•©ë‹ˆë‹¤. ì˜¤í”„ë¼ì¸ ìƒíƒœë¡œ ì‚¬ìš©í•  ê²½ìš° ì´ ì˜µì…˜ì˜ ì²´í¬ë¥¼ í•´ì œí•˜ì‹­ì‹œì˜¤.
 
 # Features Panel
-prefmgr.features.title=Æ¯Â¡ 
+prefmgr.features.title=íŠ¹ì§• 
 
 # Extensions Manager Help panel
 extmgr.extensions=Extensions
-extmgr.installed=¼³Ä¡µÊ 
-extmgr.project=ÇÁ·ÎÁ§Æ® 
-extmgr.statuscolumn=»óÅÂ 
-extmgr.namecolumn=ÀÌ¸§ 
-extmgr.typecolumn=Çü½Ä 
-extmgr.versioncolumn=¹öÀü 
-extmgr.details=»ó¼¼»çÇ× 
-extmgr.details.status=»óÅÂ 
-extmgr.details.name=ÀÌ¸§ 
-extmgr.details.location=À§Ä¡ 
-extmgr.details.type=Çü½Ä 
-extmgr.details.version=¹öÀü 
-extmgr.details.date=³¯Â¥ 
+extmgr.installed=ì„¤ì¹˜ë¨ 
+extmgr.project=í”„ë¡œì íŠ¸ 
+extmgr.statuscolumn=ìƒíƒœ 
+extmgr.namecolumn=ì´ë¦„ 
+extmgr.typecolumn=í˜•ì‹ 
+extmgr.versioncolumn=ë²„ì „ 
+extmgr.details=ìƒì„¸ì‚¬í•­ 
+extmgr.details.status=ìƒíƒœ 
+extmgr.details.name=ì´ë¦„ 
+extmgr.details.location=ìœ„ì¹˜ 
+extmgr.details.type=í˜•ì‹ 
+extmgr.details.version=ë²„ì „ 
+extmgr.details.date=ë‚ ì§œ 
 extmgr.details.url=URL	
-extmgr.details.description=¼³¸í 
+extmgr.details.description=ì„¤ëª… 
 
 extmgr.status.notused=Not used
-extmgr.status.loaded=·ÎµåµÈ 
-extmgr.status.error=¿¡·¯ 
+extmgr.status.loaded=ë¡œë“œëœ 
+extmgr.status.error=ì—ëŸ¬ 
 extmgr.status.unloaded=Unloaded
 extmgr.version.unknown=Unknown
 extensions.nodescription=None given.
@@ -141,383 +144,383 @@ extensions.nodescription=None given.
 #---------------
 #Editor labels
 #---------------
-editor.title=BlueJ: ¿¡µğÅÍ 
+editor.title=BlueJ: ì—ë””í„° 
 
 #button lables for toolbar commands
-editor.compileLabel = ÄÄÆÄÀÏ 
-editor.undoLabel = ½ÇÇàÃë¼Ò 
-editor.cutLabel = Àß¶ó³»±â 
-editor.copyLabel = º¹»çÇÏ±â 
-editor.pasteLabel = ºÙ¿©³Ö±â 
-editor.closeLabel = ´İ±â 
-editor.page-setupLabel = ÆäÀÌÁö ¼³Á¤ ...
+editor.compileLabel = ì»´íŒŒì¼ 
+editor.undoLabel = ì‹¤í–‰ì·¨ì†Œ 
+editor.cutLabel = ì˜ë¼ë‚´ê¸° 
+editor.copyLabel = ë³µì‚¬í•˜ê¸° 
+editor.pasteLabel = ë¶™ì—¬ë„£ê¸° 
+editor.closeLabel = ë‹«ê¸° 
+editor.page-setupLabel = í˜ì´ì§€ ì„¤ì • ...
 
 # menu labels (MUST be defined)
-editor.classLabel = Å¬·¡½º 
-editor.editLabel = ¿¡µğÆ® 
-editor.toolsLabel = µµ±¸ 
-editor.debugLabel = µğ¹ö±× 
-editor.optionLabel = ¿É¼Ç 
-editor.helpLabel = µµ¿ò¸» 
+editor.classLabel = í´ë˜ìŠ¤ 
+editor.editLabel = ì—ë””íŠ¸ 
+editor.toolsLabel = ë„êµ¬ 
+editor.debugLabel = ë””ë²„ê·¸ 
+editor.optionLabel = ì˜µì…˜ 
+editor.helpLabel = ë„ì›€ë§ 
 
 # item labels (can be omitted if same as action name)
-editor.saveLabel = ÀúÀå 
-editor.printLabel = ÀÎ¼â ...
-editor.closeLabel =´İ±â 
+editor.saveLabel = ì €ì¥ 
+editor.printLabel = ì¸ì‡„ ...
+editor.closeLabel =ë‹«ê¸° 
 
-editor.redoLabel = ´Ù½Ã½ÇÇà 
-editor.cut-to-clipboardLabel = Àß¶ó³»±â 
-editor.copy-to-clipboardLabel = º¹»çÇÏ±â 
-editor.paste-from-clipboardLabel = ºÙ¿©³Ö±â 
-editor.indent-blockLabel = µé¿©¾²±â 
-editor.deindent-blockLabel = ³»¾î¾²±â 
-editor.comment-blockLabel = ÁÖ¼®
-editor.uncomment-blockLabel = ÁÖ¼®Ãë¼Ò 
-editor.insert-methodLabel = ¸Ş¼Òµå Ãß°¡ 
+editor.redoLabel = ë‹¤ì‹œì‹¤í–‰ 
+editor.cut-to-clipboardLabel = ì˜ë¼ë‚´ê¸° 
+editor.copy-to-clipboardLabel = ë³µì‚¬í•˜ê¸° 
+editor.paste-from-clipboardLabel = ë¶™ì—¬ë„£ê¸° 
+editor.indent-blockLabel = ë“¤ì—¬ì“°ê¸° 
+editor.deindent-blockLabel = ë‚´ì–´ì“°ê¸° 
+editor.comment-blockLabel = ì£¼ì„
+editor.uncomment-blockLabel = ì£¼ì„ì·¨ì†Œ 
+editor.insert-methodLabel = ë©”ì†Œë“œ ì¶”ê°€ 
 
-editor.findLabel = Ã£±â ...
-editor.find-nextLabel = ´ÙÀ½Ã£±â 
-editor.find-next-backwardLabel = ÀÌÀüÃ£±â 
-editor.replaceLabel = »õ·Î°íÄ§ ...
-editor.compileLabel = ÄÄÆÄÀÏ 
-editor.toggle-breakpointLabel = Áß´ÜÁ¡ ¼³Á¤\\Á¦°Å 
-editor.toggle-interface-viewLabel = ÀÎÅÍÆäÀÌ½º º¸±â±â´É ¹İÀü
+editor.findLabel = ì°¾ê¸° ...
+editor.find-nextLabel = ë‹¤ìŒì°¾ê¸° 
+editor.find-next-backwardLabel = ì´ì „ì°¾ê¸° 
+editor.replaceLabel = ìƒˆë¡œê³ ì¹¨ ...
+editor.compileLabel = ì»´íŒŒì¼ 
+editor.toggle-breakpointLabel = ì¤‘ë‹¨ì  ì„¤ì •\\ì œê±° 
+editor.toggle-interface-viewLabel = ì¸í„°í˜ì´ìŠ¤ ë³´ê¸°ê¸°ëŠ¥ ë°˜ì „
 
-editor.implementationLabel = ±¸ÇöºÎ 
-editor.interfaceLabel = ÀÎÅÍÆäÀÌ½º 
+editor.implementationLabel = êµ¬í˜„ë¶€ 
+editor.interfaceLabel = ì¸í„°í˜ì´ìŠ¤ 
 
-editor.state.readOnly = ÀĞ±âÀü¿ë 
-editor.state.saved = ÀúÀå 
-editor.state.changed = º¯°æ  
+editor.state.readOnly = ì½ê¸°ì „ìš© 
+editor.state.saved = ì €ì¥ 
+editor.state.changed = ë³€ê²½  
 
-editor.key-bindingsLabel = Å° ¿¬°á ...
-editor.preferencesLabel = ¼³Á¤ ...
+editor.key-bindingsLabel = í‚¤ ì—°ê²° ...
+editor.preferencesLabel = ì„¤ì • ...
 
 # Dialog titles and texts
-editor.functions.title = ¿¡µğÅÍ ±â´Éµé 
-editor.functions.editFunctions =ÆíÁı  ±â´Éµé 
-editor.functions.moveScroll = ÀÌµ¿ & È­¸éÀÌµ¿ 
-editor.functions.classFunctions = Å¬·¡½º ±â´Éµé 
-editor.functions.customisation = »ç¿ëÀÚ¸ÂÃã 
-editor.functions.help = µµ¿ò¸» 
-editor.functions.misc = Àâµ¿»ç´Ï 
-editor.functions.defaults=µğÆúÆ® 
-editor.functions.categories=Ä«Å×°í¸® :
-editor.functions.keys=Å° ¿¬°á 
-editor.functions.addkey=Å° Ãß°¡ 
-editor.functions.delkey=Å° »èÁ¦ 
+editor.functions.title = ì—ë””í„° ê¸°ëŠ¥ë“¤ 
+editor.functions.editFunctions =í¸ì§‘  ê¸°ëŠ¥ë“¤ 
+editor.functions.moveScroll = ì´ë™ & í™”ë©´ì´ë™ 
+editor.functions.classFunctions = í´ë˜ìŠ¤ ê¸°ëŠ¥ë“¤ 
+editor.functions.customisation = ì‚¬ìš©ìë§ì¶¤ 
+editor.functions.help = ë„ì›€ë§ 
+editor.functions.misc = ì¡ë™ì‚¬ë‹ˆ 
+editor.functions.defaults=ë””í´íŠ¸ 
+editor.functions.categories=ì¹´í…Œê³ ë¦¬ :
+editor.functions.keys=í‚¤ ì—°ê²° 
+editor.functions.addkey=í‚¤ ì¶”ê°€ 
+editor.functions.delkey=í‚¤ ì‚­ì œ 
 
-editor.find.title = Ã£±â 
-editor.find.find.label = Ã£±â :
-editor.find.replace.label = »õ·Î°íÄ§ :
-editor.find.findNext=´ÙÀ½Ã£±â 
-editor.find.replace=»õ·Î°íÄ§ 
-editor.find.replaceAll=¸ğµÎ »õ·Î°íÄ§ 
-editor.find.up=À§·Î °Ë»ö 
-editor.find.down=¾Æ·¡·Î °Ë»ö 
-editor.find.ignoreCase=´ë¼Ò¹®ÀÚ ¹«½Ã
-editor.find.wholeWord=¿ÂÀüÇÑ ´Ü¾î 
+editor.find.title = ì°¾ê¸° 
+editor.find.find.label = ì°¾ê¸° :
+editor.find.replace.label = ìƒˆë¡œê³ ì¹¨ :
+editor.find.findNext=ë‹¤ìŒì°¾ê¸° 
+editor.find.replace=ìƒˆë¡œê³ ì¹¨ 
+editor.find.replaceAll=ëª¨ë‘ ìƒˆë¡œê³ ì¹¨ 
+editor.find.up=ìœ„ë¡œ ê²€ìƒ‰ 
+editor.find.down=ì•„ë˜ë¡œ ê²€ìƒ‰ 
+editor.find.ignoreCase=ëŒ€ì†Œë¬¸ì ë¬´ì‹œ
+editor.find.wholeWord=ì˜¨ì „í•œ ë‹¨ì–´ 
 
 #Messages, warnings, etc that is displayed by Info.java
-editor.info.version = Moe ¹öÀü
-editor.info.readingProblem = ÀÌ ÆÄÀÏÀ» ÀĞ´Âµ¥ ¹®Á¦°¡ »ı°å½À´Ï´Ù.
-editor.info.regularFile = (Á¤±ÔÆÄÀÏÀÔ´Ï±î? ÀĞ±â Á¢±ÙÀ» ÇÒ ¼ö ÀÖ½À´Ï±î?)
-editor.info.newFile = »õÆÄÀÏ
-editor.info.errorSaving = ÆÄÀÏ ÀúÀå ¿¡·¯!
-editor.info.compiled = Å¬·¡½º ÄÄÆÄÀÏ ¿Ï·á - ±¸¹®¿¡·¯°¡ ¾ø½À´Ï´Ù
-editor.info.noChanges = º¯°æ»çÇ×À» ÀúÀåÇÒ ÇÊ¿ä°¡ ¾ø½À´Ï´Ù
-editor.info.emptySearchString = Ã£À» ¹®ÀÚ¿­ÀÌ ¾ø½À´Ï´Ù.
-editor.info.notFound = Ã£À» ¼ö ¾ø½À´Ï´Ù (°á°ú ³» Àç°Ë»ö).
-editor.info.compiling = ÄÄÆÄÀÏÁß...
-editor.info.cannotSetBreak = Áß´ÜÁ¡À» ¼³Á¤ÇÒ ¼ö ¾ø½À´Ï´Ù:\nÀÌ ¿¡µğÅÍ¿Í °ü·ÃµÈ ÄÚµå°¡ ¾ø½À´Ï´Ù.
-editor.info.fileDisappeared = ERROR: ÆÄÀÏÀÌ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù!
-editor.info.fileReadError = ERROR: ÀÌ ÆÄÀÏÀ» ÀĞ´Â µ¿¾È ¿¡·¯°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.
-editor.info.saved = ÆÄÀÏ ÀúÀå ¿Ï·á
-editor.info.printing = ÀÎ¼âÁß...
-editor.info.printed = ÀÎ¼âÁß... ¿Ï·á.
-editor.info.cancelled = Ãë¼ÒµÊ.
-editor.info.generatingDoc = Å¬·¡½º ÀÎÅÍÆäÀÌ½º »ı¼ºÁß...
-editor.info.loadingDoc = Å¬·¡½º ÀÎÅÍÆäÀÌ½º ·ÎµùÁß...
-editor.info.docLoaded = Å¬·¡½º ÀÎÅÍÆäÀÌ½º ·ÎµùÁß... ¿Ï·á.
-editor.info.docAborted = javadoc»ı¼ºÁß ½É°¢ÇÑ ¹®Á¦°¡ ¹ß»ıÇÏ¿´½À´Ï´Ù.\nÀÎÅÍÆäÀÌ½º. Ãë¼ÒµÇ¾ú½À´Ï´Ù.
-editor.info.docDisappeared = HTML ÆÄÀÏÀ» Ã£À» ¼ö ¾ø½À´Ï´Ù:
-editor.info.docNoFrames = ÇÁ·¹ÀÓ Ã¢ÀÌ ¿¡µğÅÍ ¹Ì¸®º¸±â¿¡¼­ »ç¶óÁ³½À´Ï´Ù.
+editor.info.version = Moe ë²„ì „
+editor.info.readingProblem = ì´ íŒŒì¼ì„ ì½ëŠ”ë° ë¬¸ì œê°€ ìƒê²¼ìŠµë‹ˆë‹¤.
+editor.info.regularFile = (ì •ê·œíŒŒì¼ì…ë‹ˆê¹Œ? ì½ê¸° ì ‘ê·¼ì„ í•  ìˆ˜ ìˆìŠµë‹ˆê¹Œ?)
+editor.info.newFile = ìƒˆíŒŒì¼
+editor.info.errorSaving = íŒŒì¼ ì €ì¥ ì—ëŸ¬!
+editor.info.compiled = í´ë˜ìŠ¤ ì»´íŒŒì¼ ì™„ë£Œ - êµ¬ë¬¸ì—ëŸ¬ê°€ ì—†ìŠµë‹ˆë‹¤
+editor.info.noChanges = ë³€ê²½ì‚¬í•­ì„ ì €ì¥í•  í•„ìš”ê°€ ì—†ìŠµë‹ˆë‹¤
+editor.info.emptySearchString = ì°¾ì„ ë¬¸ìì—´ì´ ì—†ìŠµë‹ˆë‹¤.
+editor.info.notFound = ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ (ê²°ê³¼ ë‚´ ì¬ê²€ìƒ‰).
+editor.info.compiling = ì»´íŒŒì¼ì¤‘...
+editor.info.cannotSetBreak = ì¤‘ë‹¨ì ì„ ì„¤ì •í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤:\nì´ ì—ë””í„°ì™€ ê´€ë ¨ëœ ì½”ë“œê°€ ì—†ìŠµë‹ˆë‹¤.
+editor.info.fileDisappeared = ERROR: íŒŒì¼ì´ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤!
+editor.info.fileReadError = ERROR: ì´ íŒŒì¼ì„ ì½ëŠ” ë™ì•ˆ ì—ëŸ¬ê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.
+editor.info.saved = íŒŒì¼ ì €ì¥ ì™„ë£Œ
+editor.info.printing = ì¸ì‡„ì¤‘...
+editor.info.printed = ì¸ì‡„ì¤‘... ì™„ë£Œ.
+editor.info.cancelled = ì·¨ì†Œë¨.
+editor.info.generatingDoc = í´ë˜ìŠ¤ ì¸í„°í˜ì´ìŠ¤ ìƒì„±ì¤‘...
+editor.info.loadingDoc = í´ë˜ìŠ¤ ì¸í„°í˜ì´ìŠ¤ ë¡œë”©ì¤‘...
+editor.info.docLoaded = í´ë˜ìŠ¤ ì¸í„°í˜ì´ìŠ¤ ë¡œë”©ì¤‘... ì™„ë£Œ.
+editor.info.docAborted = javadocìƒì„±ì¤‘ ì‹¬ê°í•œ ë¬¸ì œê°€ ë°œìƒí•˜ì˜€ìŠµë‹ˆë‹¤.\nì¸í„°í˜ì´ìŠ¤. ì·¨ì†Œë˜ì—ˆìŠµë‹ˆë‹¤.
+editor.info.docDisappeared = HTML íŒŒì¼ì„ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤:
+editor.info.docNoFrames = í”„ë ˆì„ ì°½ì´ ì—ë””í„° ë¯¸ë¦¬ë³´ê¸°ì—ì„œ ì‚¬ë¼ì¡ŒìŠµë‹ˆë‹¤.
 editor.info.tabsExpanded = Converted all TABs to spaces. (You are working\nwith soft TABs, the file contained hard TABs.)
-editor.printer.continued=°è¼Ó
+editor.printer.continued=ê³„ì†
 #End Editor labels
 
-pkgmgr.chooseUsesFrom=»ç¿ëÈ­»ìÇ¥ÀÇ ½ÃÀÛÁ¡ Å¬·¡½º¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À.
-pkgmgr.chooseUsesTo=»ç¿ëÈ­»ìÇ¥ÀÇ µµÂøÁ¡ Å¬·¡½º¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À
-pkgmgr.chooseInhFrom=¼­ºê Å¬·¡½º¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À
-pkgmgr.chooseInhTo=¼öÆÛ Å¬·¡½º¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À
-pkgmgr.chooseArrow=»èÁ¦ÇÒ È­»ìÇ¥¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À
-pkgmgr.packageSaved=ÆĞÅ°Áö ÀúÀå ¿Ï·á 
-pkgmgr.info.printing = ÀÎ¼âÁß...
-pkgmgr.info.printed = ÀÎ¼âÁß... ¿Ï·á.
+pkgmgr.chooseUsesFrom=ì‚¬ìš©í™”ì‚´í‘œì˜ ì‹œì‘ì  í´ë˜ìŠ¤ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤.
+pkgmgr.chooseUsesTo=ì‚¬ìš©í™”ì‚´í‘œì˜ ë„ì°©ì  í´ë˜ìŠ¤ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤
+pkgmgr.chooseInhFrom=ì„œë¸Œ í´ë˜ìŠ¤ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤
+pkgmgr.chooseInhTo=ìˆ˜í¼ í´ë˜ìŠ¤ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤
+pkgmgr.chooseArrow=ì‚­ì œí•  í™”ì‚´í‘œë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤
+pkgmgr.packageSaved=íŒ¨í‚¤ì§€ ì €ì¥ ì™„ë£Œ 
+pkgmgr.info.printing = ì¸ì‡„ì¤‘...
+pkgmgr.info.printed = ì¸ì‡„ì¤‘... ì™„ë£Œ.
 
-utility.packageChooser.previewPane1=¼±ÅÃ°¡´ÉÇÑ ÆĞÅ°Áö 
-utility.packageChooser.previewPane2=ÆĞÅ°Áö ±¸Á¶
+utility.packageChooser.previewPane1=ì„ íƒê°€ëŠ¥í•œ íŒ¨í‚¤ì§€ 
+utility.packageChooser.previewPane2=íŒ¨í‚¤ì§€ êµ¬ì¡°
 
 # dialog titles and texts
-pkgmgr.newPkg.title=»õÇÁ·ÎÁ§Æ®
-pkgmgr.newPkg.buttonLabel=»ı¼º 
-pkgmgr.openPkg.title=ÇÁ·ÎÁ§Æ® ¿­±â 
-pkgmgr.openPkg.buttonLabel=¿­±â 
-pkgmgr.openNonBlueJPkg.title=BlueJ·Î ¸¸µéÁö ¾ÊÀº ÇÁ·ÎÁ§Æ® ¿­±â
-pkgmgr.openNonBlueJPkg.buttonLabel=BlueJÇÁ·ÎÁ§Æ®·Î ¿­±â
-pkgmgr.saveAs.title=ÇÁ·ÎÁ§Æ® ÀúÀå 
-pkgmgr.saveAs.buttonLabel=ÀúÀå 
-pkgmgr.addClass.title=Ãß°¡ÇÒ ÀÚ¹Ù Å¬·¡½º ¼±ÅÃ 
-pkgmgr.addClass.buttonLabel=Ãß°¡ 
-pkgmgr.importPkg.title=°¡Á®¿Ã µğ·ºÅä¸®¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À
-pkgmgr.importPkg.buttonLabel=°¡Á®¿À±â 
-pkgmgr.importPkgNew.title=°¡Á®¿Â »õÇÁ·ÎÁ§Æ®
-pkgmgr.importPkgNew.buttonLabel=»ı¼º
+pkgmgr.newPkg.title=ìƒˆí”„ë¡œì íŠ¸
+pkgmgr.newPkg.buttonLabel=ìƒì„± 
+pkgmgr.openPkg.title=í”„ë¡œì íŠ¸ ì—´ê¸° 
+pkgmgr.openPkg.buttonLabel=ì—´ê¸° 
+pkgmgr.openNonBlueJPkg.title=BlueJë¡œ ë§Œë“¤ì§€ ì•Šì€ í”„ë¡œì íŠ¸ ì—´ê¸°
+pkgmgr.openNonBlueJPkg.buttonLabel=BlueJí”„ë¡œì íŠ¸ë¡œ ì—´ê¸°
+pkgmgr.saveAs.title=í”„ë¡œì íŠ¸ ì €ì¥ 
+pkgmgr.saveAs.buttonLabel=ì €ì¥ 
+pkgmgr.addClass.title=ì¶”ê°€í•  ìë°” í´ë˜ìŠ¤ ì„ íƒ 
+pkgmgr.addClass.buttonLabel=ì¶”ê°€ 
+pkgmgr.importPkg.title=ê°€ì ¸ì˜¬ ë””ë ‰í† ë¦¬ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤
+pkgmgr.importPkg.buttonLabel=ê°€ì ¸ì˜¤ê¸° 
+pkgmgr.importPkgNew.title=ê°€ì ¸ì˜¨ ìƒˆí”„ë¡œì íŠ¸
+pkgmgr.importPkgNew.buttonLabel=ìƒì„±
 
-pkgmgr.newClass.msg=Å¬·¡½ºÀÇ ÀÌ¸§À» ÀÔ·ÂÇÏ½Ê½Ã¿À
-pkgmgr.newUses=»ç¿ëÈ­»ìÇ¥ Ãß°¡
-pkgmgr.newExtends=»ó¼ÓÈ­»ìÇ¥ Ãß°¡
-pkgmgr.unimplemented=ÁË¼ÛÇÕ´Ï´Ù - ÀÌ ±â´ÉÀº ¾ÆÁ÷ ±¸ÇöµÇÁö ¾Ê¾Ò½À´Ï´Ù.
-pkgmgr.pkgChooseError=Error! À¯È¿ÇÑ ÆĞÅ°Áö ÀÌ¸§À» ¼±ÅÃÇÏ½Ê½Ã¿À.
-pkgmgr.chooseWebPage.title=HTML ÆäÀÌÁö¸¦ ¼±ÅÃÇÏ½Ê½Ã¿À.
+pkgmgr.newClass.msg=í´ë˜ìŠ¤ì˜ ì´ë¦„ì„ ì…ë ¥í•˜ì‹­ì‹œì˜¤
+pkgmgr.newUses=ì‚¬ìš©í™”ì‚´í‘œ ì¶”ê°€
+pkgmgr.newExtends=ìƒì†í™”ì‚´í‘œ ì¶”ê°€
+pkgmgr.unimplemented=ì£„ì†¡í•©ë‹ˆë‹¤ - ì´ ê¸°ëŠ¥ì€ ì•„ì§ êµ¬í˜„ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+pkgmgr.pkgChooseError=Error! ìœ íš¨í•œ íŒ¨í‚¤ì§€ ì´ë¦„ì„ ì„ íƒí•˜ì‹­ì‹œì˜¤.
+pkgmgr.chooseWebPage.title=HTML í˜ì´ì§€ë¥¼ ì„ íƒí•˜ì‹­ì‹œì˜¤.
 
-pkgmgr.parentpackagetarget.open=¿­±â 
-pkgmgr.parentpackagetarget.openunamed=¸í¸íµÇÁö ¾ÊÀº ÆĞÅ°Áö ¿­±â
+pkgmgr.parentpackagetarget.open=ì—´ê¸° 
+pkgmgr.parentpackagetarget.openunamed=ëª…ëª…ë˜ì§€ ì•Šì€ íŒ¨í‚¤ì§€ ì—´ê¸°
 
-pkgmgr.packagemenu.open=¿­±â 
-pkgmgr.packagemenu.remove=»èÁ¦ 
+pkgmgr.packagemenu.open=ì—´ê¸° 
+pkgmgr.packagemenu.remove=ì‚­ì œ 
 
-pkgmgr.classmenu.runApplet=¾ÖÇÃ¸´ ½ÇÇà 
-pkgmgr.classmenu.edit=¿¡µğÅÍ ¿­±â 
-pkgmgr.classmenu.compile=ÄÄÆÄÀÏ 
-pkgmgr.classmenu.remove=»èÁ¦ 
+pkgmgr.classmenu.runApplet=ì• í”Œë¦¿ ì‹¤í–‰ 
+pkgmgr.classmenu.edit=ì—ë””í„° ì—´ê¸° 
+pkgmgr.classmenu.compile=ì»´íŒŒì¼ 
+pkgmgr.classmenu.remove=ì‚­ì œ 
 
-pkgmgr.view.label=º¸±â
-pkgmgr.view.usesLabel=»ç¿ë
-pkgmgr.view.inheritLabel=»ó¼Ó
+pkgmgr.view.label=ë³´ê¸°
+pkgmgr.view.usesLabel=ì‚¬ìš©
+pkgmgr.view.inheritLabel=ìƒì†
 
 # "new class" dialog
-pkgmgr.newClass.title=BlueJ:  »õ Å¬·¡½º »ı¼º 
-pkgmgr.newClass.label=Å¬·¡½º¸í:
-pkgmgr.newClass.classType=Å¬·¡½ºÇü 
-pkgmgr.newClass.stdclass=Å¬·¡½º 
-pkgmgr.newClass.interface=ÀÎÅÍÆäÀÌ½º 
-pkgmgr.newClass.applet=¾ÖÇÃ¸´ 
-pkgmgr.newClass.appletj=¾ÖÇÃ¸´ 
-pkgmgr.newClass.unittest=Unit Å×½ºÆ®
+pkgmgr.newClass.title=BlueJ:  ìƒˆ í´ë˜ìŠ¤ ìƒì„± 
+pkgmgr.newClass.label=í´ë˜ìŠ¤ëª…:
+pkgmgr.newClass.classType=í´ë˜ìŠ¤í˜• 
+pkgmgr.newClass.stdclass=í´ë˜ìŠ¤ 
+pkgmgr.newClass.interface=ì¸í„°í˜ì´ìŠ¤ 
+pkgmgr.newClass.applet=ì• í”Œë¦¿ 
+pkgmgr.newClass.appletj=ì• í”Œë¦¿ 
+pkgmgr.newClass.unittest=Unit í…ŒìŠ¤íŠ¸
 
 # "new package" dialog
-pkgmgr.newPackage.title=BlueJ:  »õ ÆĞÅ°Áö »ı¼º 
-pkgmgr.newPackage.label=ÆĞÅ°Áö¸í:
-pkgmgr.newPackage.newPackage=ÆĞÅ°Áö
+pkgmgr.newPackage.title=BlueJ:  ìƒˆ íŒ¨í‚¤ì§€ ìƒì„± 
+pkgmgr.newPackage.label=íŒ¨í‚¤ì§€ëª…:
+pkgmgr.newPackage.newPackage=íŒ¨í‚¤ì§€
 
 # "Use Library Class" dialog
-callLibraryDialog.title=BlueJ:  ¶óÀÌºê·¯¸® Å¬·¡½º È£Ãâ
-callLibraryDialog.classLabel=Å¬·¡½º :
-callLibraryDialog.docButton=¹®¼­È­ 
-callLibraryDialog.listHeading=»ı¼ºÀÚ¿Í Á¤Àû ¸Ş¼Òµå 
-callLibraryDialog.clickHere1=»ı¼ºÀÚ¿Í Á¤Àû ¸Ş¼Òµå¸¦ º¸·Á¸é 
-callLibraryDialog.clickHere2=Å¬·¡½º¸íÀ» ÀÔ·ÂÇÏ°í ¿£ÅÍ¸¦ ´©¸£½Ê½Ã¿À.
-callLibraryDialog.classNotFound1=Å¬·¡½º¸¦ Ã£À» ¼ö ¾ø½À´Ï´Ù .
-callLibraryDialog.classNotFound2=(Å¬·¡½º¸íÀ» È®ÀÎÇÏ°í ´Ù½Ã ¿£ÅÍ¸¦ ´©¸£½Ê½Ã¿À.)
+callLibraryDialog.title=BlueJ:  ë¼ì´ë¸ŒëŸ¬ë¦¬ í´ë˜ìŠ¤ í˜¸ì¶œ
+callLibraryDialog.classLabel=í´ë˜ìŠ¤ :
+callLibraryDialog.docButton=ë¬¸ì„œí™” 
+callLibraryDialog.listHeading=ìƒì„±ìì™€ ì •ì  ë©”ì†Œë“œ 
+callLibraryDialog.clickHere1=ìƒì„±ìì™€ ì •ì  ë©”ì†Œë“œë¥¼ ë³´ë ¤ë©´ 
+callLibraryDialog.clickHere2=í´ë˜ìŠ¤ëª…ì„ ì…ë ¥í•˜ê³  ì—”í„°ë¥¼ ëˆ„ë¥´ì‹­ì‹œì˜¤.
+callLibraryDialog.classNotFound1=í´ë˜ìŠ¤ë¥¼ ì°¾ì„ ìˆ˜ ì—†ìŠµë‹ˆë‹¤ .
+callLibraryDialog.classNotFound2=(í´ë˜ìŠ¤ëª…ì„ í™•ì¸í•˜ê³  ë‹¤ì‹œ ì—”í„°ë¥¼ ëˆ„ë¥´ì‹­ì‹œì˜¤.)
 
 # "Free Form Call" dialog
-freeCallDialog.title=BlueJ:  Æò°¡ÇÏ±â 
-freeCallDialog.fieldLabel=Æò°¡ÇÏ±â :
+freeCallDialog.title=BlueJ:  í‰ê°€í•˜ê¸° 
+freeCallDialog.fieldLabel=í‰ê°€í•˜ê¸° :
 freeCallDialog.resultLabel=
-freeCallDialog.returnsResult= Ç¥Çö½ÄÀÔ´Ï´Ù.(°á°ú¸¦ ¹İÈ¯)
-freeCallDialog.returnsNoResult=¹®ÀåÀÔ´Ï´Ù. (¹İÈ¯µÇ´Â °á°ú°¡ ¾øÀ½)
+freeCallDialog.returnsResult= í‘œí˜„ì‹ì…ë‹ˆë‹¤.(ê²°ê³¼ë¥¼ ë°˜í™˜)
+freeCallDialog.returnsNoResult=ë¬¸ì¥ì…ë‹ˆë‹¤. (ë°˜í™˜ë˜ëŠ” ê²°ê³¼ê°€ ì—†ìŒ)
 
 # "export" dialog
-pkgmgr.export.title=BlueJ:  ÇÁ·ÎÁ§Æ® ³»º¸³»±â 
-pkgmgr.export.helpLine1=³»º¸³»±â´Â Ç¥ÁØÀÚ¹Ù (BlueJ·Î ¸¸µéÁö ¾ÊÀº) Çü½ÄÀ¸·Î
-pkgmgr.export.helpLine2= ÇöÀç ÇÁ·ÎÁ§Æ®ÀÇ º¹»çº»À» ÀúÀåÇÑ´Ù.
-pkgmgr.export.directoryLabel=µğ·ºÅä¸® ±¸Á¶¿¡ ÀúÀå
-pkgmgr.export.jarFileLabel=jar ÆÄÀÏ·Î ÀúÀå 
-pkgmgr.export.classLabel=¸ŞÀÎ Å¬·¡½º :
-pkgmgr.export.sourceLabel= ¼Ò½º Æ÷ÇÔ
-pkgmgr.export.noClassText= ¾øÀ½ (½ÇÇàÇÒ ¼ö ¾ø½À´Ï´Ù)
+pkgmgr.export.title=BlueJ:  í”„ë¡œì íŠ¸ ë‚´ë³´ë‚´ê¸° 
+pkgmgr.export.helpLine1=ë‚´ë³´ë‚´ê¸°ëŠ” í‘œì¤€ìë°” (BlueJë¡œ ë§Œë“¤ì§€ ì•Šì€) í˜•ì‹ìœ¼ë¡œ
+pkgmgr.export.helpLine2= í˜„ì¬ í”„ë¡œì íŠ¸ì˜ ë³µì‚¬ë³¸ì„ ì €ì¥í•œë‹¤.
+pkgmgr.export.directoryLabel=ë””ë ‰í† ë¦¬ êµ¬ì¡°ì— ì €ì¥
+pkgmgr.export.jarFileLabel=jar íŒŒì¼ë¡œ ì €ì¥ 
+pkgmgr.export.classLabel=ë©”ì¸ í´ë˜ìŠ¤ :
+pkgmgr.export.sourceLabel= ì†ŒìŠ¤ í¬í•¨
+pkgmgr.export.noClassText= ì—†ìŒ (ì‹¤í–‰í•  ìˆ˜ ì—†ìŠµë‹ˆë‹¤)
 
 # "open-non-bluej" mismatch dialog
-pkgmgr.importmismatch.title=BlueJ:  ÆĞÅ°Áö ¶óÀÎ ºÒÀÏÄ¡
-pkgmgr.importmismatch.helpLine1=°æ°í: ÀÌ°ÍÀº ÇØ´ç ÇÁ·ÎÁ§Æ®ÀÇ Å¬·¡½º ÆĞÅ°Áö·Î ¼±¾ğµÈ
-pkgmgr.importmismatch.helpLine2=ÀÚ¹Ù ÇÁ·ÎÁ§Æ®ÀÇ ÃÖ»óÀ§ µğ·ºÅä¸®°¡ ¾Æ´Õ´Ï´Ù.
-pkgmgr.importmismatch.helpLine3=ÀÌ µğ·ºÅä¸®¸¦ ¿­¸é ÇÁ·ÎÁ§Æ®³»ÀÇ ¾Æ·¡¿Í °°Àº
-pkgmgr.importmismatch.helpLine4=¼Ò½ºÆÄÀÏÀÇ ¸ğµç ÆĞÅ°Áö ¼±¾ğÀÌ º¯°æµË´Ï´Ù.
-pkgmgr.importmismatch.helpLine5=´ç½ÅÀÌ ¼±ÅÃÇÑ µğ·ºÅä¸®ÀÇ ºÎ¸ğ µğ·ºÅä¸®¸¦ ¿­¾î¾ß 
-pkgmgr.importmismatch.helpLine6=ÇÒ °ÍÀÔ´Ï´Ù. ¿¹¸¦µé¸é, "org.bluej"ÆĞÅ°Áö¸¦ Æ÷ÇÔÇÏ´Â 
-pkgmgr.importmismatch.helpLine7= ÀÚ¹Ù ÇÁ·ÎÁ§Æ®¸¦ ¿­±â À§ÇØ¼­´Â, "org" ¶Ç´Â "bluej" µğ·ºÅä¸®°¡
-pkgmgr.importmismatch.helpLine8=¾Æ´Ñ, "org"¸¦ Æ÷ÇÔÇÏ´Â µğ·ºÅä¸®¸¦ ¼±ÅÃÇØ¾ß ÇÕ´Ï´Ù 
-pkgmgr.importmismatch.helpLine9=¿­±â¸¦ °è¼ÓÇÏ¿© ÆĞÅ°Áö ¼±¾ğÀ» º¯°æ ÇÏ½Ã°Ú½À´Ï±î?
+pkgmgr.importmismatch.title=BlueJ:  íŒ¨í‚¤ì§€ ë¼ì¸ ë¶ˆì¼ì¹˜
+pkgmgr.importmismatch.helpLine1=ê²½ê³ : ì´ê²ƒì€ í•´ë‹¹ í”„ë¡œì íŠ¸ì˜ í´ë˜ìŠ¤ íŒ¨í‚¤ì§€ë¡œ ì„ ì–¸ëœ
+pkgmgr.importmismatch.helpLine2=ìë°” í”„ë¡œì íŠ¸ì˜ ìµœìƒìœ„ ë””ë ‰í† ë¦¬ê°€ ì•„ë‹™ë‹ˆë‹¤.
+pkgmgr.importmismatch.helpLine3=ì´ ë””ë ‰í† ë¦¬ë¥¼ ì—´ë©´ í”„ë¡œì íŠ¸ë‚´ì˜ ì•„ë˜ì™€ ê°™ì€
+pkgmgr.importmismatch.helpLine4=ì†ŒìŠ¤íŒŒì¼ì˜ ëª¨ë“  íŒ¨í‚¤ì§€ ì„ ì–¸ì´ ë³€ê²½ë©ë‹ˆë‹¤.
+pkgmgr.importmismatch.helpLine5=ë‹¹ì‹ ì´ ì„ íƒí•œ ë””ë ‰í† ë¦¬ì˜ ë¶€ëª¨ ë””ë ‰í† ë¦¬ë¥¼ ì—´ì–´ì•¼ 
+pkgmgr.importmismatch.helpLine6=í•  ê²ƒì…ë‹ˆë‹¤. ì˜ˆë¥¼ë“¤ë©´, "org.bluej"íŒ¨í‚¤ì§€ë¥¼ í¬í•¨í•˜ëŠ” 
+pkgmgr.importmismatch.helpLine7= ìë°” í”„ë¡œì íŠ¸ë¥¼ ì—´ê¸° ìœ„í•´ì„œëŠ”, "org" ë˜ëŠ” "bluej" ë””ë ‰í† ë¦¬ê°€
+pkgmgr.importmismatch.helpLine8=ì•„ë‹Œ, "org"ë¥¼ í¬í•¨í•˜ëŠ” ë””ë ‰í† ë¦¬ë¥¼ ì„ íƒí•´ì•¼ í•©ë‹ˆë‹¤ 
+pkgmgr.importmismatch.helpLine9=ì—´ê¸°ë¥¼ ê³„ì†í•˜ì—¬ íŒ¨í‚¤ì§€ ì„ ì–¸ì„ ë³€ê²½ í•˜ì‹œê² ìŠµë‹ˆê¹Œ?
 
 # "import" failure dialog
-pkgmgr.importfailed.title=BlueJ:  »óÅÂ°ª °¡Á®¿À±â
-pkgmgr.importfailed.helpLine1=´ÙÀ½°ú °°Àº ÆÄÀÏ·ÎºÎÅÍ °¡Á®¿À±â°¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù .
-pkgmgr.importfailed.helpLine2=´ë»ó ÇÁ·ÎÁ§Æ® ³»ÀÇ ´ÙÀ½°ú °°Àº ÆÄÀÏµéÀÌ Á¸ÀçÇÏ
-pkgmgr.importfailed.helpLine3=±â ¶§¹®¿¡ ÆÄÀÏ·ÎºÎÅÍ °¡Á®¿À±â°¡ ½ÇÆĞÇÏ¿´½À´Ï´Ù .
+pkgmgr.importfailed.title=BlueJ:  ìƒíƒœê°’ ê°€ì ¸ì˜¤ê¸°
+pkgmgr.importfailed.helpLine1=ë‹¤ìŒê³¼ ê°™ì€ íŒŒì¼ë¡œë¶€í„° ê°€ì ¸ì˜¤ê¸°ê°€ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤ .
+pkgmgr.importfailed.helpLine2=ëŒ€ìƒ í”„ë¡œì íŠ¸ ë‚´ì˜ ë‹¤ìŒê³¼ ê°™ì€ íŒŒì¼ë“¤ì´ ì¡´ì¬í•˜
+pkgmgr.importfailed.helpLine3=ê¸° ë•Œë¬¸ì— íŒŒì¼ë¡œë¶€í„° ê°€ì ¸ì˜¤ê¸°ê°€ ì‹¤íŒ¨í•˜ì˜€ìŠµë‹ˆë‹¤ .
 
 # "version check" dialog
-pkgmgr.versionDlg.title=BlueJ:  »õ ¹öÀü È®ÀÎÇÏ±â  
-pkgmgr.versionDlg.helpLine1=ÀÌ ±â´ÉÀº »õ·Î¿î BlueJ ¹öÀüÀÌ ÀÖ´ÂÁö¸¦ È®ÀÎÇÕ´Ï´Ù 
-pkgmgr.versionDlg.helpLine2=¿Í °°Àº ¹öÀüÀ» »ç¿ëÇÒ ¼ö ÀÖ½À´Ï´Ù. ÃÖ»óÀ§ ¹öÀüÀ¸·Î ¾÷±×·¹ÀÌµå¸¦ ÇÏ±â À§ÇØ¼­´Â ¿Â¶óÀÎ »óÅÂÀÌ¾î¾ß ÇÕ´Ï´Ù.
-pkgmgr.versionDlg.check=¹öÀü È®ÀÎ 
-pkgmgr.versionDlg.upToDate=ÇöÀç ¹öÀüÀÌ ÃÖ»óÀ§ ¹öÀüÀÔ´Ï´Ù.
-pkgmgr.versionDlg.currentVersion=ÇöÀç BlueJ ¹öÀüÀº 
-pkgmgr.versionDlg.newVersion=°¡Àå ÃÖ½ÅÀÇ BlueJ ¹öÀüÀº 
+pkgmgr.versionDlg.title=BlueJ:  ìƒˆ ë²„ì „ í™•ì¸í•˜ê¸°  
+pkgmgr.versionDlg.helpLine1=ì´ ê¸°ëŠ¥ì€ ìƒˆë¡œìš´ BlueJ ë²„ì „ì´ ìˆëŠ”ì§€ë¥¼ í™•ì¸í•©ë‹ˆë‹¤ 
+pkgmgr.versionDlg.helpLine2=ì™€ ê°™ì€ ë²„ì „ì„ ì‚¬ìš©í•  ìˆ˜ ìˆìŠµë‹ˆë‹¤. ìµœìƒìœ„ ë²„ì „ìœ¼ë¡œ ì—…ê·¸ë ˆì´ë“œë¥¼ í•˜ê¸° ìœ„í•´ì„œëŠ” ì˜¨ë¼ì¸ ìƒíƒœì´ì–´ì•¼ í•©ë‹ˆë‹¤.
+pkgmgr.versionDlg.check=ë²„ì „ í™•ì¸ 
+pkgmgr.versionDlg.upToDate=í˜„ì¬ ë²„ì „ì´ ìµœìƒìœ„ ë²„ì „ì…ë‹ˆë‹¤.
+pkgmgr.versionDlg.currentVersion=í˜„ì¬ BlueJ ë²„ì „ì€ 
+pkgmgr.versionDlg.newVersion=ê°€ì¥ ìµœì‹ ì˜ BlueJ ë²„ì „ì€ 
 
 # run applet dialog
-pkgmgr.runApplet.title=BlueJ:  ¾ÖÇÃ¸´ ½ÇÇàÇÏ±â
-pkgmgr.runApplet.webPageLabel=À¥ ÆäÀÌÁö »ı¼ºÇÏ±â
-pkgmgr.runApplet.webPage=À¥ÆäÀÌÁö¸¸ »ı¼ºÇÏ±â 
-pkgmgr.runApplet.appletviewer=¾ÖÇÃ¸´ ºä¾î¿¡¼­ ¾ÖÇÃ¸´ ½ÇÇàÇÏ±â 
-pkgmgr.runApplet.webBrowser=À¥ ºê¶ó¿ìÀú¿¡¼­ ¾ÖÇÃ¸´ ½ÇÇàÇÏ±â
+pkgmgr.runApplet.title=BlueJ:  ì• í”Œë¦¿ ì‹¤í–‰í•˜ê¸°
+pkgmgr.runApplet.webPageLabel=ì›¹ í˜ì´ì§€ ìƒì„±í•˜ê¸°
+pkgmgr.runApplet.webPage=ì›¹í˜ì´ì§€ë§Œ ìƒì„±í•˜ê¸° 
+pkgmgr.runApplet.appletviewer=ì• í”Œë¦¿ ë·°ì–´ì—ì„œ ì• í”Œë¦¿ ì‹¤í–‰í•˜ê¸° 
+pkgmgr.runApplet.webBrowser=ì›¹ ë¸Œë¼ìš°ì €ì—ì„œ ì• í”Œë¦¿ ì‹¤í–‰í•˜ê¸°
 pkgmgr.runApplet.heightLbl=Height =
 pkgmgr.runApplet.widthLbl=Width =
-pkgmgr.runApplet.newParameterLbl=»õ ¸Å°³º¯¼ö Ãß°¡ÇÏ±â 
-pkgmgr.runApplet.appletParameterLbl= ¾ÖÇÃ¸´ ¸Å°³º¯¼ö 
+pkgmgr.runApplet.newParameterLbl=ìƒˆ ë§¤ê°œë³€ìˆ˜ ì¶”ê°€í•˜ê¸° 
+pkgmgr.runApplet.appletParameterLbl= ì• í”Œë¦¿ ë§¤ê°œë³€ìˆ˜ 
 pkgmgr.runApplet.nameLbl=Name =
 pkgmgr.runApplet.valueLbl=Value =
 pkgmgr.runApplet.paramName=PARAM NAME
 pkgmgr.runApplet.value=VALUE
-pkgmgr.runApplet.htmlComment=<!-- ÀÌ ÆÄÀÏÀº  BlueJ ÀÚ¹Ù °³¹ß È¯°æ¿¡ ÀÇÇØ ÀÚµ¿ÀûÀ¸·Î »ı¼ºµË´Ï´Ù  -->\n<!-- ¾ÖÇÃ¸´ÀÌ ½ÇÇàµÉ ¶§ ¸¶´Ù -->\n<!-- ÀÚµ¿ÀûÀ¸·Î Àç»ı¼ºµË´Ï´Ù.  ¼öÀÛ¾÷¿¡ ÀÇÇØ ¹ß»ıÇÏ´Â ÆÄÀÏº¯°æÀº -->\n<!-- BlueJ È¯°æÇÏ¿¡¼­ ¾ÖÇÃ¸´ÀÌ ½ÇÇàµÉ ¶§ Àû¿ëµÇÁö ¾Ê½À´Ï´Ù.       -->\n<!-- ÀÌ ÆÄÀÏÀ» º¸Á¸ÇÏ·Á¸é ÆĞÅ°Áö µğ·ºÅä¸®ÀÇ ¿ÜºÎ¿¡ ÀÖ´Â     -->\n<!-- µğ·ºÅä¸®¿¡ ÀúÀåÇÏ½Ê½Ã¿À. -->
-pkgmgr.runApplet.htmlExportedComment=<!-- ÀÌ ÆÄÀÏÀº BlueJ ÀÚ¹Ù °³¹ß È¯°æ¿¡ ÀÇÇØ ÀÚµ¿ÀûÀ¸·Î »ı¼ºµË´Ï´Ù.  -->\n<!-- ÀÌ ÆäÀÌÁö°¡ »ı¼ºµÉ ¶§ ÄÚµå±â¹İ º¯¼ö´Â ¾ÖÇÃ¸´ÀÌ Á¸ÀçÇÏ´Â   -->\n<!--  BlueJ ÆĞÅ°Áö µğ·ºÅä¸®±îÁöÀÇ Àı´ë°æ·Î·Î ¼³Á¤µË´Ï´Ù. -->\n<!-- ÆĞÅ°Áö µğ·ºÅä¸®±îÁöÀÇ Àı´ë°æ·Î·Î ¼³Á¤µË´Ï´Ù.       -->
+pkgmgr.runApplet.htmlComment=<!-- ì´ íŒŒì¼ì€  BlueJ ìë°” ê°œë°œ í™˜ê²½ì— ì˜í•´ ìë™ì ìœ¼ë¡œ ìƒì„±ë©ë‹ˆë‹¤  -->\n<!-- ì• í”Œë¦¿ì´ ì‹¤í–‰ë  ë•Œ ë§ˆë‹¤ -->\n<!-- ìë™ì ìœ¼ë¡œ ì¬ìƒì„±ë©ë‹ˆë‹¤.  ìˆ˜ì‘ì—…ì— ì˜í•´ ë°œìƒí•˜ëŠ” íŒŒì¼ë³€ê²½ì€ -->\n<!-- BlueJ í™˜ê²½í•˜ì—ì„œ ì• í”Œë¦¿ì´ ì‹¤í–‰ë  ë•Œ ì ìš©ë˜ì§€ ì•ŠìŠµë‹ˆë‹¤.       -->\n<!-- ì´ íŒŒì¼ì„ ë³´ì¡´í•˜ë ¤ë©´ íŒ¨í‚¤ì§€ ë””ë ‰í† ë¦¬ì˜ ì™¸ë¶€ì— ìˆëŠ”     -->\n<!-- ë””ë ‰í† ë¦¬ì— ì €ì¥í•˜ì‹­ì‹œì˜¤. -->
+pkgmgr.runApplet.htmlExportedComment=<!-- ì´ íŒŒì¼ì€ BlueJ ìë°” ê°œë°œ í™˜ê²½ì— ì˜í•´ ìë™ì ìœ¼ë¡œ ìƒì„±ë©ë‹ˆë‹¤.  -->\n<!-- ì´ í˜ì´ì§€ê°€ ìƒì„±ë  ë•Œ ì½”ë“œê¸°ë°˜ ë³€ìˆ˜ëŠ” ì• í”Œë¦¿ì´ ì¡´ì¬í•˜ëŠ”   -->\n<!--  BlueJ íŒ¨í‚¤ì§€ ë””ë ‰í† ë¦¬ê¹Œì§€ì˜ ì ˆëŒ€ê²½ë¡œë¡œ ì„¤ì •ë©ë‹ˆë‹¤. -->\n<!-- íŒ¨í‚¤ì§€ ë””ë ‰í† ë¦¬ê¹Œì§€ì˜ ì ˆëŒ€ê²½ë¡œë¡œ ì„¤ì •ë©ë‹ˆë‹¤.       -->
 
 
 
 
 # method call dialog
-pkgmgr.methodCall.titleCreate=BlueJ: °´Ã¼ »ı¼ºÇÏ±â 
-pkgmgr.methodCall.titleCall=BlueJ:  ¸Ş¼Òµå È£ÃâÇÏ±â 
-pkgmgr.methodCall.namePrompt=ÀÎ½ºÅÏ½º ÀÌ¸§ :
-error.methodCall.emptyField=¿¡·¯: ¸Å°³º¯¼ö ÀÔ·Â¶õÀÌ ºñ¾ú½À´Ï´Ù
-error.methodCall.illegalName=ÀÎ½ºÅÏ½º ÀÌ¸§ÀÌ ÀÚ¹Ù ½Äº°ÀÚÀÌ°Å³ª Àß¸øµÇ¾ú½À´Ï´Ù.
-error.methodCall.duplicateName=ÀÌ¹Ì Á¸ÀçÇÏ´Â °´Ã¼ÀÌ¸§ÀÔ´Ï´Ù.\nÀ¯ÀÏÇÑ ÀÌ¸§À» ¼±ÅÃÇÏ½Ê½Ã¿À.
+pkgmgr.methodCall.titleCreate=BlueJ: ê°ì²´ ìƒì„±í•˜ê¸° 
+pkgmgr.methodCall.titleCall=BlueJ:  ë©”ì†Œë“œ í˜¸ì¶œí•˜ê¸° 
+pkgmgr.methodCall.namePrompt=ì¸ìŠ¤í„´ìŠ¤ ì´ë¦„ :
+error.methodCall.emptyField=ì—ëŸ¬: ë§¤ê°œë³€ìˆ˜ ì…ë ¥ë€ì´ ë¹„ì—ˆìŠµë‹ˆë‹¤
+error.methodCall.illegalName=ì¸ìŠ¤í„´ìŠ¤ ì´ë¦„ì´ ìë°” ì‹ë³„ìì´ê±°ë‚˜ ì˜ëª»ë˜ì—ˆìŠµë‹ˆë‹¤.
+error.methodCall.duplicateName=ì´ë¯¸ ì¡´ì¬í•˜ëŠ” ê°ì²´ì´ë¦„ì…ë‹ˆë‹¤.\nìœ ì¼í•œ ì´ë¦„ì„ ì„ íƒí•˜ì‹­ì‹œì˜¤.
 
 # Debugger dialog (ExecControls.java)
-debugger.execControls.windowTitle = BlueJ:  µğ¹ö°Å 
-debugger.execControls.stackTitle = È£Ãâ ¼ø¼­
-debugger.execControls.staticTitle = Á¤Àû º¯¼öµé
-debugger.execControls.instanceTitle = ÀÎ½ºÅÏ½º º¯¼öµé
-debugger.execControls.localTitle = Áö¿ª º¯¼öµé
-debugger.execControls.threadTitle = ½º·¹µåµé
-debugger.execControls.updateText = °»½ÅÇÏ±â
-debugger.execControls.systemThreads = ½Ã½ºÅÛ ½º·¹µå Ç¥½Ã
-debugger.execControls.haltButtonText = Áß´Ü
-debugger.execControls.stepButtonText = Step (´ÙÀ½´Ü°è) 
-debugger.execControls.stepIntoButtonText = Step Into (\n ³»ºÎ ÁøÀÔ) 
-debugger.execControls.continueButtonText = °è¼Ó 
-debugger.execControls.terminateButtonText = Á¾·á 
+debugger.execControls.windowTitle = BlueJ:  ë””ë²„ê±° 
+debugger.execControls.stackTitle = í˜¸ì¶œ ìˆœì„œ
+debugger.execControls.staticTitle = ì •ì  ë³€ìˆ˜ë“¤
+debugger.execControls.instanceTitle = ì¸ìŠ¤í„´ìŠ¤ ë³€ìˆ˜ë“¤
+debugger.execControls.localTitle = ì§€ì—­ ë³€ìˆ˜ë“¤
+debugger.execControls.threadTitle = ìŠ¤ë ˆë“œë“¤
+debugger.execControls.updateText = ê°±ì‹ í•˜ê¸°
+debugger.execControls.systemThreads = ì‹œìŠ¤í…œ ìŠ¤ë ˆë“œ í‘œì‹œ
+debugger.execControls.haltButtonText = ì¤‘ë‹¨
+debugger.execControls.stepButtonText = Step (ë‹¤ìŒë‹¨ê³„) 
+debugger.execControls.stepIntoButtonText = Step Into (\n ë‚´ë¶€ ì§„ì…) 
+debugger.execControls.continueButtonText = ê³„ì† 
+debugger.execControls.terminateButtonText = ì¢…ë£Œ 
 
 # DialogManager labels
-dialogmgr.error = BlueJ:  ¿¡·¯
-dialogmgr.question = BlueJ:  Áú¹®
-dialogmgr.message = BlueJ:  ¸Ş¼¼Áö
+dialogmgr.error = BlueJ:  ì—ëŸ¬
+dialogmgr.question = BlueJ:  ì§ˆë¬¸
+dialogmgr.message = BlueJ:  ë©”ì„¸ì§€
 
 #Terminal Window
-terminal.options = ¿É¼Ç
-terminal.title = BlueJ:  Ãâ·Â È­¸é
-terminal.clear = Áö¿ì±â
-terminal.copy = º¹»ç
-terminal.save = ÆÄÀÏ·Î ÀúÀå...
-terminal.close = ´İ±â
-terminal.clearScreen = ¸Ş¼Òµå È£ÃâÈ­¸é Áö¿ì±â
-terminal.recordCalls = ¸Ş¼Òµå È£Ãâ ±â·Ï 
-terminal.buffering = ¹öÆÛ¸µ ¹«Á¦ÇÑ
-terminal.save.title = ÅÍ¹Ì³Î ¹®¼­ ÀúÀå
-terminal.save.buttonText = ÀúÀå
+terminal.options = ì˜µì…˜
+terminal.title = BlueJ:  ì¶œë ¥ í™”ë©´
+terminal.clear = ì§€ìš°ê¸°
+terminal.copy = ë³µì‚¬
+terminal.save = íŒŒì¼ë¡œ ì €ì¥...
+terminal.close = ë‹«ê¸°
+terminal.clearScreen = ë©”ì†Œë“œ í˜¸ì¶œí™”ë©´ ì§€ìš°ê¸°
+terminal.recordCalls = ë©”ì†Œë“œ í˜¸ì¶œ ê¸°ë¡ 
+terminal.buffering = ë²„í¼ë§ ë¬´ì œí•œ
+terminal.save.title = í„°ë¯¸ë„ ë¬¸ì„œ ì €ì¥
+terminal.save.buttonText = ì €ì¥
 
 # status messages
-pkgmgr.compiling=ÄÄÆÄÀÏ...
-pkgmgr.compileDone=ÄÄÆÄÀÏ... ¿Ï·á
-pkgmgr.creating=°´Ã¼ »ı¼º...
-pkgmgr.createDone=°´Ã¼ »ı¼º... ¿Ï·á
-pkgmgr.creatingVM=virtual machine »ı¼º...
-pkgmgr.creatingVMDone=virtual machine »ı¼º... ¿Ï·á
-pkgmgr.generatingDocu=¹®¼­ »ı¼º...
-pkgmgr.docuGenerated=¹®¼­ »ı¼º... ¿Ï·á
-pkgmgr.docuAborted=¹®¼­ »ı¼º... ÁßÁö
-pkgmgr.webBrowserMsg=À¥ ºê¶ó¿ìÀú°¡ ÀÌ¹Ì ½ÇÇàÁßÀÔ´Ï´Ù
-pkgmgr.webBrowserError=À¥ ºê¶ó¿ìÀú¸¦ ½ÃÀÛÇÏÁö ¸øÇß½À´Ï´Ù.
-pkgmgr.usesArrowMsg="»ç¿ë" ÀÇÁ¸°ü°è°¡ ¼±¾ğµÇ¾úÁö¸¸ ½ÇÁ¦ »ç¿ëµÇÁö ¾Ê¾Ò½À´Ï´Ù:
-pkgmgr.breakpointMsg=Áß´ÜÁ¡À» ¼³Á¤ÇÏ·Á¸é Å¬·¡½º°¡ ÄÄÆÄÀÏ µÇ¾î¾ß ÇÕ´Ï´Ù.
-pkgmgr.appletInViewer=¾ÖÇÃ¸´ºä¾î·Î ¾ÖÇÃ¸´ ½ÇÇà
-pkgmgr.appletInBrowser=À¥ ºê¶ó¿ìÀú·Î ¾ÖÇÃ¸´ ½ÇÇà
-pkgmgr.exported=³»º¸³»±â ¿Ï·á.
-pkgmgr.exported.jar=jar ÆÄÀÏ·Î ³»º¸³»±â ¿Ï·á.
-pkgmgr.error.open=ÇÁ·ÎÁ§Æ®°¡ Á¸ÀçÇÏÁö ¾Ê½À´Ï´Ù.
+pkgmgr.compiling=ì»´íŒŒì¼...
+pkgmgr.compileDone=ì»´íŒŒì¼... ì™„ë£Œ
+pkgmgr.creating=ê°ì²´ ìƒì„±...
+pkgmgr.createDone=ê°ì²´ ìƒì„±... ì™„ë£Œ
+pkgmgr.creatingVM=virtual machine ìƒì„±...
+pkgmgr.creatingVMDone=virtual machine ìƒì„±... ì™„ë£Œ
+pkgmgr.generatingDocu=ë¬¸ì„œ ìƒì„±...
+pkgmgr.docuGenerated=ë¬¸ì„œ ìƒì„±... ì™„ë£Œ
+pkgmgr.docuAborted=ë¬¸ì„œ ìƒì„±... ì¤‘ì§€
+pkgmgr.webBrowserMsg=ì›¹ ë¸Œë¼ìš°ì €ê°€ ì´ë¯¸ ì‹¤í–‰ì¤‘ì…ë‹ˆë‹¤
+pkgmgr.webBrowserError=ì›¹ ë¸Œë¼ìš°ì €ë¥¼ ì‹œì‘í•˜ì§€ ëª»í–ˆìŠµë‹ˆë‹¤.
+pkgmgr.usesArrowMsg="ì‚¬ìš©" ì˜ì¡´ê´€ê³„ê°€ ì„ ì–¸ë˜ì—ˆì§€ë§Œ ì‹¤ì œ ì‚¬ìš©ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤:
+pkgmgr.breakpointMsg=ì¤‘ë‹¨ì ì„ ì„¤ì •í•˜ë ¤ë©´ í´ë˜ìŠ¤ê°€ ì»´íŒŒì¼ ë˜ì–´ì•¼ í•©ë‹ˆë‹¤.
+pkgmgr.appletInViewer=ì• í”Œë¦¿ë·°ì–´ë¡œ ì• í”Œë¦¿ ì‹¤í–‰
+pkgmgr.appletInBrowser=ì›¹ ë¸Œë¼ìš°ì €ë¡œ ì• í”Œë¦¿ ì‹¤í–‰
+pkgmgr.exported=ë‚´ë³´ë‚´ê¸° ì™„ë£Œ.
+pkgmgr.exported.jar=jar íŒŒì¼ë¡œ ë‚´ë³´ë‚´ê¸° ì™„ë£Œ.
+pkgmgr.error.open=í”„ë¡œì íŠ¸ê°€ ì¡´ì¬í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
 
 
-properties.heading.bluej=BlueJ ¼Ó¼º. \"bluej.defs\" ÆÄÀÏÀ» ¿À¹ö¶óÀÌµå ÇÏ¿© ¼³Á¤.
-properties.heading.moe=Moe ¿¡µğÅÍ ¼Ó¼º. \"moe.defs\" ÆÄÀÏÀ» ¿À¹ö¶óÀÌµå ÇÏ¿© ¼³Á¤.
+properties.heading.bluej=BlueJ ì†ì„±. \"bluej.defs\" íŒŒì¼ì„ ì˜¤ë²„ë¼ì´ë“œ í•˜ì—¬ ì„¤ì •.
+properties.heading.moe=Moe ì—ë””í„° ì†ì„±. \"moe.defs\" íŒŒì¼ì„ ì˜¤ë²„ë¼ì´ë“œ í•˜ì—¬ ì„¤ì •.
 
 # menus and menu items
 
-menu.package=ÇÁ·ÎÁ§Æ®
-menu.package.new=»õ ÇÁ·ÎÁ§Æ®...
-menu.package.open=ÇÁ·ÎÁ§Æ® ¿­±â...
-menu.package.openRecent=ÃÖ±Ù¿¡ »ç¿ëÇÑ ÇÁ·ÎÁ§Æ® ¿­±â
-menu.package.openNonBlueJ=BlueJ·Î ¸¸µéÁö ¾ÊÀº ÇÁ·ÎÁ§Æ® ¿­±â...
-menu.package.close=´İ±â
-menu.package.save=ÀúÀå
-menu.package.saveAs=´Ù¸¥ ÀÌ¸§À¸·Î ÀúÀå...
-menu.package.import=°¡Á®¿À±â...
-menu.package.export=³»º¸³»±â...
-menu.package.pageSetup=ÆäÀÌÁö ¼³Á¤...
-menu.package.print=ÀÎ¼â...
-menu.package.quit=Á¾·á
+menu.package=í”„ë¡œì íŠ¸
+menu.package.new=ìƒˆ í”„ë¡œì íŠ¸...
+menu.package.open=í”„ë¡œì íŠ¸ ì—´ê¸°...
+menu.package.openRecent=ìµœê·¼ì— ì‚¬ìš©í•œ í”„ë¡œì íŠ¸ ì—´ê¸°
+menu.package.openNonBlueJ=BlueJë¡œ ë§Œë“¤ì§€ ì•Šì€ í”„ë¡œì íŠ¸ ì—´ê¸°...
+menu.package.close=ë‹«ê¸°
+menu.package.save=ì €ì¥
+menu.package.saveAs=ë‹¤ë¥¸ ì´ë¦„ìœ¼ë¡œ ì €ì¥...
+menu.package.import=ê°€ì ¸ì˜¤ê¸°...
+menu.package.export=ë‚´ë³´ë‚´ê¸°...
+menu.package.pageSetup=í˜ì´ì§€ ì„¤ì •...
+menu.package.print=ì¸ì‡„...
+menu.package.quit=ì¢…ë£Œ
 
-menu.edit=ÆíÁı
-menu.edit.newClass=»õ Å¬·¡½º...
-menu.edit.newPackage=»õ ÆĞÅ°Áö...
-menu.edit.addClass=ÆÄÀÏ·ÎºÎÅÍ Å¬·¡½º Ãß°¡...
-menu.edit.remove=»èÁ¦
-menu.edit.newUses=»ç¿ë È­»ìÇ¥ Ãß°¡...
-menu.edit.newInherits=»ó¼ÓÈ­»ìÇ¥ Ãß°¡...
-menu.edit.removeArrow=È­»ìÇ¥ »èÁ¦...
+menu.edit=í¸ì§‘
+menu.edit.newClass=ìƒˆ í´ë˜ìŠ¤...
+menu.edit.newPackage=ìƒˆ íŒ¨í‚¤ì§€...
+menu.edit.addClass=íŒŒì¼ë¡œë¶€í„° í´ë˜ìŠ¤ ì¶”ê°€...
+menu.edit.remove=ì‚­ì œ
+menu.edit.newUses=ì‚¬ìš© í™”ì‚´í‘œ ì¶”ê°€...
+menu.edit.newInherits=ìƒì†í™”ì‚´í‘œ ì¶”ê°€...
+menu.edit.removeArrow=í™”ì‚´í‘œ ì‚­ì œ...
 
-menu.tools=µµ±¸
-menu.tools.compile=ÄÄÆÄÀÏ
-menu.tools.compileSelected=¼±ÅÃ ÄÄÆÄÀÏ
-menu.tools.rebuild=ÆĞÅ°Áö ´Ù½Ã ºôµå
-menu.tools.callLibrary=¶óÀÌºê·¯¸® Å¬·¡½º »ç¿ë...
-menu.tools.callFreeForm=Ç¥Çö½Ä Æò°¡...
-menu.tools.generateDoc=ÇÁ·ÎÁ§Æ® ¹®¼­È­
-menu.tools.preferences=¿É¼Ç...
+menu.tools=ë„êµ¬
+menu.tools.compile=ì»´íŒŒì¼
+menu.tools.compileSelected=ì„ íƒ ì»´íŒŒì¼
+menu.tools.rebuild=íŒ¨í‚¤ì§€ ë‹¤ì‹œ ë¹Œë“œ
+menu.tools.callLibrary=ë¼ì´ë¸ŒëŸ¬ë¦¬ í´ë˜ìŠ¤ ì‚¬ìš©...
+menu.tools.callFreeForm=í‘œí˜„ì‹ í‰ê°€...
+menu.tools.generateDoc=í”„ë¡œì íŠ¸ ë¬¸ì„œí™”
+menu.tools.preferences=ì˜µì…˜...
 
-menu.view=º¸±â
-menu.view.showUses=»ç¿ë È­»ìÇ¥ º¸±â 
-menu.view.showInherits=»ó¼Ó È­»ìÇ¥ º¸±â 
-menu.view.showExecControls=µğ¹ö°Å º¸±â 
-menu.view.showTerminal=Ãâ·ÂÈ­¸é º¸±â
+menu.view=ë³´ê¸°
+menu.view.showUses=ì‚¬ìš© í™”ì‚´í‘œ ë³´ê¸° 
+menu.view.showInherits=ìƒì† í™”ì‚´í‘œ ë³´ê¸° 
+menu.view.showExecControls=ë””ë²„ê±° ë³´ê¸° 
+menu.view.showTerminal=ì¶œë ¥í™”ë©´ ë³´ê¸°
 
-menu.group=±×·ì ÀÛ¾÷
-menu.group.make=±×·ì ÆĞÅ°Áö »ı¼º
-menu.group.open=±×·ì ÆĞÅ°Áö ¿­±â
-menu.group.updateSelected=¼±ÅÃµÈ ±×·ì °»½Å
-menu.group.updateAll=ÀüÃ¼ °»½Å
-menu.group.commitSelected=¼±ÅÃµÈ ±×·ì ½ÇÇà
-menu.group.commitAll=ÀüÃ¼ ½ÇÇà
-menu.group.statusSelection=¼±ÅÃ »óÅÂ
-menu.group.statusAll=¼±ÅÃ »óÅÂ
-menu.group.users=»ç¿ëÀÚ
-menu.group.configuration=¿É¼Ç
+menu.group=ê·¸ë£¹ ì‘ì—…
+menu.group.make=ê·¸ë£¹ íŒ¨í‚¤ì§€ ìƒì„±
+menu.group.open=ê·¸ë£¹ íŒ¨í‚¤ì§€ ì—´ê¸°
+menu.group.updateSelected=ì„ íƒëœ ê·¸ë£¹ ê°±ì‹ 
+menu.group.updateAll=ì „ì²´ ê°±ì‹ 
+menu.group.commitSelected=ì„ íƒëœ ê·¸ë£¹ ì‹¤í–‰
+menu.group.commitAll=ì „ì²´ ì‹¤í–‰
+menu.group.statusSelection=ì„ íƒ ìƒíƒœ
+menu.group.statusAll=ì„ íƒ ìƒíƒœ
+menu.group.users=ì‚¬ìš©ì
+menu.group.configuration=ì˜µì…˜
 
-menu.help=µµ¿ò¸»
-menu.help.about=$APPNAME¿¡ ´ëÇÏ¿©
+menu.help=ë„ì›€ë§
+menu.help.about=$APPNAMEì— ëŒ€í•˜ì—¬
 menu.help.extensions=Installed Extensions
-menu.help.versionCheck=¹öÀü È®ÀÎ...
-menu.help.copyright=ÀúÀÛ±Ç
-menu.help.website=BlueJ È¨ÆäÀÌÁö 
-menu.help.tutorial=BlueJ Æ©Åä¸®¾ó 
-menu.help.standardApi=ÀÚ¹Ù Å¬·¡½º ¶óÀÌºê·¯¸® 
+menu.help.versionCheck=ë²„ì „ í™•ì¸...
+menu.help.copyright=ì €ì‘ê¶Œ
+menu.help.website=BlueJ í™ˆí˜ì´ì§€ 
+menu.help.tutorial=BlueJ íŠœí† ë¦¬ì–¼ 
+menu.help.standardApi=ìë°” í´ë˜ìŠ¤ ë¼ì´ë¸ŒëŸ¬ë¦¬ 
 
 # tool tips
 
-tooltip.newClass=ÇöÀç ÆĞÅ°Áö¾È¿¡ »õ Å¬·¡½º¸¦ »ı¼ºÇÕ´Ï´Ù.
-tooltip.newUses=»ç¿ë °ü°è È­»ìÇ¥¸¦ »ğÀÔÇÕ´Ï´Ù.
-tooltip.newExtends=»ó¼Ó °ü°è È­»ìÇ¥¸¦ »ğÀÔÇÕ´Ï´Ù.
-tooltip.compile=ÇöÀç ÆĞÅ°Áö ¾ÈÀÇ ÄÄÆÄÀÏµÇÁö ¾ÊÀº ¸ğµç Å¬·¡½º¸¦ ÄÄÆÄÀÏ ÇÕ´Ï´Ù.
-tooltip.showUses=»ç¿ë°ü°è È­»ìÇ¥ Ç¥½Ã ÀüÈ¯.
-tooltip.showExtends=»ó¼Ó°ü°è È­»ìÇ¥ Ç¥½Ã ÀüÈ¯. 
-tooltip.progress=»óÅÂ Ç¥½Ã¹Ù : virtual machine ÀÌ ½ÇÇàÁßÀÏ¶§ Ç¥½ÃµË´Ï´Ù.
+tooltip.newClass=í˜„ì¬ íŒ¨í‚¤ì§€ì•ˆì— ìƒˆ í´ë˜ìŠ¤ë¥¼ ìƒì„±í•©ë‹ˆë‹¤.
+tooltip.newUses=ì‚¬ìš© ê´€ê³„ í™”ì‚´í‘œë¥¼ ì‚½ì…í•©ë‹ˆë‹¤.
+tooltip.newExtends=ìƒì† ê´€ê³„ í™”ì‚´í‘œë¥¼ ì‚½ì…í•©ë‹ˆë‹¤.
+tooltip.compile=í˜„ì¬ íŒ¨í‚¤ì§€ ì•ˆì˜ ì»´íŒŒì¼ë˜ì§€ ì•Šì€ ëª¨ë“  í´ë˜ìŠ¤ë¥¼ ì»´íŒŒì¼ í•©ë‹ˆë‹¤.
+tooltip.showUses=ì‚¬ìš©ê´€ê³„ í™”ì‚´í‘œ í‘œì‹œ ì „í™˜.
+tooltip.showExtends=ìƒì†ê´€ê³„ í™”ì‚´í‘œ í‘œì‹œ ì „í™˜. 
+tooltip.progress=ìƒíƒœ í‘œì‹œë°” : virtual machine ì´ ì‹¤í–‰ì¤‘ì¼ë•Œ í‘œì‹œë©ë‹ˆë‹¤.
 
