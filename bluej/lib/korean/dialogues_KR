@@ -361,173 +361,167 @@ project-is-readonly
 이 프로젝트를 사용하려면 먼저 새로운 위치를 선택하여 저장해야합니다.
 
 project-is-virtualized
-The project you are opening is being virtualized by Windows. This 
-usually happens when the project is stored somewhere in the 
-"Program Files" directory.
+오픈하려는 프로젝트는 Windows에 의해 가상화되고 있습니다.
+이는 일반적으로 프로젝트가 "Program Files" 디렉토리에
+저장되어 있을 때 발생합니다.
 :
-When a project is being virtualized by Windows you will get errors 
-when trying to create objects and invoke methods.
+Windows에 의해 프로젝트가 가상화되면 객체를 생성하거나
+메서드를 호출할 때 오류가 발생할 수 있습니다.
 :
-To use this project, you should move the project to a different
-location. This can be accomplished by choosing "save as" from 
-the Project menu after closing this dialog.
+이 프로젝트를 사용하려면 프로젝트를 다른 위치로 이동해야 합니다.
+이는 이 대화상자를 닫은 후 프로젝트 메뉴에서 "다른 이름으로 저장"을
+선택하여 수행할 수 있습니다.
 
 could-not-write-shell-file
-Execution failed because the project directory is not writable.
-To create objects or execute methods, we must be able to write
-to the project directory. Make sure your project is on a writable 
-file system (not a CD!) and that you have write permission in
-the project directory and all files in it.
+프로젝트 디렉토리가 쓰기 가능하지 않아 실행이 실패했습니다.
+객체를 생성하거나 메소드를 실행하기 위해서는, 프로젝트 디렉토리에
+쓰기 권한이 있어야 합니다. 프로젝트가 쓰기 가능한 파일 시스템(CD 말고!)에 있고
+프로젝트 디렉토리 및 그 안의 모든 파일에 쓰기 권한이 있는지 확인해주세요.
 
 jar-output-dir-exists
-The output directory for the archive being extracted already exists.
-You must remove the existing directory before you can extract the archive.
+압축 해제하려는 출력 디렉토리가 이미 존재합니다.
+따라서 압축 해제하기 전에 기존 디렉토리를 제거해야 합니다.
 
 jar-output-no-write
-The output directory cannot be created. Make sure you copy the 
-archive to a writable folder first.
+출력 디렉토리를 만들 수 없습니다. 먼저 아카이브를 쓰기 가능한
+폴더로 복사했는지 확인하십시오.
 
 jar-extraction-error
-An error occurred in extracting the archive contents. The debug
-log may contain more information.
+압축 내용을 추출하는 중 오류가 발생했습니다.
+디버그 로그에 더 많은 정보가 포함될 수 있습니다.
 
 jar-executable-uncompiled-project
-Some classes in the project are uncompiled.
-All classes must be compiled before you can create an executable Jar file.
+프로젝트에 일부 클래스가 컴파일되지 않았습니다.
+실행 가능한 Jar 파일을 만들기 전에 모든 클래스를 컴파일해야합니다.
 
 file-save-error-before-compile
-One or more files could not be saved, so compilation was cancelled.
+하나 이상의 파일을 저장할 수 없어 컴파일이 취소되었습니다.
 
 generic-file-save-error
-An error was encountered when trying to save a file.
+파일을 저장하려고 할 때 오류가 발생했습니다.
 
 team-update-first
-There have been changes made to files in the repository, but the files
-have been deleted in your working copy. This is a conflict. Before you can
-do a commit, you need to perform an update, which will restore the
-repository versions. The following files are affected:
+저장소의 파일들이 변경되었지만,
+당신의 작업 복사본에서 파일들이 삭제되었습니다. 이는 충돌입니다.
+커밋을 하기 전에는 저장소 버전을 복원하기 위해 업데이트를 수행해야 합니다.
+아래 파일들이 영향을 받았습니다:
 
 team-resolve-conflicts-delete
-There are conflicts with some files, which have been modified in the
-repository as well as in your working copy. You need to delete your versions
-of the following files and then perform an update in order to resolve the
-conflict:
+일부 파일들에서 충돌이 발생했으며, 저장소에서도 수정이 이루어졌습니다.
+충돌을 해결하기 위해 다음 파일들의 버전을 삭제하고
+업데이트를 수행해야 합니다:
 
 team-resolve-merge-conflicts
-During a previous update, there were merge conflicts in some files. You need
-to edit the following files and resolve the conflicts before you can perform
-a commit:
+이전 업데이트 중 일부 파일들에서 병합 충돌이 발생했습니다.
+커밋을 수행하기 전에 다음 파일들을 편집하여
+충돌을 해결해야 합니다:
 
 team-unresolved-conflicts
-There are unresolved conflicts with the following files. You will
-have to delete the files locally to resolve the conflict:
+다음 파일들과 관련하여 해결되지 않은 충돌이 있습니다.
+충돌을 해결하려면 로컬에서 파일을 삭제해야 합니다:
 
 team-uptodate-failed
-Your local copy is out of date. Update from repository
-before committing your local changes.
+로컬 복사본이 최신 버전이 아닙니다. 로컬 변경 사항을
+커밋하기 전에 저장소에서 업데이트하세요.
 
 team-cant-connect
-Cannot connect to the server. Check that server
-address is correct in the Team Settings.
+서버에 연결할 수 없습니다. 팀 설정에서
+서버 주소가 올바른지 확인하세요.
 
 team-wrong-protocol
-Cannot connect to the server. The server does not seem
-to accept the informed protocol.
+서버에 연결할 수 없습니다. 서버가 지정한
+프로토콜을 허용하지 않는 것 같습니다.
 
 team-malformed-uri
-The connection URI is malformed. Please check the connection
-string used.
+연결 URI가 잘못되었습니다.
+사용된 연결 문자열을 확인하세요.
 
 team-denied-invalidUser
-Access was denied. Check user name, password, and connection URI.
+액세스가 거부되었습니다. 사용자 이름, 비밀번호 및 연결 URI를 확인하세요.
 
 team-noRepository-uri
-Repository not found: $
+저장소를 찾을 수 없습니다: $
 
 team-project-exists
-The project already exists on the server. Maybe you 
-want to use Checkout, to check out the existing project
-or rename your project and commit again.
+프로젝트는 이미 서버에 존재합니다.
+기존 프로젝트를 체크아웃하여 사용하거나 프로젝트 이름을
+변경한 후 다시 커밋하시기를 권장합니다.
 
 team-cant-find-path
-The path cannot be found on the server. This might be because
-the specified group or project doesn't exist on the server.
-Check that these are correct in the Team Settings, and that 
-they exist on the server.
+경로를 찾을 수 없습니다. 이는 지정된 그룹 또는 프로젝트가
+서버에 존재하지 않아서 발생할 수 있습니다.
+팀 설정에서 이를 확인하고 서버에 존재하는지 확인하세요.
 
 team-cant-find-module
-Project not in repository. A project must be shared (put 
-in the repository) before you can check it out.
+저장소에 프로젝트가 없습니다. 체크아웃하기 전에
+프로젝트를 공유(저장소에 넣기)해야 합니다.
 
 team-cant-find-repository
-The repository could not be found. Check the path to 
-the repository in the team settings.
+저장소를 찾을 수 없습니다.
+팀 설정에서 저장소 경로를 확인하세요.
 
 team-empty-message
-An unknown error occurred. Check the team settings to make sure your
-repository settings are correct.
+알 수 없는 오류가 발생했습니다.
+저장소 설정이 올바른지 확인하세요.
 
 team-authentication-problem
-The server could not log you in - check your username/password and
-repository in team settings.
+서버에서 로그인할 수 없습니다. 팀 설정에서
+사용자 이름/암호와 저장소를 확인하세요.
 
 team-authorisation-problem
-The operation was not authorised by the server. Check your username,
-password and repository in team settings.
+서버에서 작업을 승인하지 않았습니다. 팀 설정에서
+사용자 이름, 암호 및 저장소를 확인하세요.
 
 team-binary-conflict
-A conflict was detected when trying to update the following file:
+다음 파일을 업데이트하려고 할 때 충돌이 감지되었습니다:
 :
     $
 :
-The file was changed locally, but there are also changes in the
-repository.
-Keep my version
-Use repository version
+파일이 로컬에서 변경되었지만 저장소에도 변경 사항이 있습니다.
+내 버전 유지
+저장소 버전 사용
 null
 
 team-error-saving-project
-An error occurred when trying to save the project files:
+프로젝트 파일을 저장하려고 할 때 오류가 발생했습니다:
 :
 	$
 :
-Committing or updating may have unexpected results.
+커밋 또는 업데이트가 예상치 못한 결과를 가져올 수 있습니다.
 
 team-cannot-import-into-existing-project
-You can't import a project into an existing project. Select
-a normal folder as the destination for the import.
+기존 프로젝트에 프로젝트를 가져올 수 없습니다.
+가져올 위치로 일반 폴더를 선택하십시오.
 
 team-commit-needed
-You have local changes that need to be committed before you can
-update.
+업데이트하기 전에 로컬 변경 사항을 커밋해야 합니다.
 
 team-merge-commit-needed
-The update resulted in merges which have not automatically been
-committed. You should commit now.
+업데이트는 자동으로 커밋되지 않은 병합 결과를 가져왔습니다.
+지금 커밋하는 것이 좋습니다.
 
 stuck-at-breakpoint
-Your program is already running, and stopped at a breakpoint.
-You cannot start another execution while the current one is still
-active. Use the debugger controls to either continue or terminate
-the current execution first.
+현재 프로그램이 실행 중이며 중단점에서 멈춰 있습니다.
+현재 실행이 완료되기 전에 다른 실행을 시작할 수 없습니다.
+디버거 컨트롤을 사용하여 현재 실행을 계속하거나 종료하세요.
 
 already-executing
-Your program is already running. You cannot start another
-execution (or inspect a class) until the execution finishes. If
-the program is stuck in a loop, you can use the debugger to
-terminate it.
+현재 프로그램이 이미 실행 중입니다. 실행이 끝날 때까지
+다른 실행(또는 클래스 검사)을 시작할 수 없습니다.
+프로그램이 루프에 빠져있는 경우, 디버거를 사용하여
+종료할 수 있습니다.
 
 run-on-fx
-This project uses JavaFX.  Would you like BlueJ to run all future
-method invocations in this project on the JavaFX thread, to avoid
-threading exceptions?  You can change this option later in the
-Preferences.  If unsure, say "Use JavaFX thread".
-Use JavaFX thread
-Use separate thread
+이 프로젝트는 JavaFX를 사용합니다. 이 프로젝트에서 모든 메서드 호출을
+JavaFX 스레드에서 실행하여 스레딩 예외를 방지하시겠습니까?
+이 옵션은 나중에 환경 설정에서 변경할 수 있습니다.
+확실하지 않은 경우 "JavaFX 스레드 사용"이라고 말하세요.
+JavaFX 스레드 사용
+별도의 스레드 사용
 null
 
 cannot-open-browser
-The web browser could not be opened.
+웹 브라우저를 열 수 없습니다.
 
 no-extends-arrow-from-no-source-class
-Classes without source code cannot be changed to extend a new class.
+소스 코드가 없는 클래스는 새로운 클래스를 확장해서 변경할 수 없습니다.
