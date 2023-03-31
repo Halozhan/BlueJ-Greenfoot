@@ -116,7 +116,7 @@ cannot-save-inside-self
 다른 위치를 선택해 주세요.
 
 file-does-not-exist
-지정된 파일이 존재하지 않습니다 .
+지정된 파일이 존재하지 않습니다.
 
 cannot-import
 파일을 가져올 수 없습니다.
@@ -266,113 +266,99 @@ com.aa의 패키지 라인이 있다면, Shape.java 파일은 com 디렉토리
 BlueJ를 열 때 가리키는 디렉토리여야 합니다).
 
 import-into-current
-You currently have a package open in this window.
-Do you want to import into the current package
-or would you like to create a new project and
-import into that?
-Current
-New Project
-Cancel
+현재 창에서 패키지를 열어놓고 있습니다.
+현재 패키지에 가져오시겠습니까? 아니면
+새 프로젝트를 생성하고 그곳에 가져오시겠습니까?
+현재 패키지
+새 프로젝트
+취소
 
 package-name-invalid
-You have changed the package statement
-to a package which does not exist in this project.
-If you wish to move this class to another
-package you must create the destination
-package first. The package statement has been
-reverted back to its original form.
+패키지 문을 변경하여 이 프로젝트에 존재하지 않는
+패키지로 변경했습니다. 만약 이 클래스를 다른 패키지로
+이동시키고 싶다면, 먼저 대상 패키지를 만들어야 합니다.
+패키지 문은 원래의 형태로 되돌려졌습니다.
 
 package-name-clash
-You have changed the package statement to 
-a package that already has a class or package
-of this name. If the class is moved, the
-existing class or package would be overwritten,
-so the package statement has been reverted
-back to its original form.
+패키지 문을 변경하려고 했지만 이미 해당 이름을
+가진 클래스나 패키지가 있습니다. 해당 클래스가
+이동되면 기존 클래스나 패키지가 덮어씌워지기 때문에
+패키지 문은 원래 형태로 되돌려졌습니다.
 
 package-name-changed
-You have changed the package statement which
-tells Java the package this class is in. Do you
-want to move this class to the indicated package
-or do you want to leave the class where it is
-(the package statement will be reverted back to
-its original form)?
-Move
-Revert
+Java에게 이 클래스가 속한 패키지를 알려주는 패키지 문을 변경했습니다.
+이 클래스를 지정된 패키지로 이동시키거나 클래스를 그대로 두고
+(패키지 문을 원래대로 되돌리시겠습니까)?
+이동
+되돌리기
 null
 
 external-file-open-issue
-A problem occurred when trying to use the launcher defined
-for this type of external file.
+이 유형의 외부 파일에 대해 정의된 런처를 사용하려고
+할 때 문제가 발생했습니다.
 
 ask-index
-Enter array element index [...]
-Array Inspection
+배열 요소 인덱스를 입력해주세요. [...]
+배열 검사
 null
 
 classmgr-changes-no-effect
-The changes you have made to the class libraries
-will not take effect until the next time you
-restart the Virtual Machine.
+클래스 라이브러리에 대한 변경 사항은
+가상 머신을 다시 시작할 때까지
+적용되지 않습니다.
 
 unittest-new-test-method
-Specify a name for this test.
-Recording will then start.
-New Test Method
+이 테스트에 대한 이름을 지정하세요.
+그러면 녹음이 시작됩니다.
+새로운 테스트 방법
 null
 
 unittest-io-error
-An I/O error occurred when trying to read the unit
-test source file.
+유닛 테스트 소스 파일을 읽으려고 할 때
+I/O 오류가 발생했습니다.
 
 getobject-new-name
-Enter the name for the new object on the
-object bench.
-New Object Name
+오브젝트 벤치에 새로운 오브젝트의 이름을 입력하세요.
+새로운 오브젝트 이름
 null
 
 unittest-fixture-present
-This unit test class already has a fixture declared
-in it. If you proceed, the definition of this
-fixture will be replaced.
-Do you want to continue?
-Replace
-Cancel
+이 유닛 테스트 클래스에는 이미 픽스처가 선언되어 있습니다.
+계속 진행하면 이 픽스처의 정의가 교체됩니다.
+계속하시겠습니까?
+바꾸기
+취소
 null
 
 unittest-method-present
-This unit test class already has a test method declared
-within it of the same name. If you proceed, the
-definition of the method will be replaced.
-Do you want to continue?
-Replace
-Cancel
+이 유닛 테스트 클래스에는 이미 동일한 이름의 테스트 메서드가
+선언되어 있습니다. 계속 진행하면 메서드의 정의가 교체됩니다.
+계속하시겠습니까?
+바꾸기
+취소
 null
 
 default-keys
-Do you really want to discard all your
-key bindings and set the default
-bindings?
-Set defaults
-Cancel
+모든 키 바인딩을 삭제하고
+기본 바인딩으로 설정하시겠습니까?
+기본값 설정
+취소
 null
 
 error-create-vm
-BlueJ was unable to create a virtual machine (VM) to execute projects.
-This is a serious problem - you will not be able to create objects 
-or execute methods without solving it. Often this is caused by overly
-restrictive firewall settings.
+BlueJ는 프로젝트를 실행할 가상 머신(VM)을 생성할 수 없었습니다.
+이는 심각한 문제입니다 - 해결하지 않으면 객체를 생성하거나 메소드를
+실행할 수 없습니다. 종종 이는 과도한 방화벽 설정 때문에 발생합니다.
 :
-Please see <http://www.bluej.org/help/faq.html#socket-exc> for more
-information.
+자세한 정보는 <http://www.bluej.org/help/faq.html#socket-exc>를
+참조하십시오.
 
 project-is-readonly
-The project being opened is read-only:
+이 프로젝트는 읽기 전용으로 열려 있습니다:
 :
     $
 :
-To use this project, you will first need to choose a new location to
-save it to.
+이 프로젝트를 사용하려면 먼저 새로운 위치를 선택하여 저장해야합니다.
 
 project-is-virtualized
 The project you are opening is being virtualized by Windows. This 
