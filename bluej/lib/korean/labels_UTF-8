@@ -263,179 +263,179 @@ editor.quickfix.unreportedException.fixMsg.trycatch=이 라인을 try/catch로 �
 editor.quickfix.unreportedException.fixMsg.throws=이 예외를 담고 있는 메소드에서 throws 문을 추가하세요
 
 # Dialog titles and texts
-editor.functions.title = Editor Functions
-editor.functions.editFunctions = Edit Functions
-editor.functions.moveScroll = Move & Scroll
-editor.functions.classFunctions = Class Functions
-editor.functions.customisation = Customisation
-editor.functions.help = Help
-editor.functions.misc = Misc
-editor.functions.defaults=Defaults
-editor.functions.categories=Categories:
-editor.functions.keys=Key Bindings
-editor.functions.addkey=Add Key
-editor.functions.delkey=Delete Key
+editor.functions.title = 편집기 기능
+editor.functions.editFunctions = 편집 기능
+editor.functions.moveScroll = 이동 및 스크롤
+editor.functions.classFunctions = 클래스 기능
+editor.functions.customisation = 사용자 정의
+editor.functions.help = 도움말
+editor.functions.misc = 기타
+editor.functions.defaults= 기본 설정
+editor.functions.categories=카테고리:
+editor.functions.keys=키 바인딩
+editor.functions.addkey=키 추가
+editor.functions.delkey=키 삭제
 
-editor.find.title = Find
-editor.find.find.label = Find:
-editor.find.replace.label = Replace:
-editor.find.findNext=Find Next
-editor.find.replace=Replace
-editor.find.replaceAll=Replace All
-editor.find.up=Search up
-editor.find.down=Search down
-editor.find.ignoreCase=Ignore case
-editor.find.wholeWord=Whole word
-editor.find.backward=backward
-editor.find.forward=forward
-editor.find.wrapAround=wrap around
+editor.find.title = 찾기
+editor.find.find.label = 찾을 내용:
+editor.find.replace.label = 대체할 내용:
+editor.find.findNext=다음 찾기
+editor.find.replace=대체
+editor.find.replaceAll=전체 대체
+editor.find.up=위로 검색
+editor.find.down=아래로 검색
+editor.find.ignoreCase=대소문자 무시
+editor.find.wholeWord=단어 전체
+editor.find.backward=뒤로
+editor.find.forward=앞으로
+editor.find.wrapAround=전체 찾기
 
 # FindPanel
-editor.findpanel.replacePanel=  Replace
-editor.findpanel.findLabel=Find:
-editor.findpanel.findNext=Next
-editor.findpanel.findPrevious=Prev
-editor.findpanel.matchCase=Match Case
+editor.findpanel.replacePanel=  바꾸기
+editor.findpanel.findLabel=찾기:
+editor.findpanel.findNext=다음
+editor.findpanel.findPrevious=이전
+editor.findpanel.matchCase=대소문자 구분
 
 # ReplacePanel
-editor.replacePanel.replaceLabel=Replace:
-editor.replacePanel.replaceOnce=Once
-editor.replacePanel.replaceAll=All
+editor.replacePanel.replaceLabel=바꾸기:
+editor.replacePanel.replaceOnce=한 번
+editor.replacePanel.replaceAll=모두
 
 # "Add javadoc" function
-editor.addjavadoc.notAMethod=Not in a method.
-editor.addjavadoc.hasJavadoc=This method already has a Javadoc comment.
-editor.addjavadoc.constructor=Constructor
-editor.addjavadoc.method=Method
-editor.addjavadoc.parameter=A parameter
-editor.addjavadoc.returnValue=The return value
+editor.addjavadoc.notAMethod=메소드 내에서만 사용 가능합니다.
+editor.addjavadoc.hasJavadoc=이 메소드는 이미 Javadoc 주석이 있습니다.
+editor.addjavadoc.constructor=생성자
+editor.addjavadoc.method=메소드
+editor.addjavadoc.parameter=매개변수
+editor.addjavadoc.returnValue=반환 값
 
 # Messages shown as a result of a search with replace all
-editor.replaceAll.replaced=Replaced
-editor.replaceAll.intancesOf=instances of
-editor.replaceAll.string=String
-editor.replaceAll.notFoundNothingReplaced=not found. Nothing replaced.
+editor.replaceAll.replaced=대체됨
+editor.replaceAll.intancesOf=개의 인스턴스
+editor.replaceAll.string=문자열
+editor.replaceAll.notFoundNothingReplaced=찾을 수 없습니다. 대체된 것이 없습니다.
 
 # Messages shown as a result of a search with highlight all
-editor.highlight.found=Found
-editor.highlight.notFound=not found.
+editor.highlight.found=찾았습니다
+editor.highlight.notFound=찾지 못했습니다.
 
 # Message shown in code completion pane when nothing is found
-editor.completion.noMatch=No matching completions
+editor.completion.noMatch=일치하는 항목이 없습니다.
 
 #Message shown in code completion while processing
-editor.completion.working=Loading...
+editor.completion.working=로드 중...
 
 # Messages shown when determining what function is bound to a given key
-editor.keypressed.keyIsNotBound=is not bound to a function.
-editor.keypressed.callsTheFunction=calls the function "
+editor.keypressed.keyIsNotBound=이(가) 함수에 바인딩되지 않았습니다.
+editor.keypressed.callsTheFunction=이(가) 함수를 호출합니다 "
 
 #Messages, warnings, etc that is displayed by Info.java
-editor.info.errorSaving = Error in saving file!
-editor.info.compiled = Class compiled - no syntax errors
-editor.info.compileError = Error(s) found in class.\nPress $ or click link on right to go to next error.
-editor.info.noChanges = No changes need to be saved
-editor.info.emptySearchString = Empty search string.
-editor.info.notFound = Not found (search again to wrap around).
-editor.info.compiling = Compiling...
-editor.info.cannotSetBreak = Cannot set breakpoint:\nNo code associated with this editor.
-editor.info.fileDisappeared = ERROR: The file seems to have disappeared!
-editor.info.fileReadError = ERROR: There was an error while trying to read this file.
-editor.info.saved = File saved
-editor.info.printing = Printing...
-editor.info.printed = Printing... Done.
-editor.info.cancelled = Cancelled.
-editor.info.generatingDoc = Generating class interface...
-editor.info.loadingDoc = Loading class interface...
-editor.info.docLoaded = Loading class interface... Done.
-editor.info.docAborted = There was a serious problem generating the javadoc\ninterface. Aborted.
-editor.info.docDisappeared = Cannot find HTML file:
-editor.info.docNoFrames = Frame display is disabled in editor preview.
-editor.info.tabsExpanded = Converted all TABs to spaces. (You are working\nwith soft TABs, the file contained hard TABs.)
-editor.info.perfectIndent = Indentation was already correct
-editor.printer.continued=continued
-editor.info.duplication = A class with this name already exists in this package.
+editor.info.errorSaving = 파일 저장 중 오류 발생!
+editor.info.compiled = 클래스가 컴파일되었습니다 - 구문 오류가 없습니다.
+editor.info.compileError = 클래스에서 오류가 발견되었습니다.\n다음 오류로 이동하려면 $를 누르거나 오른쪽 링크를 클릭하세요.
+editor.info.noChanges = 저장할 변경 사항이 없습니다.
+editor.info.emptySearchString = 검색어가 비어 있습니다.
+editor.info.notFound = 찾을 수 없습니다 (다시 검색하여 감싸기를 시도하세요).
+editor.info.compiling = 컴파일 중...
+editor.info.cannotSetBreak = 중단점을 설정할 수 없습니다:\n이 에디터에 코드가 없습니다.
+editor.info.fileDisappeared = 오류: 파일이 사라졌습니다!
+editor.info.fileReadError = 오류: 파일을 읽는 중 오류가 발생했습니다.
+editor.info.saved = 파일이 저장되었습니다.
+editor.info.printing = 인쇄 중...
+editor.info.printed = 인쇄 완료.
+editor.info.cancelled = 취소됨.
+editor.info.generatingDoc = 클래스 인터페이스 생성 중...
+editor.info.loadingDoc = 클래스 인터페이스 로드 중...
+editor.info.docLoaded = 클래스 인터페이스 로드 완료.
+editor.info.docAborted = javadoc 인터페이스를 만드는 중 심각한 문제가 발생했습니다.\n중단되었습니다.
+editor.info.docDisappeared = HTML 파일을 찾을 수 없습니다:
+editor.info.docNoFrames = 에디터 미리보기에서 프레임 표시가 비활성화되었습니다.
+editor.info.tabsExpanded = 모든 TAB을 공백으로 변환했습니다. (소프트 TAB을\n사용 중이며 파일에 하드 TAB이 포함되어 있습니다.)
+editor.info.perfectIndent = 들여쓰기가 이미 올바릅니다.
+editor.printer.continued=계속됨
+editor.info.duplication = 이 이름으로 된 클래스가 이미 이 패키지에 있습니다.
 #End Editor labels
 
-pkgmgr.chooseUsesFrom=Select the class where the dependency is from
-pkgmgr.chooseUsesTo=Select the class it depends on
-pkgmgr.chooseInhFrom=Select subclass (child class) of extends
-pkgmgr.chooseInhTo=Select superclass/interface to extend
-pkgmgr.chooseArrow=Select an arrow to delete
-pkgmgr.packageSaved=Package saved.
-pkgmgr.info.printing = Printing...
-pkgmgr.info.printed = Printing... Done.
+pkgmgr.chooseUsesFrom=의존성이 있는 클래스를 선택하세요.
+pkgmgr.chooseUsesTo=의존하는 클래스를 선택하세요.
+pkgmgr.chooseInhFrom=상속받을 하위 클래스를 선택하세요.
+pkgmgr.chooseInhTo=상위 클래스/인터페이스를 선택하세요.
+pkgmgr.chooseArrow=삭제할 화살표를 선택하세요.
+pkgmgr.packageSaved=패키지가 저장되었습니다.
+pkgmgr.info.printing = 인쇄 중...
+pkgmgr.info.printed = 인쇄 완료.
 
-utility.packageChooser.previewPane1=Preview of possible
-utility.packageChooser.previewPane2=package structure
+utility.packageChooser.previewPane1=가능한 미리보기
+utility.packageChooser.previewPane2=패키지 구조
 
 # dialog titles and texts
 pkgmgr.title=BlueJ:  
 
-pkgmgr.newPkg.title=New Project
-pkgmgr.newMEpkg.title=New ME Project
-pkgmgr.newPkg.buttonLabel=Create
-pkgmgr.openPkg.title=Open Project
-pkgmgr.openPkg.buttonLabel=Open
-pkgmgr.openNonBlueJPkg.title=Open Non-BlueJ Project
-pkgmgr.openNonBlueJPkg.buttonLabel=Open in BlueJ
-pkgmgr.saveAs.title=Save Project
-pkgmgr.saveAs.buttonLabel=Save
-pkgmgr.addClass.title=Select Java Class to Add
-pkgmgr.addClass.buttonLabel=Add
-pkgmgr.importPkg.title=Select Directory to Import
-pkgmgr.importPkg.buttonLabel=Import
-pkgmgr.importPkgNew.title=New Project to Import Into
-pkgmgr.importPkgNew.buttonLabel=Create
+pkgmgr.newPkg.title=새 프로젝트
+pkgmgr.newMEpkg.title=새 ME 프로젝트
+pkgmgr.newPkg.buttonLabel=생성
+pkgmgr.openPkg.title=프로젝트 열기
+pkgmgr.openPkg.buttonLabel=열기
+pkgmgr.openNonBlueJPkg.title=Non-BlueJ 프로젝트 열기
+pkgmgr.openNonBlueJPkg.buttonLabel=BlueJ에서 열기
+pkgmgr.saveAs.title=프로젝트 저장
+pkgmgr.saveAs.buttonLabel=저장
+pkgmgr.addClass.title=추가할 자바 클래스 선택
+pkgmgr.addClass.buttonLabel=추가
+pkgmgr.importPkg.title=가져올 디렉터리 선택
+pkgmgr.importPkg.buttonLabel=가져오기
+pkgmgr.importPkgNew.title=가져올 새 프로젝트 선택
+pkgmgr.importPkgNew.buttonLabel=생성
 
-pkgmgr.newClass.msg=Enter the name of the class
-pkgmgr.newUses=New Uses Arrow
-pkgmgr.newExtends=New Extends Arrow
-pkgmgr.unimplemented=Sorry - that feature is not yet implemented
-pkgmgr.pkgChooseError=Error selecting valid package name
-pkgmgr.chooseWebPage.title=Select HTML page destination
-pkgmgr.chooseWebPage.buttonLabel=Save HTML page
+pkgmgr.newClass.msg=클래스 이름을 입력하세요
+pkgmgr.newUses=새로운 Uses 화살표
+pkgmgr.newExtends=새로운 Extends 화살표
+pkgmgr.unimplemented=죄송합니다 - 이 기능은 아직 구현되지 않았습니다
+pkgmgr.pkgChooseError=유효한 패키지 이름을 선택하는 중 오류가 발생했습니다
+pkgmgr.chooseWebPage.title=HTML 페이지 대상 선택
+pkgmgr.chooseWebPage.buttonLabel=HTML 페이지 저장하기
 
-pkgmgr.parentpackagetarget.open=Open
-pkgmgr.parentpackagetarget.openunamed=Open unnamed package
+pkgmgr.parentpackagetarget.open=열기
+pkgmgr.parentpackagetarget.openunamed=이름 없는 패키지 열기
 
-pkgmgr.noProjectOpened.message=\u2196 Use the Project menu to create or open a project
-pkgmgr.noClassesExisted.message=\u2196 Use the Edit menu to create or add a class
+pkgmgr.noProjectOpened.message=\u2196 프로젝트 메뉴를 사용하여 프로젝트를 만들거나 열어주세요.
+pkgmgr.noClassesExisted.message=\u2196 편집 메뉴를 사용하여 클래스를 만들거나 추가해주세요.
 
-pkgmgr.packagemenu.open=Open
-pkgmgr.packagemenu.remove=Delete
+pkgmgr.packagemenu.open=열기
+pkgmgr.packagemenu.remove=삭제하기
 
-pkgmgr.classmenu.edit=Open Editor
-pkgmgr.classmenu.compile=Compile
-pkgmgr.classmenu.inspect=Inspect
-pkgmgr.classmenu.remove=Delete
-pkgmgr.classmenu.duplicate=Duplicate...
-pkgmgr.classmenu.convertToJava=Convert to Java
-pkgmgr.classmenu.convertToStride=Convert to Stride
-pkgmgr.classmenu.createTest=Create Test Class
-pkgmgr.classmenu.launchFX=Run JavaFX Application
-pkgmgr.classmenu.moreMethods=more methods
+pkgmgr.classmenu.edit=에디터 열기
+pkgmgr.classmenu.compile=컴파일
+pkgmgr.classmenu.inspect=검사
+pkgmgr.classmenu.remove=삭제
+pkgmgr.classmenu.duplicate=복제...
+pkgmgr.classmenu.convertToJava=Java로 변환
+pkgmgr.classmenu.convertToStride=Stride로 변환
+pkgmgr.classmenu.createTest=테스트 클래스 생성
+pkgmgr.classmenu.launchFX=JavaFX 애플리케이션 실행
+pkgmgr.classmenu.moreMethods=더 많은 메서드
 
-pkgmgr.extfilemenu.open=Open (outside BlueJ)
-pkgmgr.extfilemenu.delete=Delete file
+pkgmgr.extfilemenu.open=열기 (BlueJ 외부에서)
+pkgmgr.extfilemenu.delete=파일 삭제
 
-pkgmgr.team.title=Teamwork
-pkgmgr.test.title=Testing
+pkgmgr.team.title=팀워크
+pkgmgr.test.title=테스트
 
-pkgmgr.test.label=Testing
-pkgmgr.test.record=recording
-pkgmgr.test.run=Run Tests
-pkgmgr.test.end=End
-pkgmgr.test.succeeded=succeeded
-pkgmgr.test.invalidTestName=The test name must be a valid Java identifier
-pkgmgr.test.recording=recording
+pkgmgr.test.label=테스트
+pkgmgr.test.record=녹화
+pkgmgr.test.run=테스트 실행
+pkgmgr.test.end=종료
+pkgmgr.test.succeeded=성공
+pkgmgr.test.invalidTestName=테스트 이름은 유효한 Java 식별자여야 합니다
+pkgmgr.test.recording=녹화 중
 
-pkgmgr.test.popup.testAll=Test All
-pkgmgr.test.popup.noTests=No test methods
-pkgmgr.test.popup.abstract=Test class is abstract
-pkgmgr.test.popup.createTest=Create Test Method...
-pkgmgr.test.popup.benchToFixture=Object Bench to Test Fixture
-pkgmgr.test.popup.fixtureToBench=Test Fixture to Object Bench
+pkgmgr.test.popup.testAll=전체 테스트 실행
+pkgmgr.test.popup.noTests=테스트 메소드가 없습니다
+pkgmgr.test.popup.abstract=추상 클래스는 테스트 클래스로 사용할 수 없습니다
+pkgmgr.test.popup.createTest=테스트 메서드 생성...
+pkgmgr.test.popup.benchToFixture=객체 벤치를 테스트 픽스처로 변경
+pkgmgr.test.popup.fixtureToBench=테스트 픽스처를 객체 벤치로 변경
 
 #Accessibility
 pkgmgr.objBench.title=Object Bench
