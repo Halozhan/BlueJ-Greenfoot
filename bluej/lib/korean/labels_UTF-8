@@ -438,138 +438,138 @@ pkgmgr.test.popup.benchToFixture=객체 벤치를 테스트 픽스처로 변경
 pkgmgr.test.popup.fixtureToBench=테스트 픽스처를 객체 벤치로 변경
 
 #Accessibility
-pkgmgr.objBench.title=Object Bench
-pkgmgr.objBench.suffix.singular=object
-pkgmgr.objBench.suffix.plural=objects
-pkgmgr.codepad.title=Codepad
-pkgmgr.graphEditor.title=Class Diagram
+pkgmgr.objBench.title=객체 벤치
+pkgmgr.objBench.suffix.singular=객체
+pkgmgr.objBench.suffix.plural=객체들
+pkgmgr.codepad.title=코드패드
+pkgmgr.graphEditor.title=클래스 다이어그램
 
 # codepad messages
-pkgmgr.codepad.uninitialized=Note: Codepad variables are automatically initialized\n in the same way as instance fields.
-pkgmgr.codepad.vmTerminated=VM reset occurred
+pkgmgr.codepad.uninitialized=노트: 코드패드 변수는 인스턴스 필드와 동일하게\n자동으로 초기화됩니다.
+pkgmgr.codepad.vmTerminated=VM 재설정이 발생했습니다.
 # The "variable has already been defined" error message in the codepad. The '$' symbol will be
 # replaced by the name of the problematic variable.
-pkgmgr.codepad.redefinedVar=$ is already defined
+pkgmgr.codepad.redefinedVar=$ 이(가) 이미 정의되었습니다.
 
 # "new class" dialog
-pkgmgr.newClass.title=BlueJ:  Create New Class
-pkgmgr.newClass.label=Class Name:
-pkgmgr.newClass.prompt=Enter a name for the new class
-pkgmgr.newClass.lang=Class Language:
-pkgmgr.newClass.classType=Class Type
-pkgmgr.newClass.stdclass=Class
-pkgmgr.newClass.interface=Interface
-pkgmgr.newClass.unittest=Unit Test
-pkgmgr.newClass.enum=Enum
-pkgmgr.newClass.JavaFXclass= JavaFX Class
-pkgmgr.newClass.record=Record
-pkgmgr.newClass.error.noType=No class type selected
-pkgmgr.newClass.error.typeNotAvailable=Type not available for $LANGUAGE
-pkgmgr.newClass.error.notValidClassName=Not a valid $LANGUAGE class name
-pkgmgr.newClass.error.windowsRestricted=Windows restricted word
+pkgmgr.newClass.title=BlueJ: 새로운 클래스 생성
+pkgmgr.newClass.label=클래스 이름:
+pkgmgr.newClass.prompt=새로운 클래스의 이름을 입력하세요.
+pkgmgr.newClass.lang=클래스 언어:
+pkgmgr.newClass.classType=클래스 타입
+pkgmgr.newClass.stdclass=클래스
+pkgmgr.newClass.interface=인터페이스
+pkgmgr.newClass.unittest=유닛 테스트
+pkgmgr.newClass.enum=열거형
+pkgmgr.newClass.JavaFXclass= JavaFX 클래스
+pkgmgr.newClass.record=레코드
+pkgmgr.newClass.error.noType=클래스 타입이 선택되지 않았습니다.
+pkgmgr.newClass.error.typeNotAvailable=$LANGUAGE 에서 사용할 수 없는 타입입니다.
+pkgmgr.newClass.error.notValidClassName=유효하지 않은 $LANGUAGE 클래스 이름입니다.
+pkgmgr.newClass.error.windowsRestricted=Windows에서 사용할 수 없는 단어입니다.
 
 
 
 # "new package" dialog
-pkgmgr.newPackage.title=BlueJ:  Create New Package
-pkgmgr.newPackage.label=Package Name:
-pkgmgr.newPackage.prompt=Package name
-pkgmgr.newPackage.newPackage=Package
-pkgmgr.newPackage.error=Invalid package name
+pkgmgr.newPackage.title=BlueJ:  새 패키지 만들기
+pkgmgr.newPackage.label=패키지 이름:
+pkgmgr.newPackage.prompt=패키지 이름
+pkgmgr.newPackage.newPackage=패키지
+pkgmgr.newPackage.error=유효하지 않은 패키지 이름입니다.
 
 # "new CSS" dialog
-pkgmgr.newCSS.title=BlueJ:  Create New CSS File
-pkgmgr.newCSS.label=CSS File:
-pkgmgr.newCSS.prompt=Filename
+pkgmgr.newCSS.title=BlueJ:  새 CSS 파일 만들기
+pkgmgr.newCSS.label=CSS 파일:
+pkgmgr.newCSS.prompt=파일명
 pkgmgr.newCSS.newCSS=CSS
-pkgmgr.newCSS.error=Invalid filename
+pkgmgr.newCSS.error=유효하지 않은 파일명입니다.
 
 # "duplicate class" dialog
-pkgmgr.duplicate.title=BlueJ: Duplicate a Class
-pkgmgr.duplicate.error.notValidClassName=Not a valid class name
+pkgmgr.duplicate.title=BlueJ: 클래스 복제
+pkgmgr.duplicate.error.notValidClassName=유효하지 않은 클래스 이름입니다.
 
 
 # "Use Library Class" dialog
-callLibraryDialog.title=BlueJ:  Call Library Class
-callLibraryDialog.classLabel=Class:
-callLibraryDialog.docButton=Documentation
-callLibraryDialog.listHeading=Constructors and static methods
-callLibraryDialog.clickHere1=Enter full class name, then press Enter
-callLibraryDialog.clickHere2=to display constructors and methods.
-callLibraryDialog.classNotFound1=Could not find the class.
-callLibraryDialog.classNotFound2=(Check the class name and press Enter again.)
+callLibraryDialog.title=BlueJ:  라이브러리 클래스 호출
+callLibraryDialog.classLabel=클래스:
+callLibraryDialog.docButton=문서
+callLibraryDialog.listHeading=생성자 및 정적 메소드
+callLibraryDialog.clickHere1=전체 클래스 이름을 입력하고, Enter를 누르세요.
+callLibraryDialog.clickHere2=생성자와 메서드를 표시합니다.
+callLibraryDialog.classNotFound1=클래스를 찾을 수 없습니다.
+callLibraryDialog.classNotFound2=(클래스 이름을 확인하고 다시 Enter를 누르세요.)
 
 # "export" dialog
-pkgmgr.export.title=BlueJ:  Create Jar File
-pkgmgr.export.helpLine1=Create a single Java archive (jar) file containing
-pkgmgr.export.helpLine2=the project. Executable if main class is specified.
-pkgmgr.export.classLabel=Main class:
-pkgmgr.export.includeLibs=Include user libraries
-pkgmgr.export.sourceLabel=Include source
-pkgmgr.export.pkgFilesLabel=Include Bluej project files
-pkgmgr.export.noClassText=none (cannot be executed)
-pkgmgr.export.specifyJar=Specify name for jar file
+pkgmgr.export.title=BlueJ:  Jar 파일 생성
+pkgmgr.export.helpLine1=프로젝트를 포함하는 단일 Java 아카이브(jar) 파일을 생성합니다.
+pkgmgr.export.helpLine2=메인 클래스가 지정되어 있다면 실행 가능합니다.
+pkgmgr.export.classLabel=메인 클래스:
+pkgmgr.export.includeLibs=사용자 라이브러리 포함
+pkgmgr.export.sourceLabel=소스 코드 포함
+pkgmgr.export.pkgFilesLabel=Bluej 프로젝트 파일 포함
+pkgmgr.export.noClassText=없음 (실행할 수 없음)
+pkgmgr.export.specifyJar=Jar 파일 이름 지정
 
 # "open-non-bluej" mismatch dialog
-pkgmgr.importmismatch.title=BlueJ:  Package Line Mismatches
-pkgmgr.importmismatch.helpLine1=WARNING: This is not the expected top level directory of this Java
-pkgmgr.importmismatch.helpLine2=project as declared in some of the project's class's package declarations.
-pkgmgr.importmismatch.helpLine3=Opening this directory will change all package declarations in the
-pkgmgr.importmismatch.helpLine4=following source files of the project.
-pkgmgr.importmismatch.helpLine5=Most likely you should open the parent directory of the one you
-pkgmgr.importmismatch.helpLine6=have selected. For example, to open a Java project that contains
-pkgmgr.importmismatch.helpLine7=the package "org.bluej", you must select the directory that
-pkgmgr.importmismatch.helpLine8=_contains_ "org",  not the "org" or "bluej" directory itself.
-pkgmgr.importmismatch.helpLine9=Do you want to continue opening and changing the package declarations?
+pkgmgr.importmismatch.title=BlueJ:  패키지 라인 불일치
+pkgmgr.importmismatch.helpLine1=경고: 이는 일부 클래스의 패키지 선언에서 예상되는 최상위 디렉토리가 아닙니다.
+pkgmgr.importmismatch.helpLine2=해당 디렉토리를 열면 프로젝트의 모든 패키지 선언이 변경됩니다.
+pkgmgr.importmismatch.helpLine3=대부분의 경우 선택한 디렉토리의 상위 디렉토리를 열어야 합니다.
+pkgmgr.importmismatch.helpLine4=예를 들어, "org.bluej" 패키지를 포함하는 Java 프로젝트를 열려면
+pkgmgr.importmismatch.helpLine5=디렉토리를 선택할 때 "org" 디렉토리가 아닌 "org"를 포함하는 디렉토리를 선택해야 합니다.
+pkgmgr.importmismatch.helpLine6=프로젝트의 패키지 선언을 변경하고 계속해서 열까요?
+pkgmgr.importmismatch.helpLine7=
+pkgmgr.importmismatch.helpLine8=
+pkgmgr.importmismatch.helpLine9=
 
 # "import" failure dialog
-pkgmgr.importfailed.title=BlueJ:  Import Status
-pkgmgr.importfailed.helpLine1=The import has failed to copy the following files.
-pkgmgr.importfailed.helpLine2=This is most likely due to these files already
-pkgmgr.importfailed.helpLine3=being present in the destination project.
+pkgmgr.importfailed.title=BlueJ:  가져오기 상태
+pkgmgr.importfailed.helpLine1=다음 파일들을 복사하는 데 실패했습니다.
+pkgmgr.importfailed.helpLine2=이는 대상 프로젝트에 이미 해당 파일들이
+pkgmgr.importfailed.helpLine3=있는 경우가 가장 가능성이 높습니다.
 
 # "version check" dialog
-pkgmgr.versionDlg.title=BlueJ:  Check for new version
-pkgmgr.versionDlg.helpLine1=This function will check whether a newer BlueJ version
-pkgmgr.versionDlg.helpLine2=is available. You must be online for this to work.
-pkgmgr.versionDlg.upToDate=The current version is up to date.
-pkgmgr.versionDlg.currentVersion=Your current BlueJ version is
-pkgmgr.versionDlg.newVersion=The most recent BlueJ version is
+pkgmgr.versionDlg.title=BlueJ:  새 버전 확인
+pkgmgr.versionDlg.helpLine1=이 기능은 새로운 BlueJ 버전이 있는지 확인합니다.
+pkgmgr.versionDlg.helpLine2=온라인 상태에서만 작동합니다.
+pkgmgr.versionDlg.upToDate=현재 버전이 최신입니다.
+pkgmgr.versionDlg.currentVersion=현재 BlueJ 버전:
+pkgmgr.versionDlg.newVersion=가장 최근 BlueJ 버전:
 
 #print project dialog
-pkgmgr.printDialog.title=BlueJ:  Print Project
-pkgmgr.printDialog.printDiagram=Print class diagram
-pkgmgr.printDialog.printSource=Print source code
-pkgmgr.printDialog.printReadme=Print project readme 
+pkgmgr.printDialog.title=BlueJ:  프로젝트 출력
+pkgmgr.printDialog.printDiagram=클래스 다이어그램 출력
+pkgmgr.printDialog.printSource=소스 코드 출력
+pkgmgr.printDialog.printReadme=프로젝트 readme 출력 
 
 # method call dialog
-pkgmgr.methodCall.titleCreate=Create Object
-pkgmgr.methodCall.titleCall=Method Call
-pkgmgr.methodCall.namePrompt=Name of Instance:
-pkgmgr.methodCall.typeParametersPrompt=Type Parameters:
-pkgmgr.methodCall.typeParameterPrompt=Type Parameter:
-error.methodCall.emptyField=Error: Empty parameter field.
-error.methodCall.emptyTypeField=Error: Empty type parameter field.\nEither fill out all type parameters or none of them.
-error.methodCall.illegalName=The instance name must be a Java identifier.
-error.methodCall.duplicateName=An object with this name already exists.\nPlease choose a unique name.
+pkgmgr.methodCall.titleCreate=객체 생성
+pkgmgr.methodCall.titleCall=메소드 호출
+pkgmgr.methodCall.namePrompt=인스턴스 이름:
+pkgmgr.methodCall.typeParametersPrompt=타입 파라미터:
+pkgmgr.methodCall.typeParameterPrompt=타입 파라미터:
+error.methodCall.emptyField=에러: 파라미터 필드가 비어 있습니다.
+error.methodCall.emptyTypeField=에러: 타입 파라미터 필드가 비어 있습니다.\n모든 타입 파라미터를 채우거나 모두 비워주세요.
+error.methodCall.illegalName=인스턴스 이름은 Java 식별자여야 합니다.
+error.methodCall.duplicateName=이 이름을 가진 객체가 이미 존재합니다.\n유니크한 이름을 선택해주세요.
 
 # Debugger dialog (ExecControls.java)
-debugger.execControls.windowTitle = Debugger
-debugger.execControls.stackTitle = Call Sequence
-debugger.execControls.staticTitle = Static variables
-debugger.execControls.instanceTitle = Instance variables
-debugger.execControls.localTitle = Local variables
-debugger.execControls.threadTitle = Threads
-debugger.execControls.haltButtonText = Halt
-debugger.execControls.stepButtonText = Step
-debugger.execControls.stepIntoButtonText = Step Into
-debugger.execControls.continueButtonText = Continue
-debugger.execControls.terminateButtonText = Terminate
+debugger.execControls.windowTitle = 디버거
+debugger.execControls.stackTitle = 호출 순서
+debugger.execControls.staticTitle = 정적 변수
+debugger.execControls.instanceTitle = 인스턴스 변수
+debugger.execControls.localTitle = 로컬 변수
+debugger.execControls.threadTitle = 스레드
+debugger.execControls.haltButtonText = 중지
+debugger.execControls.stepButtonText = 단계
+debugger.execControls.stepIntoButtonText = 단계 안으로
+debugger.execControls.continueButtonText = 계속
+debugger.execControls.terminateButtonText = 종료
 
-debugger.options = Options
-debugger.hideSystemThreads = Hide system threads
-debugger.threadRunning = <html><center>Thread is running or finished.<br>Threads must be stopped to view details.</html>
-debugger.noThreadSelected = No thread selected.
+debugger.options = 옵션
+debugger.hideSystemThreads = 시스템 스레드 숨기기
+debugger.threadRunning = <html><center>스레드가 실행 중이거나 완료되었습니다.<br>세부 정보를 보려면 스레드를 중지해야 합니다.</html>
+debugger.noThreadSelected = 스레드가 선택되지 않았습니다.
 
 # DialogManager labels
 
