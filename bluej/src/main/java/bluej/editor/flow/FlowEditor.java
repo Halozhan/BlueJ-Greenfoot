@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program. 
- Copyright (C) 2019,2020,2021,2022  Michael Kolling and John Rosenberg
+ Copyright (C) 2019,2020,2021,2022,2023  Michael Kolling and John Rosenberg
 
  This program is free software; you can redistribute it and/or 
  modify it under the terms of the GNU General Public License 
@@ -539,7 +539,7 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
         BorderPane.setAlignment(info, Pos.TOP_LEFT);
         BorderPane.setAlignment(saveState, Pos.CENTER_RIGHT);
         JavaFXUtil.addStyleClass(commentsPanel, "moe-bottom-status-row");
-        commentsPanel.styleProperty().bind(PrefMgr.getEditorFontCSS(false));
+        commentsPanel.styleProperty().bind(PrefMgr.getEditorFontCSS(PrefMgr.FontCSS.EDITOR_SIZE_ONLY));
 
         bottomArea.setBottom(commentsPanel);
         bottomArea.setTop(finder);
@@ -1204,30 +1204,20 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
             if (doc != null)
             {
                 /* Javadoc looks like this:
-                <a id="sampleMethod(java.lang.String)">
-                <!--   -->
-                </a>
-                <ul>
-                <li>
-                <h4>sampleMethod</h4>
+                <section class="detail" id="sampleMethod(int)">
+                <h3>sampleMethod</h3>
                  */
 
-                // First find the anchor.  Ignore anchors with ids that do not end in a closing bracket (they are not methods):
-                NodeList anchors = doc.getElementsByTagName("a");
-                for (int i = 0; i < anchors.getLength(); i++)
+                // First find the section.  Ignore sections with ids that do not end in a closing bracket (they are not methods):
+                NodeList sections = doc.getElementsByTagName("section");
+                for (int i = 0; i < sections.getLength(); i++)
                 {
-                    org.w3c.dom.Node anchorItem = anchors.item(i);
-                    org.w3c.dom.Node anchorName = anchorItem.getAttributes().getNamedItem("id");
-                    if (anchorName != null && anchorName.getNodeValue() != null && anchorName.getNodeValue().endsWith(")"))
+                    org.w3c.dom.Node sectionItem = sections.item(i);
+                    org.w3c.dom.Node sectionId = sectionItem.getAttributes().getNamedItem("id");
+                    if (sectionId != null && sectionId.getNodeValue() != null && sectionId.getNodeValue().endsWith(")"))
                     {
-                        // Then find the ul child, then the li child of that, then the h4 child of that:
-                        org.w3c.dom.Node ulNode = findHTMLNode(anchorItem, org.w3c.dom.Node::getNextSibling, n -> "ul".equals(n.getLocalName()));
-                        if (ulNode == null)
-                            continue;
-                        org.w3c.dom.Node liNode = findHTMLNode(ulNode.getFirstChild(), org.w3c.dom.Node::getNextSibling, n -> "li".equals(n.getLocalName()));
-                        if (liNode == null)
-                            continue;
-                        org.w3c.dom.Node headerNode = findHTMLNode(liNode.getFirstChild(), org.w3c.dom.Node::getNextSibling, n -> "h4".equals(n.getLocalName()));
+                        // Then find the first h3 child of that:
+                        org.w3c.dom.Node headerNode = findHTMLNode(sectionItem.getFirstChild(), org.w3c.dom.Node::getNextSibling, n -> "h3".equals(n.getLocalName()));
                         if (headerNode != null)
                         {
                             // Make a link, and set a listener for it:
@@ -1238,7 +1228,7 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
 
                             ((EventTarget) newLink).addEventListener("click", e ->
                             {
-                                String[] tokens = anchorName.getNodeValue().split("[(,)]");
+                                String[] tokens = sectionId.getNodeValue().split("[(,)]");
                                 List<String> paramTypes = new ArrayList<>();
                                 for (int t = 1; t < tokens.length; t++)
                                 {
@@ -1697,7 +1687,7 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
 
         switchToSourceView();
 
-        if (diagnostic.getStartLine() >= 0 && diagnostic.getStartLine() < document.getLineCount())
+        if (diagnostic.getStartLine() >= 0 && diagnostic.getStartLine() <= document.getLineCount())
         {
             // Limit diagnostic display to a single line.
             int startPos = document.getPosition(new SourceLocation((int)diagnostic.getStartLine(), (int) diagnostic.getStartColumn()));
@@ -2445,6 +2435,17 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
             && paramsMatch(tree.getNode(), paramTypes))
         {
             switchToSourceView();
+            // This is a bit of a hack.  We don't record the position of the
+            // actual method header that we want to focus.  But the start of the
+            // method node is either that position, or the start of the preceding
+            // Javadoc.  So if there's Javadoc we skip forward by that length,
+            // plus one (which we assume to be the newline afterwards).  This
+            // should work for most code, or at least get closer than the start
+            // of the Javadoc.
+            if (tree.getNode() instanceof MethodNode m && m.getJavadoc() != null)
+            {
+                offset += m.getJavadoc().length() + 1;
+            }
             flowEditorPane.positionCaret(offset);
             return true;
         }
@@ -3201,8 +3202,11 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
          
             LocatableToken suggestToken = suggests.getSuggestionToken();
             AssistContent[] possibleCompletions = ParseUtils.getPossibleCompletions(suggests, javadocResolver, null, parser.getContainingMethodOrClassNode(flowEditorPane.getCaretPosition()));
-            Arrays.sort(possibleCompletions, AssistContent.getComparator());
-            completionCandidates.addAll(Arrays.asList(possibleCompletions));
+            if (possibleCompletions != null)
+            {
+                Arrays.sort(possibleCompletions, AssistContent.getComparator());
+                completionCandidates.addAll(Arrays.asList(possibleCompletions));
+            }
             
             // Create suggestions from all the candidates
             List<SuggestionDetails> suggestionDetails = completionCandidates.stream()
@@ -3227,7 +3231,7 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
                 return;
             Bounds spLoc = flowEditorPane.screenToLocal(screenPos);
 
-            StringExpression editorFontCSS = PrefMgr.getEditorFontCSS(true);
+            StringExpression editorFontCSS = PrefMgr.getEditorFontCSS(PrefMgr.FontCSS.EDITOR_SIZE_AND_FAMILY);
             SuggestionList suggestionList = new SuggestionList(new SuggestionListParent()
             {
                 @Override
@@ -3851,7 +3855,7 @@ public class FlowEditor extends ScopeColorsBorderPane implements TextEditor, Flo
             });
             errorVBox.getStyleClass().add("java-error-popup");
             // No need to bind as only matters if user increases font size while error showing:
-            tf.setStyle(PrefMgr.getEditorFontCSS(false).get());
+            tf.setStyle(PrefMgr.getEditorFontCSS(PrefMgr.FontCSS.EDITOR_SIZE_ONLY).get());
             Config.addPopupStylesheets(errorVBox);
         }
     }

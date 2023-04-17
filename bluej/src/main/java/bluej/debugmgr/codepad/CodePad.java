@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program. 
- Copyright (C) 1999-2009,2010,2011,2012,2013,2016,2017,2018,2019,2020,2021,2022  Michael Kolling and John Rosenberg
+ Copyright (C) 1999-2009,2010,2011,2012,2013,2016,2017,2018,2019,2020,2021,2022,2023  Michael Kolling and John Rosenberg
  
  This program is free software; you can redistribute it and/or 
  modify it under the terms of the GNU General Public License 
@@ -167,10 +167,17 @@ public class CodePad extends VBox
     {
         // Text content of the row
         private final String text;
+        private boolean lastRowBeforeReset;
+
+        public HistoryRow(String text, boolean lastRowBeforeReset)
+        {
+            this.text = text;
+            this.lastRowBeforeReset = lastRowBeforeReset;
+        }
 
         public HistoryRow(String text)
         {
-            this.text = text;
+            this(text, false);
         }
 
         public final String getText() { return text; }
@@ -184,6 +191,17 @@ public class CodePad extends VBox
         public abstract Node getGraphic();
         /** Gets the graphical style that should be used for displaying this row. */
         public abstract RowStyle getStyle();
+
+        /** Makes a copy of this row */
+        public abstract HistoryRow clone();
+
+        /** Makes a copy that displays as the last row before a reset */
+        public final HistoryRow asLastRowBeforeReset()
+        {
+            HistoryRow historyRow = clone();
+            historyRow.lastRowBeforeReset = true;
+            return historyRow;
+        }
 
         @Override
         @OnThread(Tag.FXPlatform)
@@ -249,6 +267,12 @@ public class CodePad extends VBox
         public RowStyle getStyle()
         {
             return isFinalLine ? RowStyle.COMMAND_END : RowStyle.COMMAND_PARTIAL;
+        }
+
+        @Override
+        public HistoryRow clone()
+        {
+            return new CommandRow(getText(), isFinalLine);
         }
     }
 
@@ -379,6 +403,12 @@ public class CodePad extends VBox
         }
 
         @Override
+        public HistoryRow clone()
+        {
+            return new OutputSuccessRow(getText(), objInfo);
+        }
+
+        @Override
         @OnThread(Tag.FXPlatform)
         public List<? extends AbstractOperation<HistoryRow>> getContextOperations()
         {
@@ -450,6 +480,12 @@ public class CodePad extends VBox
         {
             return RowStyle.ERROR;
         }
+
+        @Override
+        public HistoryRow clone()
+        {
+            return new ErrorRow(getText());
+        }
     }
 
     private static final String nullLabel = "null";
@@ -499,8 +535,8 @@ public class CodePad extends VBox
                 historyView.getSelectionModel().selectLast();
         });
 
-        inputField.styleProperty().bind(PrefMgr.getEditorFontCSS(false));
-        historyView.styleProperty().bind(PrefMgr.getEditorFontCSS(false));
+        inputField.styleProperty().bind(PrefMgr.getEditorFontCSS(PrefMgr.FontCSS.EDITOR_SIZE_ONLY));
+        historyView.styleProperty().bind(PrefMgr.getEditorFontCSS(PrefMgr.FontCSS.EDITOR_SIZE_ONLY));
 
         Nodes.addInputMap(inputField, InputMap.sequence(
             InputMap.consume(EventPattern.keyPressed(KeyCode.EQUALS, KeyCombination.SHORTCUT_DOWN), e -> Utility.increaseFontSize(PrefMgr.getEditorFontSize())),
@@ -622,6 +658,7 @@ public class CodePad extends VBox
                     setGraphic(item.getGraphic());
                     setText(item.getText());
                     JavaFXUtil.selectPseudoClass(this, Arrays.asList(allRowStyles).indexOf(item.getStyle().getPseudoClass()), allRowStyles);
+                    JavaFXUtil.setPseudoclass("bj-codepad-terminated-after", item.lastRowBeforeReset, this);
                 }
                 else
                 {
@@ -733,7 +770,7 @@ public class CodePad extends VBox
         @OnThread(Tag.FXPlatform)
         public void beginExecution(InvokerRecord ir)
         {
-            BlueJEvent.raiseEvent(BlueJEvent.METHOD_CALL, ir);
+            BlueJEvent.raiseEvent(BlueJEvent.METHOD_CALL, ir, frame.getProject());
         }
 
         /*
@@ -1025,6 +1062,14 @@ public class CodePad extends VBox
     public void clear()
     {
         clearVars();
+        if (!historyView.getItems().isEmpty())
+        {
+            int lastIndex = historyView.getItems().size() - 1;
+            // We must replace the item with a copy, rather than changing
+            // the flag in place in order to trigger a new layout of the ListView
+            // component to display the line:
+            historyView.getItems().set(lastIndex, historyView.getItems().get(lastIndex).asLastRowBeforeReset());
+        }
     }
 
     /**
