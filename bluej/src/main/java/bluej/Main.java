@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program. 
- Copyright (C) 1999-2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2021,2022  Michael Kolling and John Rosenberg
+ Copyright (C) 1999-2009,2010,2011,2012,2013,2014,2015,2016,2017,2018,2019,2021,2022,2023  Michael Kolling and John Rosenberg
  
  This program is free software; you can redistribute it and/or 
  modify it under the terms of the GNU General Public License 
@@ -56,9 +56,6 @@ import org.w3c.dom.html.HTMLAnchorElement;
 import threadchecker.OnThread;
 import threadchecker.Tag;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.desktop.QuitResponse;
 import java.io.File;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
@@ -86,16 +83,6 @@ public class Main
 {
     private static final String MESSAGE_ROOT = "https://www.bluej.org/message/";
     private static final String TESTING_MESSAGE_ROOT = "https://www.bluej.org/message_test/";
-    /** 
-     * Whether we've officially launched yet. While false "open file" requests only
-     * set initialProject.
-     */
-    private static boolean launched = false;
-    
-    /** On MacOS X, this will be set to the project we should open (if any) */ 
-    private static List<File> initialProjects;
-
-    private static QuitResponse macEventResponse = null;  // used to respond to external quit events on MacOS
 
     /**
      * Only used on Mac.  For some reason, executing the AppleJavaExtensions open
@@ -190,29 +177,29 @@ public class Main
      */
     @OnThread(Tag.FXPlatform)
     private static Stage processArgs(String[] args)
-    {
-        launched = true;
-        
-        boolean oneOpened = false;
+    {        
+        final AtomicBoolean oneOpened = new AtomicBoolean(false);
 
         // Open any projects specified on the command line
         if (args.length > 0) {
             for (String arg : args) {
                 if (!arg.startsWith("-")) {
-                    oneOpened |= guiHandler.tryOpen(new File(arg), true);
+                    oneOpened.set(guiHandler.tryOpen(new File(arg), true) || oneOpened.get());
                 }
             }
         }
-
+        
         // Open a project if requested by the OS (Mac OS)
-        if (initialProjects != null) {
-            for (File initialProject : initialProjects) {
-                oneOpened |= guiHandler.tryOpen(initialProject, true);
+        Boot.setFileOpenHandler(fs -> {
+            for (File f : fs)
+            {
+                // This will set oneOpened after we stop caring about it, but that doesn't really matter:
+                oneOpened.set(guiHandler.tryOpen(f, true) || oneOpened.get());
             }
-        }
+        });
 
         // if we have orphaned packages, these are re-opened
-        if (!oneOpened) {
+        if (!oneOpened.get()) {
             // check for orphans...
             boolean openOrphans = "true".equals(Config.getPropString("bluej.autoOpenLastProject"));
             if (openOrphans && hadOrphanPackages()) {
@@ -221,13 +208,13 @@ public class Main
                 for (int i = 1; exists != null; i++) {
                     exists = Config.getPropString(Config.BLUEJ_OPENPACKAGE + i, null);
                     if (exists != null) {
-                        oneOpened |= guiHandler.tryOpen(new File(exists), false);
+                        oneOpened.set(guiHandler.tryOpen(new File(exists), false) | oneOpened.get());
                     }
                 }
             }
         }
 
-        Stage window = guiHandler.initialOpenComplete(oneOpened);
+        Stage window = guiHandler.initialOpenComplete(oneOpened.get());
         
         Boot.getInstance().disposeSplashWindow();
         ExtensionsManager.getInstance().delegateEvent(new ApplicationEvent(ApplicationEvent.EventType.APP_READY_EVENT));
@@ -242,18 +229,9 @@ public class Main
     private static void prepareMacOSApp()
     {
         storedContextClassLoader = Thread.currentThread().getContextClassLoader();
-        initialProjects = Boot.getMacInitialProjects();
 
-        // Even though BlueJ is JavaFX, the open-files handling still goes
-        // through the java.awt.Desktop handling, once it is loaded
-        // So we must do the handler set up for AWT/Swing even though we're running
-        // in JavaFX.
-        // Crashes in macOS 13 (Ventura) 
-        // prepareMacOSMenuSwing();
-
-        // We are using the NSMenuFX library to fix Mac Application menu only when it is a FX
-        // menu. When the JDK APIs (i.e. handleAbout() etc) are fixed, both should go back to
-        // the way as in prepareMacOSMenuSwing().
+        // We are using the NSMenuFX library to fix Mac Application menu.  If JavaFX ever
+        // adds proper support for this, we should use that.
         prepareMacOSMenuFX();
 
         // This is not included in the above condition to avoid future bugs,
@@ -306,49 +284,9 @@ public class Main
             // Quit
             defaultApplicationMenu.getItems().get(defaultApplicationMenu.getItems().size()-1).
                     setOnAction(event -> guiHandler.handleQuit());
-        });
-    }
 
-    /**
-     * Prepare Mac Application Swing menu using the java.awt.Desktop APIs.
-     */
-    @SuppressWarnings("threadchecker")
-    private static void prepareMacOSMenuSwing()
-    {
-        Desktop.getDesktop().setAboutHandler(e -> {
-            Platform.runLater(() -> guiHandler.handleAbout());
+            Boot.getInstance().setQuitHandler(() -> JavaFXUtil.runAfterCurrent(() -> guiHandler.handleQuit()));
         });
-
-        Desktop.getDesktop().setPreferencesHandler(e -> {
-            Platform.runLater(() -> guiHandler.handlePreferences());
-        });
-
-        Desktop.getDesktop().setQuitHandler((e, response) -> {
-            macEventResponse = response;
-            Platform.runLater(() -> guiHandler.handleQuit());
-            // response.confirmQuit() does not need to be called, since System.exit(0) is called explcitly
-            // response.cancelQuit() is called to cancel (in wantToQuit())
-        });
-
-        Desktop.getDesktop().setOpenFileHandler(e ->  {
-            if (launched)
-            {
-                List<File> files = e.getFiles();
-                Platform.runLater(() ->
-                {
-                    for (File file : files)
-                    {
-                        guiHandler.tryOpen(file, true);
-                    }
-                });
-            }
-            else
-                {
-                initialProjects = e.getFiles();
-            }
-        });
-
-        Boot.getInstance().setQuitHandler(() -> Platform.runLater(() -> guiHandler.handleQuit()));
     }
 
     /**
@@ -365,17 +303,6 @@ public class Main
         if (answer == 0)
         {
             doQuit();
-        }
-        else
-        {
-            SwingUtilities.invokeLater(() ->
-            {
-                if (macEventResponse != null)
-                {
-                    macEventResponse.cancelQuit();
-                    macEventResponse = null;
-                }
-            });
         }
     }
 
@@ -538,9 +465,9 @@ public class Main
         Config.handleExit();
         // exit with success status
 
-        // We wrap this in a Platform.runLater/Swing.invokeLater to make sure it
-        // runs after any pending FX actions or Swing actions:
-        JavaFXUtil.runAfterCurrent(() -> SwingUtilities.invokeLater(() -> System.exit(0)));
+        // We wrap this in a Platform.runLater to make sure it
+        // runs after any pending FX actions:
+        JavaFXUtil.runAfterCurrent(() -> System.exit(0));
     }
 
     // See comment on the field.
@@ -667,7 +594,7 @@ public class Main
                     EventTarget target = evt.getCurrentTarget();
                     HTMLAnchorElement anchorElement = (HTMLAnchorElement) target;
                     String href = anchorElement.getHref();
-                    SwingUtilities.invokeLater(() -> Utility.openWebBrowser(href));
+                    Utility.openWebBrowser(href);
                     evt.preventDefault();
                 }
             }, false);
