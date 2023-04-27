@@ -1,6 +1,6 @@
 /*
  This file is part of the BlueJ program. 
- Copyright (C) 1999-2009,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021  Michael Kolling and John Rosenberg
+ Copyright (C) 1999-2009,2012,2013,2014,2015,2016,2017,2018,2019,2020,2021,2023  Michael Kolling and John Rosenberg
  
  This program is free software; you can redistribute it and/or 
  modify it under the terms of the GNU General Public License 
@@ -21,13 +21,13 @@
  */
 package bluej.prefmgr;
 
-import java.awt.Font;
 import java.io.File;
 import java.util.*;
 
 import bluej.utility.javafx.JavaFXUtil;
 import javafx.beans.binding.Bindings;
 import javafx.beans.binding.BooleanExpression;
+import javafx.beans.binding.NumberBinding;
 import javafx.beans.binding.StringExpression;
 import javafx.beans.property.BooleanProperty;
 import javafx.beans.property.IntegerProperty;
@@ -92,14 +92,12 @@ public class PrefMgr
     private static final String editorFontSizePropertyName = "bluej.editor.fontsize";
     // other constants
     private static final int NUM_RECENT_PROJECTS = Config.getPropInteger("bluej.numberOfRecentProjects", 12);
-    // initialised by a call to setMenuFontSize()
-    @OnThread(Tag.Swing)
-    private static Font popupMenuFont;
-    @OnThread(Tag.Swing)
-    private static Font italicMenuFont;
+
     // initialised by a call to setEditorFontSize()
     @OnThread(Tag.FX)
     private static final IntegerProperty editorFontSize = new SimpleIntegerProperty(DEFAULT_JAVA_FONT_SIZE);
+    @OnThread(Tag.FX)
+    private static final NumberBinding editorLineNumberFontSize = Bindings.multiply(editorFontSize, 0.75);
     @OnThread(Tag.FX)
     private static final StringProperty editorStandardFont = new SimpleStringProperty("Roboto Mono");
     private static final StringProperty editorFallbackFont = new SimpleStringProperty("monospace");
@@ -143,6 +141,8 @@ public class PrefMgr
     // slightly shrunken and doesn't set family
     @OnThread(Tag.FX)
     private static StringExpression editorFontSizeOnlyCSS;
+    @OnThread(Tag.FX)
+    private static StringExpression editorLineNumberFontSizeOnlyCSS;
 
     // A property to hold the Greenfoot player's name
     private static StringProperty playerName;
@@ -202,18 +202,6 @@ public class PrefMgr
         for(int i = 0; i < recentProjects.size(); i++) {
             Config.putPropString("bluej.recentProject" + i, recentProjects.get(i));
         }
-    }
-
-    @OnThread(Tag.Swing)
-    public static Font getStandoutMenuFont()
-    {
-        return italicMenuFont;
-    }
-
-    @OnThread(Tag.Swing)
-    public static Font getPopupMenuFont()
-    {
-        return popupMenuFont;   
     }
 
     /**
@@ -322,8 +310,10 @@ public class PrefMgr
         return editorFontSize;
     }
 
+    public static enum FontCSS { EDITOR_SIZE_ONLY, EDITOR_SIZE_AND_FAMILY, LINE_NUMBER_SIZE_ONLY }
+
     @OnThread(Tag.FX)
-    public static StringExpression getEditorFontCSS(boolean includeFamily)
+    public static StringExpression getEditorFontCSS(FontCSS type)
     {
         if (editorFontCSS == null)
         {
@@ -333,8 +323,14 @@ public class PrefMgr
                     "-fx-font-size: ", editorFontSize, "pt;",
                     "-fx-font-family: \"", editorStandardFont, "\";"
             );
+            editorLineNumberFontSizeOnlyCSS = Bindings.concat(
+                    "-fx-font-size: ", editorLineNumberFontSize, "pt;");
         }
-        return includeFamily ? editorFontCSS : editorFontSizeOnlyCSS;
+        return switch (type) {
+            case EDITOR_SIZE_ONLY -> editorFontSizeOnlyCSS;
+            case EDITOR_SIZE_AND_FAMILY -> editorFontCSS;
+            case LINE_NUMBER_SIZE_ONLY -> editorLineNumberFontSizeOnlyCSS;
+        };
     }
 
     /**
@@ -426,15 +422,6 @@ public class PrefMgr
 
         //set the text file extensions to be seen as plain text file by BlueJ
         setEditorTextFileExtensions(Config.getPropString(editorTextFileExtensionsPropertyName, DEFAULT_TEXTFILE_EXTENSIONS));
-
-        //bluej menu font
-        int menuFontSize = Config.getPropInteger("bluej.menu.fontsize", 12);
-        Font menuFont = Config.getFont("bluej.menu.font", "SansSerif", menuFontSize);
-        
-        // popup menus are not permitted to be bold (MIK style guide) at present
-        // make popup menus same font as drop down menus
-        italicMenuFont = menuFont.deriveFont(Font.ITALIC);
-        popupMenuFont = menuFont.deriveFont(Font.PLAIN);
 
         // preferences other than fonts:
         highlightStrength.set(Config.getPropInteger(SCOPE_HIGHLIGHTING_STRENGTH, 20));
