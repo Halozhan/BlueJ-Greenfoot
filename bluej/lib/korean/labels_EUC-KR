@@ -864,92 +864,92 @@ menu.help.standardApi=Java 클래스 라이브러리 (_C)
 
 # tool tips
 
-tooltip.newClass=Create a new class in this package
-tooltip.newUses=Insert a 'uses' relation
-tooltip.newExtends=Insert an inheritance relation
-tooltip.compile=Compile all uncompiled classes in this package
-tooltip.test=Run all compiled test classes in this package
-tooltip.progress=Work indicator: indicates when virtual machine is executing
-tooltip.test.end=End a recording of a test method and save it.
-tooltip.test.cancel=Cancel and discard a recording of a test method.
-tooltip.commit=Commit local changes back to the repository
-tooltip.update=Update local files that have been modified in the repository
-tooltip.status=Show the status of all teamwork files in the project
+tooltip.newClass=이 패키지에 새 클래스 생성
+tooltip.newUses='uses' 관계 삽입
+tooltip.newExtends=상속 관계 삽입
+tooltip.compile=이 패키지의 컴파일되지 않은 모든 클래스 컴파일
+tooltip.test=이 패키지의 컴파일된 모든 테스트 클래스 실행
+tooltip.progress=작업 표시기: 가상 머신이 실행 중인지 표시
+tooltip.test.end=테스트 메소드 녹화 종료 및 저장
+tooltip.test.cancel=테스트 메소드 녹화 취소 및 삭제
+tooltip.commit=로컬 변경 내용을 저장소에 커밋
+tooltip.update=저장소에서 수정된 로컬 파일 업데이트
+tooltip.status=프로젝트의 모든 팀워크 파일의 상태 표시
 
 
-graph.tooltip.classBroken=This class cannot currently be parsed
+graph.tooltip.classBroken=이 클래스는 현재 파싱할 수 없습니다.
 
 
 #Copyright
 
-menu.help.copyright.title=BlueJ Copyright, Licensing and Redistribution
-menu.help.copyright.line1=BlueJ is available under the GNU General Public License  
-menu.help.copyright.line2=version 2 with Classpath exception.
-menu.help.copyright.line3=For more information please see the files LICENSE.txt 
-menu.help.copyright.line4=and THIRDPARTYLICENSE.txt.
+menu.help.copyright.title=BlueJ 저작권, 라이선스 및 재배포
+menu.help.copyright.line1=BlueJ는 GNU 일반 공중 라이선스 버전 2 및
+menu.help.copyright.line2=클래스패스 예외 조항을 따릅니다.
+menu.help.copyright.line3=자세한 내용은 LICENSE.txt 및
+menu.help.copyright.line4=THIRDPARTYLICENSE.txt 파일을 참조하십시오.
 
 #Collection
 # The content for these is HTML, so don't use <, > or & without escaping:
 
-collect.dialog.title=Research Participation
+collect.dialog.title=연구 참여
 
-collect.dialog.header1=BlueJ collects anonymous interaction information to improve the software and help researchers
-collect.dialog.header2=understand how students learn to program.
-collect.dialog.header3=Please help us by participating.
+collect.dialog.header1=BlueJ는 소프트웨어를 개선하고 학생들이 프로그래밍을 배우는 방식을 이해하는 데
+collect.dialog.header2=도움을 주기 위해 익명 상호 작용 정보를 수집합니다.
+collect.dialog.header3=참여하여 우리를 도와주세요.
 
-collect.dialog.no=No thanks
-collect.dialog.yes=I agree to take part, and I certify that I am 16 or older
+collect.dialog.no=아니요, 감사합니다.
+collect.dialog.yes=참여에 동의하며, 제가 16세 이상임을 확인합니다.
 
-collect.dialog.ethics1=If you agree to take part, you will permit us to collect anonymous data about your use of BlueJ, including the features you use and the code you write. This will be used by the BlueJ group and other academic researchers to help understand how students learn to program and to improve BlueJ itself. No personal information will be transmitted to, or stored by, us and any Java class comments you write will be removed before transmission.
-collect.dialog.ethics.seemore=See more information
-collect.dialog.ethics2=If you change your mind about helping us with this work, you can stop contributing at any time using the checkbox in the Tools/Preferences/Miscellaneous dialog.
+collect.dialog.ethics1=참여에 동의하시면, BlueJ 사용에 관한 기능 및 코드 작성과 같은 익명 데이터를 수집할 수 있습니다. 이는 BlueJ 그룹 및 다른 학술 연구에서 학생들이 프로그래밍을 배우는 방식을 이해하고 BlueJ 자체를 개선하는 데 사용됩니다. 개인 정보는 우리에게 전송되거나 저장되지 않으며, Java 클래스 코멘트는 전송 전에 제거됩니다.
+collect.dialog.ethics.seemore=자세히보기
+collect.dialog.ethics2=참여를 중단하고 싶다면, 도구/환경설정/기타 대화상자에서 확인란을 사용하여 언제든지 참여를 중지할 수 있습니다.
 
-collect.status.optedin=You are currently allowing anonymous research data collection
-collect.status.nextsession=You will allow anonymous data collection research next time BlueJ is started
-collect.status.optedout=You are currently not participating in the anonymous research data collection
+collect.status.optedin=현재 익명 연구 데이터 수집에 참여하고 있습니다.
+collect.status.nextsession=다음에 BlueJ를 시작할 때 익명 데이터 수집 연구를 허용합니다.
+collect.status.optedout=현재 익명 연구 데이터 수집에 참여하지 않고 있습니다.
 
 # About
 
-about.version=$APPNAME version
-about.java.version=Java version
-about.vm=Virtual machine:
-about.javafx=JavaFX version:
-about.runningOn=Running on:
-about.logfile=Debug log file:
-about.moreInformation=For more information, see
-about.theTeam=$APPNAME team:
-about.openFolder=Open Folder
-about.general.title=General
-about.translators.title=Translators
-about.contributors.title=Contributors
-about.previousTeamMembers.title=Previous Team Members:
+about.version=$APPNAME 버전
+about.java.version=Java 버전
+about.vm=가상 머신:
+about.javafx=JavaFX 버전:
+about.runningOn=실행 중인 운영체제:
+about.logfile=디버그 로그 파일:
+about.moreInformation=자세한 정보는 다음을 참조하세요.
+about.theTeam=$APPNAME 팀:
+about.openFolder=폴더 열기
+about.general.title=일반
+about.translators.title=번역자
+about.contributors.title=기여자
+about.previousTeamMembers.title=이전 팀 멤버:
 
 # Work Indicator
-workIndicator.resetMachine=Reset Java Virtual Machine@^R
+workIndicator.resetMachine=Java 가상 머신 재설정@^R
 
 # Not a package
-notAProject.bluej.title=Not A BlueJ Project
-notAProject.bluej.message=The selected folder does not contain a BlueJ project:
-notAProject.bluej.subDirs=Some child folders have BlueJ projects.  Did you mean:
-notAProject.bluej.subDirButton=Open Selected
-notAProject.bluej.button=Choose Again...
+notAProject.bluej.title=BlueJ 프로젝트가 아닙니다
+notAProject.bluej.message=선택한 폴더는 BlueJ 프로젝트를 포함하고 있지 않습니다:
+notAProject.bluej.subDirs=일부 하위 폴더는 BlueJ 프로젝트를 가지고 있습니다. 다음을 의미하나요:
+notAProject.bluej.subDirButton=선택한 폴더 열기
+notAProject.bluej.button=다시 선택하기...
 
 # New project
-newProject.name=Name
-newProject.parent=Location
-newProject.path=Path
-newProject.parent.choose=Choose...
-newProject.error.parentNotExist=Location does not exist
-newProject.error.compoundExist=Path already exists
-newProject.error.pathInvalid=Path is invalid
-newProject.prompt=Enter a name for the new project
+newProject.name=이름
+newProject.parent=위치
+newProject.path=경로
+newProject.parent.choose=선택...
+newProject.error.parentNotExist=위치가 존재하지 않습니다
+newProject.error.compoundExist=경로가 이미 존재합니다
+newProject.error.pathInvalid=경로가 잘못되었습니다
+newProject.prompt=새 프로젝트의 이름을 입력하세요
 
 # Class Diagram
-classTarget.noSource=no source
+classTarget.noSource=소스가 없습니다
 
-bluej.central.msg.title=BlueJ - Latest News
+bluej.central.msg.title=BlueJ - 최신 뉴스
 
-printing.progress.title=Printing
-printing.progress.file=File progress (${cur}/${total} lines)
-printing.progress.project=Project progress (${cur}/${total} items)
-printing.progress.canceling=Canceling...
+printing.progress.title=인쇄 중
+printing.progress.file=파일 진행 (${cur}/${total} 라인)
+printing.progress.project=프로젝트 진행 (${cur}/${total} 항목)
+printing.progress.canceling=취소 중...

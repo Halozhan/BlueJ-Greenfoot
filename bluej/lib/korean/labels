@@ -864,92 +864,92 @@ menu.help.standardApi=Java \ud074\ub798\uc2a4 \ub77c\uc774\ube0c\ub7ec\ub9ac (_C
 
 # tool tips
 
-tooltip.newClass=Create a new class in this package
-tooltip.newUses=Insert a 'uses' relation
-tooltip.newExtends=Insert an inheritance relation
-tooltip.compile=Compile all uncompiled classes in this package
-tooltip.test=Run all compiled test classes in this package
-tooltip.progress=Work indicator: indicates when virtual machine is executing
-tooltip.test.end=End a recording of a test method and save it.
-tooltip.test.cancel=Cancel and discard a recording of a test method.
-tooltip.commit=Commit local changes back to the repository
-tooltip.update=Update local files that have been modified in the repository
-tooltip.status=Show the status of all teamwork files in the project
+tooltip.newClass=\uc774 \ud328\ud0a4\uc9c0\uc5d0 \uc0c8 \ud074\ub798\uc2a4 \uc0dd\uc131
+tooltip.newUses='uses' \uad00\uacc4 \uc0bd\uc785
+tooltip.newExtends=\uc0c1\uc18d \uad00\uacc4 \uc0bd\uc785
+tooltip.compile=\uc774 \ud328\ud0a4\uc9c0\uc758 \ucef4\ud30c\uc77c\ub418\uc9c0 \uc54a\uc740 \ubaa8\ub4e0 \ud074\ub798\uc2a4 \ucef4\ud30c\uc77c
+tooltip.test=\uc774 \ud328\ud0a4\uc9c0\uc758 \ucef4\ud30c\uc77c\ub41c \ubaa8\ub4e0 \ud14c\uc2a4\ud2b8 \ud074\ub798\uc2a4 \uc2e4\ud589
+tooltip.progress=\uc791\uc5c5 \ud45c\uc2dc\uae30: \uac00\uc0c1 \uba38\uc2e0\uc774 \uc2e4\ud589 \uc911\uc778\uc9c0 \ud45c\uc2dc
+tooltip.test.end=\ud14c\uc2a4\ud2b8 \uba54\uc18c\ub4dc \ub179\ud654 \uc885\ub8cc \ubc0f \uc800\uc7a5
+tooltip.test.cancel=\ud14c\uc2a4\ud2b8 \uba54\uc18c\ub4dc \ub179\ud654 \ucde8\uc18c \ubc0f \uc0ad\uc81c
+tooltip.commit=\ub85c\uceec \ubcc0\uacbd \ub0b4\uc6a9\uc744 \uc800\uc7a5\uc18c\uc5d0 \ucee4\ubc0b
+tooltip.update=\uc800\uc7a5\uc18c\uc5d0\uc11c \uc218\uc815\ub41c \ub85c\uceec \ud30c\uc77c \uc5c5\ub370\uc774\ud2b8
+tooltip.status=\ud504\ub85c\uc81d\ud2b8\uc758 \ubaa8\ub4e0 \ud300\uc6cc\ud06c \ud30c\uc77c\uc758 \uc0c1\ud0dc \ud45c\uc2dc
 
 
-graph.tooltip.classBroken=This class cannot currently be parsed
+graph.tooltip.classBroken=\uc774 \ud074\ub798\uc2a4\ub294 \ud604\uc7ac \ud30c\uc2f1\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.
 
 
 #Copyright
 
-menu.help.copyright.title=BlueJ Copyright, Licensing and Redistribution
-menu.help.copyright.line1=BlueJ is available under the GNU General Public License  
-menu.help.copyright.line2=version 2 with Classpath exception.
-menu.help.copyright.line3=For more information please see the files LICENSE.txt 
-menu.help.copyright.line4=and THIRDPARTYLICENSE.txt.
+menu.help.copyright.title=BlueJ \uc800\uc791\uad8c, \ub77c\uc774\uc120\uc2a4 \ubc0f \uc7ac\ubc30\ud3ec
+menu.help.copyright.line1=BlueJ\ub294 GNU \uc77c\ubc18 \uacf5\uc911 \ub77c\uc774\uc120\uc2a4 \ubc84\uc804 2 \ubc0f
+menu.help.copyright.line2=\ud074\ub798\uc2a4\ud328\uc2a4 \uc608\uc678 \uc870\ud56d\uc744 \ub530\ub985\ub2c8\ub2e4.
+menu.help.copyright.line3=\uc790\uc138\ud55c \ub0b4\uc6a9\uc740 LICENSE.txt \ubc0f
+menu.help.copyright.line4=THIRDPARTYLICENSE.txt \ud30c\uc77c\uc744 \ucc38\uc870\ud558\uc2ed\uc2dc\uc624.
 
 #Collection
 # The content for these is HTML, so don't use <, > or & without escaping:
 
-collect.dialog.title=Research Participation
+collect.dialog.title=\uc5f0\uad6c \ucc38\uc5ec
 
-collect.dialog.header1=BlueJ collects anonymous interaction information to improve the software and help researchers
-collect.dialog.header2=understand how students learn to program.
-collect.dialog.header3=Please help us by participating.
+collect.dialog.header1=BlueJ\ub294 \uc18c\ud504\ud2b8\uc6e8\uc5b4\ub97c \uac1c\uc120\ud558\uace0 \ud559\uc0dd\ub4e4\uc774 \ud504\ub85c\uadf8\ub798\ubc0d\uc744 \ubc30\uc6b0\ub294 \ubc29\uc2dd\uc744 \uc774\ud574\ud558\ub294 \ub370
+collect.dialog.header2=\ub3c4\uc6c0\uc744 \uc8fc\uae30 \uc704\ud574 \uc775\uba85 \uc0c1\ud638 \uc791\uc6a9 \uc815\ubcf4\ub97c \uc218\uc9d1\ud569\ub2c8\ub2e4.
+collect.dialog.header3=\ucc38\uc5ec\ud558\uc5ec \uc6b0\ub9ac\ub97c \ub3c4\uc640\uc8fc\uc138\uc694.
 
-collect.dialog.no=No thanks
-collect.dialog.yes=I agree to take part, and I certify that I am 16 or older
+collect.dialog.no=\uc544\ub2c8\uc694, \uac10\uc0ac\ud569\ub2c8\ub2e4.
+collect.dialog.yes=\ucc38\uc5ec\uc5d0 \ub3d9\uc758\ud558\uba70, \uc81c\uac00 16\uc138 \uc774\uc0c1\uc784\uc744 \ud655\uc778\ud569\ub2c8\ub2e4.
 
-collect.dialog.ethics1=If you agree to take part, you will permit us to collect anonymous data about your use of BlueJ, including the features you use and the code you write. This will be used by the BlueJ group and other academic researchers to help understand how students learn to program and to improve BlueJ itself. No personal information will be transmitted to, or stored by, us and any Java class comments you write will be removed before transmission.
-collect.dialog.ethics.seemore=See more information
-collect.dialog.ethics2=If you change your mind about helping us with this work, you can stop contributing at any time using the checkbox in the Tools/Preferences/Miscellaneous dialog.
+collect.dialog.ethics1=\ucc38\uc5ec\uc5d0 \ub3d9\uc758\ud558\uc2dc\uba74, BlueJ \uc0ac\uc6a9\uc5d0 \uad00\ud55c \uae30\ub2a5 \ubc0f \ucf54\ub4dc \uc791\uc131\uacfc \uac19\uc740 \uc775\uba85 \ub370\uc774\ud130\ub97c \uc218\uc9d1\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4. \uc774\ub294 BlueJ \uadf8\ub8f9 \ubc0f \ub2e4\ub978 \ud559\uc220 \uc5f0\uad6c\uc5d0\uc11c \ud559\uc0dd\ub4e4\uc774 \ud504\ub85c\uadf8\ub798\ubc0d\uc744 \ubc30\uc6b0\ub294 \ubc29\uc2dd\uc744 \uc774\ud574\ud558\uace0 BlueJ \uc790\uccb4\ub97c \uac1c\uc120\ud558\ub294 \ub370 \uc0ac\uc6a9\ub429\ub2c8\ub2e4. \uac1c\uc778 \uc815\ubcf4\ub294 \uc6b0\ub9ac\uc5d0\uac8c \uc804\uc1a1\ub418\uac70\ub098 \uc800\uc7a5\ub418\uc9c0 \uc54a\uc73c\uba70, Java \ud074\ub798\uc2a4 \ucf54\uba58\ud2b8\ub294 \uc804\uc1a1 \uc804\uc5d0 \uc81c\uac70\ub429\ub2c8\ub2e4.
+collect.dialog.ethics.seemore=\uc790\uc138\ud788\ubcf4\uae30
+collect.dialog.ethics2=\ucc38\uc5ec\ub97c \uc911\ub2e8\ud558\uace0 \uc2f6\ub2e4\uba74, \ub3c4\uad6c/\ud658\uacbd\uc124\uc815/\uae30\ud0c0 \ub300\ud654\uc0c1\uc790\uc5d0\uc11c \ud655\uc778\ub780\uc744 \uc0ac\uc6a9\ud558\uc5ec \uc5b8\uc81c\ub4e0\uc9c0 \ucc38\uc5ec\ub97c \uc911\uc9c0\ud560 \uc218 \uc788\uc2b5\ub2c8\ub2e4.
 
-collect.status.optedin=You are currently allowing anonymous research data collection
-collect.status.nextsession=You will allow anonymous data collection research next time BlueJ is started
-collect.status.optedout=You are currently not participating in the anonymous research data collection
+collect.status.optedin=\ud604\uc7ac \uc775\uba85 \uc5f0\uad6c \ub370\uc774\ud130 \uc218\uc9d1\uc5d0 \ucc38\uc5ec\ud558\uace0 \uc788\uc2b5\ub2c8\ub2e4.
+collect.status.nextsession=\ub2e4\uc74c\uc5d0 BlueJ\ub97c \uc2dc\uc791\ud560 \ub54c \uc775\uba85 \ub370\uc774\ud130 \uc218\uc9d1 \uc5f0\uad6c\ub97c \ud5c8\uc6a9\ud569\ub2c8\ub2e4.
+collect.status.optedout=\ud604\uc7ac \uc775\uba85 \uc5f0\uad6c \ub370\uc774\ud130 \uc218\uc9d1\uc5d0 \ucc38\uc5ec\ud558\uc9c0 \uc54a\uace0 \uc788\uc2b5\ub2c8\ub2e4.
 
 # About
 
-about.version=$APPNAME version
-about.java.version=Java version
-about.vm=Virtual machine:
-about.javafx=JavaFX version:
-about.runningOn=Running on:
-about.logfile=Debug log file:
-about.moreInformation=For more information, see
-about.theTeam=$APPNAME team:
-about.openFolder=Open Folder
-about.general.title=General
-about.translators.title=Translators
-about.contributors.title=Contributors
-about.previousTeamMembers.title=Previous Team Members:
+about.version=$APPNAME \ubc84\uc804
+about.java.version=Java \ubc84\uc804
+about.vm=\uac00\uc0c1 \uba38\uc2e0:
+about.javafx=JavaFX \ubc84\uc804:
+about.runningOn=\uc2e4\ud589 \uc911\uc778 \uc6b4\uc601\uccb4\uc81c:
+about.logfile=\ub514\ubc84\uadf8 \ub85c\uadf8 \ud30c\uc77c:
+about.moreInformation=\uc790\uc138\ud55c \uc815\ubcf4\ub294 \ub2e4\uc74c\uc744 \ucc38\uc870\ud558\uc138\uc694.
+about.theTeam=$APPNAME \ud300:
+about.openFolder=\ud3f4\ub354 \uc5f4\uae30
+about.general.title=\uc77c\ubc18
+about.translators.title=\ubc88\uc5ed\uc790
+about.contributors.title=\uae30\uc5ec\uc790
+about.previousTeamMembers.title=\uc774\uc804 \ud300 \uba64\ubc84:
 
 # Work Indicator
-workIndicator.resetMachine=Reset Java Virtual Machine@^R
+workIndicator.resetMachine=Java \uac00\uc0c1 \uba38\uc2e0 \uc7ac\uc124\uc815@^R
 
 # Not a package
-notAProject.bluej.title=Not A BlueJ Project
-notAProject.bluej.message=The selected folder does not contain a BlueJ project:
-notAProject.bluej.subDirs=Some child folders have BlueJ projects.  Did you mean:
-notAProject.bluej.subDirButton=Open Selected
-notAProject.bluej.button=Choose Again...
+notAProject.bluej.title=BlueJ \ud504\ub85c\uc81d\ud2b8\uac00 \uc544\ub2d9\ub2c8\ub2e4
+notAProject.bluej.message=\uc120\ud0dd\ud55c \ud3f4\ub354\ub294 BlueJ \ud504\ub85c\uc81d\ud2b8\ub97c \ud3ec\ud568\ud558\uace0 \uc788\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4:
+notAProject.bluej.subDirs=\uc77c\ubd80 \ud558\uc704 \ud3f4\ub354\ub294 BlueJ \ud504\ub85c\uc81d\ud2b8\ub97c \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4. \ub2e4\uc74c\uc744 \uc758\ubbf8\ud558\ub098\uc694:
+notAProject.bluej.subDirButton=\uc120\ud0dd\ud55c \ud3f4\ub354 \uc5f4\uae30
+notAProject.bluej.button=\ub2e4\uc2dc \uc120\ud0dd\ud558\uae30...
 
 # New project
-newProject.name=Name
-newProject.parent=Location
-newProject.path=Path
-newProject.parent.choose=Choose...
-newProject.error.parentNotExist=Location does not exist
-newProject.error.compoundExist=Path already exists
-newProject.error.pathInvalid=Path is invalid
-newProject.prompt=Enter a name for the new project
+newProject.name=\uc774\ub984
+newProject.parent=\uc704\uce58
+newProject.path=\uacbd\ub85c
+newProject.parent.choose=\uc120\ud0dd...
+newProject.error.parentNotExist=\uc704\uce58\uac00 \uc874\uc7ac\ud558\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4
+newProject.error.compoundExist=\uacbd\ub85c\uac00 \uc774\ubbf8 \uc874\uc7ac\ud569\ub2c8\ub2e4
+newProject.error.pathInvalid=\uacbd\ub85c\uac00 \uc798\ubabb\ub418\uc5c8\uc2b5\ub2c8\ub2e4
+newProject.prompt=\uc0c8 \ud504\ub85c\uc81d\ud2b8\uc758 \uc774\ub984\uc744 \uc785\ub825\ud558\uc138\uc694
 
 # Class Diagram
-classTarget.noSource=no source
+classTarget.noSource=\uc18c\uc2a4\uac00 \uc5c6\uc2b5\ub2c8\ub2e4
 
-bluej.central.msg.title=BlueJ - Latest News
+bluej.central.msg.title=BlueJ - \ucd5c\uc2e0 \ub274\uc2a4
 
-printing.progress.title=Printing
-printing.progress.file=File progress (${cur}/${total} lines)
-printing.progress.project=Project progress (${cur}/${total} items)
-printing.progress.canceling=Canceling...
+printing.progress.title=\uc778\uc1c4 \uc911
+printing.progress.file=\ud30c\uc77c \uc9c4\ud589 (${cur}/${total} \ub77c\uc778)
+printing.progress.project=\ud504\ub85c\uc81d\ud2b8 \uc9c4\ud589 (${cur}/${total} \ud56d\ubaa9)
+printing.progress.canceling=\ucde8\uc18c \uc911...
