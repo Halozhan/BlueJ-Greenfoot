@@ -5,522 +5,951 @@ okay=확인
 cancel=취소
 close=닫기
 continue=계속
+or=또는
 
 main.invalidPackage=패키지를 찾을 수 없습니다.
 
-compileException=컴파일중 예외상황
-compiler.thread.title=BlueJ 컴파일러 쓰레드
-compiler.invalidcompiler=bluej.compiler.type은 유효한 컴파일러 타입으로 설정되지 않았습니다.
-compiler.nocompiler=컴파일러를 실행할 수 없습니다.
+compileException=컴파일 중 예외 발생
+compiler.thread.title=BlueJ 컴파일러 스레드
 
-debugger.objectviewer.title=BlueJ:  클래스의 객체 상태 검사
-debugger.resultviewer.title=BlueJ:  함수의 결과 값
-debugger.objectviewer.staticListTitle=정적 필드
-debugger.objectviewer.objListTitle=객체 필드
-debugger.objectviewer.inspect=객체 상태 검사
-debugger.objectviewer.get=참조 객체 가져오기
-debugger.objectviewer.objectClassName=클래스의 객체
+debugger.assert.assertThatResIs=검사 대상: 결과는
+debugger.assert.equalTo=같음
+debugger.assert.equalToFloatingPoint=동등함 (double 또는 float)
+debugger.assert.sameAs=동일함
+debugger.assert.notSameAs=다름
+debugger.assert.notNull=null이 아님
+debugger.assert.null=null
+debugger.assert.delta=오차 범위
 
-debugger.objectwrapper.methodException=메소드 접근 예외:
-debugger.objectwrapper.invocationException=호출시 발생한 예외:
-debugger.objectwrapper.inspect=객체 상태 검사
-debugger.objectwrapper.remove=삭제
+debugger.inspector.title=$APPNAME:  검사자
+debugger.inspector.object.title=$APPNAME:  객체 검사자
+debugger.inspector.class.title=$APPNAME:  클래스 검사자
+debugger.inspector.enum.title=$APPNAME:  열거형 검사자
+debugger.inspector.interface.title=$APPNAME:  인터페이스 검사자
+debugger.inspector.result.title=$APPNAME:  메소드 결과
+debugger.inspector.result.returned=반환됨:
+debugger.inspector.object.noFields=필드가 없습니다
+debugger.inspector.class.noFields=필드가 없습니다
+debugger.inspector.showClass=정적 필드 보기
+debugger.inspector.inspect=검사
+debugger.inspector.get=가져오기
+debugger.inspector.class.nameLabel=클래스
+debugger.inspector.enum.nameLabel=열거형
+debugger.inspector.interface.nameLabel=인터페이스
+debugger.inspector.numFields=필드 수
+
+debugger.objectwrapper.methodException=메서드 접근 중 예외 발생:
+debugger.objectwrapper.invocationException=호출 중 예외 발생:
+debugger.objectwrapper.inspect=검사
+debugger.objectwrapper.remove=제거
 debugger.objectwrapper.serializable=직렬화
-debugger.objectwrapper.redefined=재정의
-debugger.objectwrapper.inherited=상속
+debugger.objectwrapper.redefined=다음에서 재정의됨:
+debugger.objectwrapper.inherited=다음에서 상속됨:
+debugger.objectwrapper.noMethods=(접근 가능한 메서드 없음)
+debugger.objectwrapper.moreMethods=추가 메서드
 
-debugger.threadstatus.finished=종료
-debugger.threadstatus.breakpoint=중단점
-debugger.threadstatus.stopped=정지
-debugger.threadstatus.monitor=모니터
+debugger.threadstatus.finished=종료됨
+debugger.threadstatus.breakpoint=중단점에서
+debugger.threadstatus.stopped=멈춤
+debugger.threadstatus.monitor=모니터에서
 debugger.threadstatus.notstarted=시작되지 않음
-debugger.threadstatus.running=동작중
-debugger.threadstatus.sleeping=sleeping
-debugger.threadstatus.unknown=미정의 상태
-debugger.threadstatus.waiting=대기중
-debugger.threadstatus.zombie=좀비
+debugger.threadstatus.running=실행 중
+debugger.threadstatus.sleeping=잠자는 중
+debugger.threadstatus.unknown=알 수 없는 상태
+debugger.threadstatus.waiting=대기 중
+debugger.threadstatus.zombie=종료되지 않은 상태
 
 #Debugger messages
-debugger.jdiDebugger.noBreakpointMsg=중단점 해제: 이 라인에서 중단점을 찾을 수 없습니다.
-debugger.jdiDebugger.noLineNumberMsg=이 클래스는 라인 넘버 정보 없이 컴파일 되었습니다. 중단점을 설정할 수 없습니다.
-debugger.jdiDebugger.noCodeMsg=중단점을 설정할 수 없습니다: 이 라인에는 코드가 없습니다.
-debugger.jdiDebugger.internalErrorMsg=중단점을 설정하는동안 내부적인 에러가 발생했습니다.
+debugger.jdiDebugger.noBreakpointMsg=중단점 지우기: 이 줄에 중단점이 없습니다.
+debugger.jdiDebugger.noLineNumberMsg=이 클래스는 라인 번호 정보가 없이 컴파일되었습니다.\n중단점을 설정할 수 없습니다.
+debugger.jdiDebugger.noCodeMsg=중단점을 설정할 수 없습니다: 이 줄에 코드가 없습니다.
+debugger.jdiDebugger.internalErrorMsg=이 중단점을 설정하는 동안\n내부 오류가 발생했습니다.
 
-#library browser configuration
-browser.title=BlueJ:  라이브러리 브라우저
-browser.version=0.1
-browser.togglemessagebox.toggle.text=이 메세지를 다시 표시하지 않겠습니다.
-
-browser.librarychooser.loading.status=라이브러리 로딩중...
-browser.librarychooser.loaded.status=라이브러리가 로드됨.
-browser.librarychooser.openingarchive.status=라이브러리 로드되었습니다.
-browser.librarychooser.config.user=userlibs.properties
-
-browser.classchooser.classmenu.open=열기
-browser.classchooser.classmenu.use=사용하기...
-browser.classchooser.packagemenu.open=열기
-browser.classchooser.packagemenu.use=사용하기...
-
-browser.usepackage.dialog.text=패키지를 선택하고 확인을 클릭하세요.
-
-browser.missingclass.text=The browser cannot locate the class $
-
-#library browser menus
-browser.menu.library=라이브러리
-browser.menu.library.properties=옵션...
-browser.menu.library.addlibrary=추가...
-browser.menu.library.addlibrary.title=추가 라이브러리
-browser.menu.library.refresh=새로고침
-browser.menu.library.close=닫기
+#Debugger Accessibility messages
+debugger.accessibility.breakpoint=스레드 "$"가 중단점에 도달했습니다.
+debugger.accessibility.paused=스레드 "$"가 일시 중지되었습니다.
 
 # Class Manager panel user interface elements and error messages
 classmgr.prefpaneltitle=라이브러리
-classmgr.userlibraries=사용자 라이브러리
-classmgr.systemlibraries=시스템 라이브러리
-classmgr.bootlibraries=부트 라이브러리
-classmgr.add=추가
-classmgr.delete=삭제 
+classmgr.userlibraries=설정에서의 사용자 라이브러리
+classmgr.userliblibraries=사용자 라이브러리
+classmgr.addFile=파일 추가
+classmgr.delete=삭제
 classmgr.statuscolumn=상태
-classmgr.statusgood=로드
-classmgr.statusbad=에러
-classmgr.statusnew=로드 실패
+classmgr.statusgood=로드됨
+classmgr.statusbad=오류
+classmgr.statusnew=로드되지 않음
 classmgr.locationcolumn=위치
-classmgr.descriptioncolumn=설명
-classmgr.bootclass=부트 클래스 라이브러리
-classmgr.bluejclass=BlueJ 클래스 라이브러리
-classmgr.error.unresolvable=지정되지 않은 경로
-classmgr.error.nodescription=설명 없음 
-classmgr.error.missingclasspath=자바 클래스 경로가 지정되어 있지 않습니다. 현재 디렉토리에 있는 클래스가 지정되어 있지 않으므로 클래스를 로딩할 수 없습니다.
-classmgr.error.missingbootclasspath=Sun 현재 디렉토리에 있는 클래스가 지정되어 있지 않으므로 클래스를 로딩할 수 없습니다부트 클래스 경로가 지정되어 있지 않습니다. BlueJ 는 JDK 1.2 이하의 환경에서 동작할 수 없습니다.
+classmgr.error.unresolvable=해결할 수 없는 경로
+classmgr.error.nodescription=설명 없음
+classmgr.error.missingclasspath=Java 클래스패스 없음. 현재 디렉토리의 클래스가 먼저 해결될 수 있으므로\n클래스 로딩 동작이 이상할 수 있습니다.
+classmgr.error.missingbootclasspath=Sun 부트 클래스패스 없음. BlueJ는 JDK 1.2 이전 환경에서 실행되지 않아야 합니다.
 
 # Preferences Manager user interface elements and error messages
-prefmgr.title=Preferences
+prefmgr.title=환경 설정
 
 # Miscellaneous Preferences panel
-prefmgr.misc.prefpaneltitle=옵션
-prefmgr.misc.editor.title=에디터 설정
-prefmgr.misc.editorfontsize=글자 크기
-prefmgr.misc.usesyntaxhilighting=예약어 강조 사용
-prefmgr.misc.autoindent=자동 들여쓰기 (Enter 와 Tab 키)
-prefmgr.misc.displaylinenumbers=라인 넘버 표시
-prefmgr.misc.makeBackup=소스 파일 백업
-prefmgr.misc.matchBrackets=괄호 검사
-prefmgr.misc.compiler.title=컴파일러 설정
-prefmgr.misc.usejdk14=JDK 1.4 사용하기
+prefmgr.misc.prefpaneltitle=기타
 prefmgr.misc.documentation.title=문서 설정
 prefmgr.misc.jdkurlpath=JDK 문서 URL
-prefmgr.misc.linkToLib=프로젝트 문서화에 위의 URL 사용
-prefmgr.misc.linkToLibNoteLine1=만약 위의 URL 을 문서화시에 사용한다면, 정확하고 엑세스 가능해야 합니다.
-prefmgr.misc.linkToLibNoteLine2=그렇지않으면 문서화는 실패합니다. 오프라인 상태로 사용할 경우 이 옵션의 체크를 해제하십시오.
+prefmgr.misc.linkToLib=프로젝트 문서 작성 시 이 URL을 사용해 주세요.
+prefmgr.misc.linkToLibNoteLine1=만약 이 URL이 문서 생성에 사용된다면, 정확하고 접근 가능해야합니다.
+prefmgr.misc.linkToLibNoteLine2=그렇지 않으면 문서 생성이 실패할 수 있습니다. 오프라인 작업을 원할 경우 이 옵션을 체크해제 하세요.
+prefmgr.misc.tools.title=선택적인 도구 설정
+prefmgr.misc.showTesting=단위 테스트 도구 표시
+prefmgr.misc.showTeam=협업 제어 표시
+prefmgr.misc.vm.title=컴파일러 및 런타임 설정
+prefmgr.misc.optimiseVM=최적화 사용 (더 빠른 실행, 그러나 디버깅 시 문제가 발생할 수 있음)
+prefmgr.misc.addLibTitle=디렉터리 또는 jar/zip 파일 선택
+prefmgr.misc.libFileFilter=라이브러리 파일 (*.jar;*.zip) 또는 클래스 디렉터리
+prefmgr.misc.showUnchecked=안전하지 않은 컬렉션이 사용될 때 컴파일러 경고 표시
+prefmgr.misc.runOnThread=스레드에서 이 프로젝트의 사용자 코드 실행
+prefmgr.misc.run.fx=JavaFX
+prefmgr.misc.run.swing=Swing/AWT
+prefmgr.misc.run.default=기본값
+prefmgr.collection.title=연구 참여
+prefmgr.collection.change=변경
+prefmgr.collection.identifier.explanation=연구자가 요청한 경우 아래 정보를 입력해야 합니다.
+prefmgr.collection.identifier.experiment=실험 식별자
+prefmgr.collection.identifier.participant=참가자 식별자
 
-# Features Panel
-prefmgr.features.title=특징 
+# Editor Preferences panel
+prefmgr.edit.prefpaneltitle=에디터
+prefmgr.edit.editor.title=자바 에디터 설정
+prefmgr.edit.editorfontsize=글꼴 크기
+prefmgr.edit.colortransparency=범위 강조
+prefmgr.edit.usesyntaxhilighting=구문 강조 사용
+prefmgr.edit.autoindent=자동 들여쓰기 (Enter 및 Tab 키)
+prefmgr.edit.closecurly=닫는 중괄호 '}' 자동 추가
+prefmgr.edit.displaylinenumbers=줄 번호 표시
+prefmgr.edit.checkfilechangeondisk=디스크에서 파일 변경 확인
+prefmgr.edit.matchBrackets=대괄호 매칭
+prefmgr.edit.keybindingstitle=키 바인딩
+prefmgr.edit.highlightLighter=밝은 색
+prefmgr.edit.highlightDarker=어두운 색
+prefmgr.edit.editor.texteditor.title=텍스트 에디터 설정
+prefmgr.edit.textfileextensions=지원되는 파일 확장자
+prefmgr.edit.texteditor.defaultFileExtensions=기본값으로 재설정
+
+# Extensions Preferences panel
+prefmgr.extensions.noContent=표시할 확장 기능 내용이 없습니다.
+
+# Interface preferences panel
+prefmgr.interface.title=인터페이스
+prefmgr.interface.language.title=언어 선택
+prefmgr.interface.language=언어
+prefmgr.interface.language.restart=언어 설정이 적용되려면 $APPNAME 을(를) 재시작해야 합니다.
+prefmgr.interface.text.restart=설정이 적용되려면 $APPNAME 을(를) 재시작해야 합니다.
+prefmgr.accessibility.title=접근성
+prefmgr.accessibility.support=접근성 모드 [스크린 리더 사용 시만 사용 가능]
 
 # Extensions Manager Help panel
-extmgr.extensions=Extensions
-extmgr.installed=설치됨 
-extmgr.project=프로젝트 
-extmgr.statuscolumn=상태 
-extmgr.namecolumn=이름 
-extmgr.typecolumn=형식 
-extmgr.versioncolumn=버전 
-extmgr.details=상세사항 
-extmgr.details.status=상태 
-extmgr.details.name=이름 
-extmgr.details.location=위치 
-extmgr.details.type=형식 
-extmgr.details.version=버전 
-extmgr.details.date=날짜 
-extmgr.details.url=URL	
-extmgr.details.description=설명 
+extmgr.title=BlueJ:  설치된 확장 기능
+extmgr.extensions=확장 기능
+extmgr.noExtensionInstalled=확장 기능이 설치되어 있지 않습니다.
+extmgr.systemExtensionShort=시스템
+extmgr.systemExtensionLong=시스템 확장 기능 (모든 프로젝트에서 활성화됨)
+extmgr.projectExtensionShort=프로젝트
+extmgr.projectExtensionLong=프로젝트 확장 기능 (현재 프로젝트에서만 활성화됨)
+extmgr.details.location=위치:
+extmgr.details.version=버전
 
-extmgr.status.notused=Not used
-extmgr.status.loaded=로드된 
-extmgr.status.error=에러 
-extmgr.status.unloaded=Unloaded
-extmgr.version.unknown=Unknown
-extensions.nodescription=None given.
+extmgr.status.notused=사용되지 않음
+extmgr.status.loaded=로드됨
+extmgr.status.error=오류
+extmgr.status.unloaded=언로드됨
+extmgr.version.unknown=알 수 없음
+extensions.nodescription=설명 없음.
+
+# Extension errors
+extmgr.error.nomanifest=매니페스트 파일이 없습니다.
+extmgr.error.nomain=매니페스트에 Main-Class 속성이 포함되어 있지 않습니다.
+extmgr.error.notsubclass=메인 클래스가 Extension의 하위 클래스가 아닙니다.
+extmgr.error.cannotload=확장 기능을 로드할 수 없습니다.
 
 #---------------
 #Editor labels
 #---------------
-editor.title=BlueJ: 에디터 
+editor.title=BlueJ: 편집기
 
 #button lables for toolbar commands
-editor.compileLabel = 컴파일 
-editor.undoLabel = 실행취소 
-editor.cutLabel = 잘라내기 
-editor.copyLabel = 복사하기 
-editor.pasteLabel = 붙여넣기 
-editor.closeLabel = 닫기 
-editor.page-setupLabel = 페이지 설정 ...
+editor.compileLabel = 컴파일
+editor.undoLabel = 실행 취소
+editor.cutLabel = 잘라내기
+editor.copyLabel = 복사하기
+editor.pasteLabel = 붙여넣기
+editor.closeLabel = 닫기
+editor.page-setupLabel = 페이지 설정...
 
 # menu labels (MUST be defined)
-editor.classLabel = 클래스 
-editor.editLabel = 에디트 
-editor.toolsLabel = 도구 
-editor.debugLabel = 디버그 
-editor.optionLabel = 옵션 
-editor.helpLabel = 도움말 
+editor.classLabel = _클래스
+editor.editLabel = _편집
+editor.toolsLabel = _도구
+editor.debugLabel = _디버그
+editor.optionLabel = _옵션
+editor.helpLabel = _도움말
 
 # item labels (can be omitted if same as action name)
-editor.saveLabel = 저장 
-editor.printLabel = 인쇄 ...
-editor.closeLabel =닫기 
+editor.saveLabel = 저장
+editor.printLabel = 인쇄...
+editor.closeLabel = 닫기
 
-editor.redoLabel = 다시실행 
-editor.cut-to-clipboardLabel = 잘라내기 
-editor.copy-to-clipboardLabel = 복사하기 
-editor.paste-from-clipboardLabel = 붙여넣기 
-editor.indent-blockLabel = 들여쓰기 
-editor.deindent-blockLabel = 내어쓰기 
-editor.comment-blockLabel = 주석
-editor.uncomment-blockLabel = 주석취소 
-editor.insert-methodLabel = 메소드 추가 
+editor.redoLabel = 재실행
+editor.cut-to-clipboardLabel = 잘라내기
+editor.copy-to-clipboardLabel = 복사
+editor.paste-from-clipboardLabel = 붙여넣기
+editor.indent-blockLabel = 들여쓰기 더하기
+editor.deindent-blockLabel = 들여쓰기 빼기
+editor.autoindentLabel = 자동 정렬
+editor.comment-blockLabel = 주석 처리
+editor.uncomment-blockLabel = 주석 해제
+editor.insert-methodLabel = 메소드 삽입
+editor.add-javadocLabel = 메소드 주석 추가
 
-editor.findLabel = 찾기 ...
-editor.find-nextLabel = 다음찾기 
-editor.find-next-backwardLabel = 이전찾기 
-editor.replaceLabel = 새로고침 ...
-editor.compileLabel = 컴파일 
-editor.toggle-breakpointLabel = 중단점 설정\\제거 
-editor.toggle-interface-viewLabel = 인터페이스 보기기능 반전
+editor.new-findLabel = 새로운 검색
+editor.findLabel = 검색...
+editor.find-nextLabel = 다음 항목 찾기
+editor.find-next-backwardLabel = 이전 항목 찾기
+editor.go-to-lineLabel = 줄 이동...
+editor.replaceLabel = 바꾸기...
+editor.toggle-breakpointLabel = 중단점 설정/해제
+editor.set.breakpoint.hint = 중단점 설정하려면 클릭
+editor.set.breakpoint.fail = 이 줄에 중단점을 설정할 수 없습니다.
+editor.toggle-interface-viewLabel = 문서 보기 전환하기
 
-editor.implementationLabel = 구현부 
-editor.interfaceLabel = 인터페이스 
+editor.go-to-lineLabel = 해당 라인으로 이동...
+editor.gotoline.title = 라인으로 이동
+editor.gotoline.label = 라인 번호 입력
+editor.gotoline.prompt= 라인 번호
+editor.gotoline.notNumericMessage = 입력은 반드시 숫자여야 합니다.
 
-editor.state.readOnly = 읽기전용 
-editor.state.saved = 저장 
-editor.state.changed = 변경  
+editor.implementationLabel = 소스 코드
+editor.interfaceLabel = 문서
 
-editor.key-bindingsLabel = 키 연결 ...
-editor.preferencesLabel = 설정 ...
+editor.state.readOnly = 읽기 전용
+editor.state.saved = 저장 완료
+editor.state.changed = 변경됨
+
+editor.increase-fontLabel = 폰트 크기 증가
+editor.decrease-fontLabel = 폰트 크기 감소
+editor.reset-fontLabel = 폰트 크기 초기화
+editor.key-bindingsLabel = 단축키 설정...
+editor.preferencesLabel = 환경 설정...
+
+editor.printDialog.title=BlueJ:  소스 코드 출력
+editor.printDialog.printLineNumbers=줄 번호 출력
+editor.printDialog.printHighlighting=범위 강조와 함께 출력
+editor.printDialog.printHighlighting.tooltip=이 기능은 출력 속도가 느려지며 대규모 출력 작업에서 지원되지 않습니다.
+editor.printDialog.fontSize=폰트 크기
+editor.printDialog.fontSize.small=작게
+editor.printDialog.fontSize.standard=보통
+editor.printDialog.fontSize.large=크게
+
+# Editor quick fix messages
+editor.quickfix.correctToSugg.fixMsg=다음으로 수정하세요:\u0020
+editor.quickfix.unknownType.errorMsg=알 수 없는 타입입니다:\u0020
+editor.quickfix.unknownType.fixMsg.class=클래스를 임포트하세요\u0020
+editor.quickfix.unknownType.fixMsg.package=패키지를 임포트하세요\u0020
+editor.quickfix.undeclaredVar.errorMsg=선언되지 않은 변수입니다:\u0020
+editor.quickfix.undeclaredVar.fixMsg.local=변수를 이곳에서 선언하세요
+editor.quickfix.undeclaredVar.fixMsg.class=클래스 내부에서 필드를 선언하세요
+editor.quickfix.undeclaredMethod.errorMsg=선언되지 않은 메소드입니다:\u0020
+editor.quickfix.wrongComparisonOperator.errorMsg=불리언 표현식 대신 대입문을 사용하였습니다. \n\
+                                                 "=="를 의미하였나요?
+editor.quickfix.wrongComparisonOperator.fixMsg="=" 대신 "=="로 바꾸세요
+editor.quickfix.unreportedException.errorMsg.part1=가능한 예외 타입\u0020
+editor.quickfix.unreportedException.errorMsg.part2=\u0020관리가 필요합니다
+editor.quickfix.unreportedException.fixMsg.trycatch=이 라인을 try/catch로 감싸세요
+editor.quickfix.unreportedException.fixMsg.throws=이 예외를 담고 있는 메소드에서 throws 문을 추가하세요
 
 # Dialog titles and texts
-editor.functions.title = 에디터 기능들 
-editor.functions.editFunctions =편집  기능들 
-editor.functions.moveScroll = 이동 & 화면이동 
-editor.functions.classFunctions = 클래스 기능들 
-editor.functions.customisation = 사용자맞춤 
-editor.functions.help = 도움말 
-editor.functions.misc = 잡동사니 
-editor.functions.defaults=디폴트 
-editor.functions.categories=카테고리 :
-editor.functions.keys=키 연결 
-editor.functions.addkey=키 추가 
-editor.functions.delkey=키 삭제 
+editor.functions.title = 편집기 기능
+editor.functions.editFunctions = 편집 기능
+editor.functions.moveScroll = 이동 및 스크롤
+editor.functions.classFunctions = 클래스 기능
+editor.functions.customisation = 사용자 정의
+editor.functions.help = 도움말
+editor.functions.misc = 기타
+editor.functions.defaults= 기본 설정
+editor.functions.categories=카테고리:
+editor.functions.keys=키 바인딩
+editor.functions.addkey=키 추가
+editor.functions.delkey=키 삭제
 
-editor.find.title = 찾기 
-editor.find.find.label = 찾기 :
-editor.find.replace.label = 새로고침 :
-editor.find.findNext=다음찾기 
-editor.find.replace=새로고침 
-editor.find.replaceAll=모두 새로고침 
-editor.find.up=위로 검색 
-editor.find.down=아래로 검색 
+editor.find.title = 찾기
+editor.find.find.label = 찾을 내용:
+editor.find.replace.label = 대체할 내용:
+editor.find.findNext=다음 찾기
+editor.find.replace=대체
+editor.find.replaceAll=전체 대체
+editor.find.up=위로 검색
+editor.find.down=아래로 검색
 editor.find.ignoreCase=대소문자 무시
-editor.find.wholeWord=온전한 단어 
+editor.find.wholeWord=단어 전체
+editor.find.backward=뒤로
+editor.find.forward=앞으로
+editor.find.wrapAround=전체 찾기
+
+# FindPanel
+editor.findpanel.replacePanel=  바꾸기
+editor.findpanel.findLabel=찾기:
+editor.findpanel.findNext=다음
+editor.findpanel.findPrevious=이전
+editor.findpanel.matchCase=대소문자 구분
+
+# ReplacePanel
+editor.replacePanel.replaceLabel=바꾸기:
+editor.replacePanel.replaceOnce=한 번
+editor.replacePanel.replaceAll=모두
+
+# "Add javadoc" function
+editor.addjavadoc.notAMethod=메소드 내에서만 사용 가능합니다.
+editor.addjavadoc.hasJavadoc=이 메소드는 이미 Javadoc 주석이 있습니다.
+editor.addjavadoc.constructor=생성자
+editor.addjavadoc.method=메소드
+editor.addjavadoc.parameter=매개변수
+editor.addjavadoc.returnValue=반환 값
+
+# Messages shown as a result of a search with replace all
+editor.replaceAll.replaced=대체됨
+editor.replaceAll.intancesOf=개의 인스턴스
+editor.replaceAll.string=문자열
+editor.replaceAll.notFoundNothingReplaced=찾을 수 없습니다. 대체된 것이 없습니다.
+
+# Messages shown as a result of a search with highlight all
+editor.highlight.found=찾았습니다
+editor.highlight.notFound=찾지 못했습니다.
+
+# Message shown in code completion pane when nothing is found
+editor.completion.noMatch=일치하는 항목이 없습니다.
+
+#Message shown in code completion while processing
+editor.completion.working=로드 중...
+
+# Messages shown when determining what function is bound to a given key
+editor.keypressed.keyIsNotBound=이(가) 함수에 바인딩되지 않았습니다.
+editor.keypressed.callsTheFunction=이(가) 함수를 호출합니다 "
 
 #Messages, warnings, etc that is displayed by Info.java
-editor.info.version = Moe 버전
-editor.info.readingProblem = 이 파일을 읽는데 문제가 생겼습니다.
-editor.info.regularFile = (정규파일입니까? 읽기 접근을 할 수 있습니까?)
-editor.info.newFile = 새파일
-editor.info.errorSaving = 파일 저장 에러!
-editor.info.compiled = 클래스 컴파일 완료 - 구문에러가 없습니다
-editor.info.noChanges = 변경사항을 저장할 필요가 없습니다
-editor.info.emptySearchString = 찾을 문자열이 없습니다.
-editor.info.notFound = 찾을 수 없습니다 (결과 내 재검색).
-editor.info.compiling = 컴파일중...
-editor.info.cannotSetBreak = 중단점을 설정할 수 없습니다:\n이 에디터와 관련된 코드가 없습니다.
-editor.info.fileDisappeared = ERROR: 파일이 존재하지 않습니다!
-editor.info.fileReadError = ERROR: 이 파일을 읽는 동안 에러가 발생하였습니다.
-editor.info.saved = 파일 저장 완료
-editor.info.printing = 인쇄중...
-editor.info.printed = 인쇄중... 완료.
+editor.info.errorSaving = 파일 저장 중 오류 발생!
+editor.info.compiled = 클래스가 컴파일되었습니다 - 구문 오류가 없습니다.
+editor.info.compileError = 클래스에서 오류가 발견되었습니다.\n다음 오류로 이동하려면 $를 누르거나 오른쪽 링크를 클릭하세요.
+editor.info.noChanges = 저장할 변경 사항이 없습니다.
+editor.info.emptySearchString = 검색어가 비어 있습니다.
+editor.info.notFound = 찾을 수 없습니다 (다시 검색하여 감싸기를 시도하세요).
+editor.info.compiling = 컴파일 중...
+editor.info.cannotSetBreak = 중단점을 설정할 수 없습니다:\n이 에디터에 코드가 없습니다.
+editor.info.fileDisappeared = 오류: 파일이 사라졌습니다!
+editor.info.fileReadError = 오류: 파일을 읽는 중 오류가 발생했습니다.
+editor.info.saved = 파일이 저장되었습니다.
+editor.info.printing = 인쇄 중...
+editor.info.printed = 인쇄 완료.
 editor.info.cancelled = 취소됨.
-editor.info.generatingDoc = 클래스 인터페이스 생성중...
-editor.info.loadingDoc = 클래스 인터페이스 로딩중...
-editor.info.docLoaded = 클래스 인터페이스 로딩중... 완료.
-editor.info.docAborted = javadoc생성중 심각한 문제가 발생하였습니다.\n인터페이스. 취소되었습니다.
+editor.info.generatingDoc = 클래스 인터페이스 생성 중...
+editor.info.loadingDoc = 클래스 인터페이스 로드 중...
+editor.info.docLoaded = 클래스 인터페이스 로드 완료.
+editor.info.docAborted = javadoc 인터페이스를 만드는 중 심각한 문제가 발생했습니다.\n중단되었습니다.
 editor.info.docDisappeared = HTML 파일을 찾을 수 없습니다:
-editor.info.docNoFrames = 프레임 창이 에디터 미리보기에서 사라졌습니다.
-editor.info.tabsExpanded = Converted all TABs to spaces. (You are working\nwith soft TABs, the file contained hard TABs.)
-editor.printer.continued=계속
+editor.info.docNoFrames = 에디터 미리보기에서 프레임 표시가 비활성화되었습니다.
+editor.info.tabsExpanded = 모든 TAB을 공백으로 변환했습니다. (소프트 TAB을\n사용 중이며 파일에 하드 TAB이 포함되어 있습니다.)
+editor.info.perfectIndent = 들여쓰기가 이미 올바릅니다.
+editor.printer.continued=계속됨
+editor.info.duplication = 이 이름으로 된 클래스가 이미 이 패키지에 있습니다.
 #End Editor labels
 
-pkgmgr.chooseUsesFrom=사용화살표의 시작점 클래스를 선택하십시오.
-pkgmgr.chooseUsesTo=사용화살표의 도착점 클래스를 선택하십시오
-pkgmgr.chooseInhFrom=서브 클래스를 선택하십시오
-pkgmgr.chooseInhTo=수퍼 클래스를 선택하십시오
-pkgmgr.chooseArrow=삭제할 화살표를 선택하십시오
-pkgmgr.packageSaved=패키지 저장 완료 
-pkgmgr.info.printing = 인쇄중...
-pkgmgr.info.printed = 인쇄중... 완료.
+pkgmgr.chooseUsesFrom=의존성이 있는 클래스를 선택하세요.
+pkgmgr.chooseUsesTo=의존하는 클래스를 선택하세요.
+pkgmgr.chooseInhFrom=상속받을 하위 클래스를 선택하세요.
+pkgmgr.chooseInhTo=상위 클래스/인터페이스를 선택하세요.
+pkgmgr.chooseArrow=삭제할 화살표를 선택하세요.
+pkgmgr.packageSaved=패키지가 저장되었습니다.
+pkgmgr.info.printing = 인쇄 중...
+pkgmgr.info.printed = 인쇄 완료.
 
-utility.packageChooser.previewPane1=선택가능한 패키지 
+utility.packageChooser.previewPane1=가능한 미리보기
 utility.packageChooser.previewPane2=패키지 구조
 
 # dialog titles and texts
-pkgmgr.newPkg.title=새프로젝트
-pkgmgr.newPkg.buttonLabel=생성 
-pkgmgr.openPkg.title=프로젝트 열기 
-pkgmgr.openPkg.buttonLabel=열기 
-pkgmgr.openNonBlueJPkg.title=BlueJ로 만들지 않은 프로젝트 열기
-pkgmgr.openNonBlueJPkg.buttonLabel=BlueJ프로젝트로 열기
-pkgmgr.saveAs.title=프로젝트 저장 
-pkgmgr.saveAs.buttonLabel=저장 
-pkgmgr.addClass.title=추가할 자바 클래스 선택 
-pkgmgr.addClass.buttonLabel=추가 
-pkgmgr.importPkg.title=가져올 디렉토리를 선택하십시오
-pkgmgr.importPkg.buttonLabel=가져오기 
-pkgmgr.importPkgNew.title=가져온 새프로젝트
+pkgmgr.title=BlueJ:  
+
+pkgmgr.newPkg.title=새 프로젝트
+pkgmgr.newMEpkg.title=새 ME 프로젝트
+pkgmgr.newPkg.buttonLabel=생성
+pkgmgr.openPkg.title=프로젝트 열기
+pkgmgr.openPkg.buttonLabel=열기
+pkgmgr.openNonBlueJPkg.title=Non-BlueJ 프로젝트 열기
+pkgmgr.openNonBlueJPkg.buttonLabel=BlueJ에서 열기
+pkgmgr.saveAs.title=프로젝트 저장
+pkgmgr.saveAs.buttonLabel=저장
+pkgmgr.addClass.title=추가할 자바 클래스 선택
+pkgmgr.addClass.buttonLabel=추가
+pkgmgr.importPkg.title=가져올 디렉터리 선택
+pkgmgr.importPkg.buttonLabel=가져오기
+pkgmgr.importPkgNew.title=가져올 새 프로젝트 선택
 pkgmgr.importPkgNew.buttonLabel=생성
 
-pkgmgr.newClass.msg=클래스의 이름을 입력하십시오
-pkgmgr.newUses=사용화살표 추가
-pkgmgr.newExtends=상속화살표 추가
-pkgmgr.unimplemented=죄송합니다 - 이 기능은 아직 구현되지 않았습니다.
-pkgmgr.pkgChooseError=Error! 유효한 패키지 이름을 선택하십시오.
-pkgmgr.chooseWebPage.title=HTML 페이지를 선택하십시오.
+pkgmgr.newClass.msg=클래스 이름을 입력하세요
+pkgmgr.newUses=새로운 Uses 화살표
+pkgmgr.newExtends=새로운 Extends 화살표
+pkgmgr.unimplemented=죄송합니다 - 이 기능은 아직 구현되지 않았습니다
+pkgmgr.pkgChooseError=유효한 패키지 이름을 선택하는 중 오류가 발생했습니다
+pkgmgr.chooseWebPage.title=HTML 페이지 대상 선택
+pkgmgr.chooseWebPage.buttonLabel=HTML 페이지 저장하기
 
-pkgmgr.parentpackagetarget.open=열기 
-pkgmgr.parentpackagetarget.openunamed=명명되지 않은 패키지 열기
+pkgmgr.parentpackagetarget.open=열기
+pkgmgr.parentpackagetarget.openunamed=이름 없는 패키지 열기
 
-pkgmgr.packagemenu.open=열기 
-pkgmgr.packagemenu.remove=삭제 
+pkgmgr.noProjectOpened.message=\u2196 프로젝트 메뉴를 사용하여 프로젝트를 만들거나 열어주세요.
+pkgmgr.noClassesExisted.message=\u2196 편집 메뉴를 사용하여 클래스를 만들거나 추가해주세요.
 
-pkgmgr.classmenu.runApplet=애플릿 실행 
-pkgmgr.classmenu.edit=에디터 열기 
-pkgmgr.classmenu.compile=컴파일 
-pkgmgr.classmenu.remove=삭제 
+pkgmgr.packagemenu.open=열기
+pkgmgr.packagemenu.remove=삭제하기
 
-pkgmgr.view.label=보기
-pkgmgr.view.usesLabel=사용
-pkgmgr.view.inheritLabel=상속
+pkgmgr.classmenu.edit=에디터 열기
+pkgmgr.classmenu.compile=컴파일
+pkgmgr.classmenu.inspect=검사
+pkgmgr.classmenu.remove=삭제
+pkgmgr.classmenu.duplicate=복제...
+pkgmgr.classmenu.convertToJava=Java로 변환
+pkgmgr.classmenu.convertToStride=Stride로 변환
+pkgmgr.classmenu.createTest=테스트 클래스 생성
+pkgmgr.classmenu.launchFX=JavaFX 애플리케이션 실행
+pkgmgr.classmenu.moreMethods=더 많은 메서드
+
+pkgmgr.extfilemenu.open=열기 (BlueJ 외부에서)
+pkgmgr.extfilemenu.delete=파일 삭제
+
+pkgmgr.team.title=팀워크
+pkgmgr.test.title=테스트
+
+pkgmgr.test.label=테스트
+pkgmgr.test.record=녹화
+pkgmgr.test.run=테스트 실행
+pkgmgr.test.end=종료
+pkgmgr.test.succeeded=성공
+pkgmgr.test.invalidTestName=테스트 이름은 유효한 Java 식별자여야 합니다
+pkgmgr.test.recording=녹화 중
+
+pkgmgr.test.popup.testAll=전체 테스트 실행
+pkgmgr.test.popup.noTests=테스트 메소드가 없습니다
+pkgmgr.test.popup.abstract=추상 클래스는 테스트 클래스로 사용할 수 없습니다
+pkgmgr.test.popup.createTest=테스트 메서드 생성...
+pkgmgr.test.popup.benchToFixture=객체 벤치를 테스트 픽스처로 변경
+pkgmgr.test.popup.fixtureToBench=테스트 픽스처를 객체 벤치로 변경
+
+#Accessibility
+pkgmgr.objBench.title=객체 벤치
+pkgmgr.objBench.suffix.singular=객체
+pkgmgr.objBench.suffix.plural=객체들
+pkgmgr.codepad.title=코드패드
+pkgmgr.graphEditor.title=클래스 다이어그램
+
+# codepad messages
+pkgmgr.codepad.uninitialized=노트: 코드패드 변수는 인스턴스 필드와 동일하게\n자동으로 초기화됩니다.
+pkgmgr.codepad.vmTerminated=VM 재설정이 발생했습니다.
+# The "variable has already been defined" error message in the codepad. The '$' symbol will be
+# replaced by the name of the problematic variable.
+pkgmgr.codepad.redefinedVar=$ 이(가) 이미 정의되었습니다.
 
 # "new class" dialog
-pkgmgr.newClass.title=BlueJ:  새 클래스 생성 
-pkgmgr.newClass.label=클래스명:
-pkgmgr.newClass.classType=클래스형 
-pkgmgr.newClass.stdclass=클래스 
-pkgmgr.newClass.interface=인터페이스 
-pkgmgr.newClass.applet=애플릿 
-pkgmgr.newClass.appletj=애플릿 
-pkgmgr.newClass.unittest=Unit 테스트
+pkgmgr.newClass.title=BlueJ: 새로운 클래스 생성
+pkgmgr.newClass.label=클래스 이름:
+pkgmgr.newClass.prompt=새로운 클래스의 이름을 입력하세요.
+pkgmgr.newClass.lang=클래스 언어:
+pkgmgr.newClass.classType=클래스 타입
+pkgmgr.newClass.stdclass=클래스
+pkgmgr.newClass.interface=인터페이스
+pkgmgr.newClass.unittest=유닛 테스트
+pkgmgr.newClass.enum=열거형
+pkgmgr.newClass.JavaFXclass= JavaFX 클래스
+pkgmgr.newClass.record=레코드
+pkgmgr.newClass.error.noType=클래스 타입이 선택되지 않았습니다.
+pkgmgr.newClass.error.typeNotAvailable=$LANGUAGE 에서 사용할 수 없는 타입입니다.
+pkgmgr.newClass.error.notValidClassName=유효하지 않은 $LANGUAGE 클래스 이름입니다.
+pkgmgr.newClass.error.windowsRestricted=Windows에서 사용할 수 없는 단어입니다.
+
+
 
 # "new package" dialog
-pkgmgr.newPackage.title=BlueJ:  새 패키지 생성 
-pkgmgr.newPackage.label=패키지명:
+pkgmgr.newPackage.title=BlueJ:  새 패키지 만들기
+pkgmgr.newPackage.label=패키지 이름:
+pkgmgr.newPackage.prompt=패키지 이름
 pkgmgr.newPackage.newPackage=패키지
+pkgmgr.newPackage.error=유효하지 않은 패키지 이름입니다.
+
+# "new CSS" dialog
+pkgmgr.newCSS.title=BlueJ:  새 CSS 파일 만들기
+pkgmgr.newCSS.label=CSS 파일:
+pkgmgr.newCSS.prompt=파일명
+pkgmgr.newCSS.newCSS=CSS
+pkgmgr.newCSS.error=유효하지 않은 파일명입니다.
+
+# "duplicate class" dialog
+pkgmgr.duplicate.title=BlueJ: 클래스 복제
+pkgmgr.duplicate.error.notValidClassName=유효하지 않은 클래스 이름입니다.
+
 
 # "Use Library Class" dialog
 callLibraryDialog.title=BlueJ:  라이브러리 클래스 호출
-callLibraryDialog.classLabel=클래스 :
-callLibraryDialog.docButton=문서화 
-callLibraryDialog.listHeading=생성자와 정적 메소드 
-callLibraryDialog.clickHere1=생성자와 정적 메소드를 보려면 
-callLibraryDialog.clickHere2=클래스명을 입력하고 엔터를 누르십시오.
-callLibraryDialog.classNotFound1=클래스를 찾을 수 없습니다 .
-callLibraryDialog.classNotFound2=(클래스명을 확인하고 다시 엔터를 누르십시오.)
-
-# "Free Form Call" dialog
-freeCallDialog.title=BlueJ:  평가하기 
-freeCallDialog.fieldLabel=평가하기 :
-freeCallDialog.resultLabel=
-freeCallDialog.returnsResult= 표현식입니다.(결과를 반환)
-freeCallDialog.returnsNoResult=문장입니다. (반환되는 결과가 없음)
+callLibraryDialog.classLabel=클래스:
+callLibraryDialog.docButton=문서
+callLibraryDialog.listHeading=생성자 및 정적 메소드
+callLibraryDialog.clickHere1=전체 클래스 이름을 입력하고, Enter를 누르세요.
+callLibraryDialog.clickHere2=생성자와 메서드를 표시합니다.
+callLibraryDialog.classNotFound1=클래스를 찾을 수 없습니다.
+callLibraryDialog.classNotFound2=(클래스 이름을 확인하고 다시 Enter를 누르세요.)
 
 # "export" dialog
-pkgmgr.export.title=BlueJ:  프로젝트 내보내기 
-pkgmgr.export.helpLine1=내보내기는 표준자바 (BlueJ로 만들지 않은) 형식으로
-pkgmgr.export.helpLine2= 현재 프로젝트의 복사본을 저장한다.
-pkgmgr.export.directoryLabel=디렉토리 구조에 저장
-pkgmgr.export.jarFileLabel=jar 파일로 저장 
-pkgmgr.export.classLabel=메인 클래스 :
-pkgmgr.export.sourceLabel= 소스 포함
-pkgmgr.export.noClassText= 없음 (실행할 수 없습니다)
+pkgmgr.export.title=BlueJ:  Jar 파일 생성
+pkgmgr.export.helpLine1=프로젝트를 포함하는 단일 Java 아카이브(jar) 파일을 생성합니다.
+pkgmgr.export.helpLine2=메인 클래스가 지정되어 있다면 실행 가능합니다.
+pkgmgr.export.classLabel=메인 클래스:
+pkgmgr.export.includeLibs=사용자 라이브러리 포함
+pkgmgr.export.sourceLabel=소스 코드 포함
+pkgmgr.export.pkgFilesLabel=Bluej 프로젝트 파일 포함
+pkgmgr.export.noClassText=없음 (실행할 수 없음)
+pkgmgr.export.specifyJar=Jar 파일 이름 지정
 
 # "open-non-bluej" mismatch dialog
 pkgmgr.importmismatch.title=BlueJ:  패키지 라인 불일치
-pkgmgr.importmismatch.helpLine1=경고: 이것은 해당 프로젝트의 클래스 패키지로 선언된
-pkgmgr.importmismatch.helpLine2=자바 프로젝트의 최상위 디렉토리가 아닙니다.
-pkgmgr.importmismatch.helpLine3=이 디렉토리를 열면 프로젝트내의 아래와 같은
-pkgmgr.importmismatch.helpLine4=소스파일의 모든 패키지 선언이 변경됩니다.
-pkgmgr.importmismatch.helpLine5=당신이 선택한 디렉토리의 부모 디렉토리를 열어야 
-pkgmgr.importmismatch.helpLine6=할 것입니다. 예를들면, "org.bluej"패키지를 포함하는 
-pkgmgr.importmismatch.helpLine7= 자바 프로젝트를 열기 위해서는, "org" 또는 "bluej" 디렉토리가
-pkgmgr.importmismatch.helpLine8=아닌, "org"를 포함하는 디렉토리를 선택해야 합니다 
-pkgmgr.importmismatch.helpLine9=열기를 계속하여 패키지 선언을 변경 하시겠습니까?
+pkgmgr.importmismatch.helpLine1=경고: 이는 일부 클래스의 패키지 선언에서 예상되는 최상위 디렉토리가 아닙니다.
+pkgmgr.importmismatch.helpLine2=해당 디렉토리를 열면 프로젝트의 모든 패키지 선언이 변경됩니다.
+pkgmgr.importmismatch.helpLine3=대부분의 경우 선택한 디렉토리의 상위 디렉토리를 열어야 합니다.
+pkgmgr.importmismatch.helpLine4=예를 들어, "org.bluej" 패키지를 포함하는 Java 프로젝트를 열려면
+pkgmgr.importmismatch.helpLine5=디렉토리를 선택할 때 "org" 디렉토리가 아닌 "org"를 포함하는 디렉토리를 선택해야 합니다.
+pkgmgr.importmismatch.helpLine6=프로젝트의 패키지 선언을 변경하고 계속해서 열까요?
+pkgmgr.importmismatch.helpLine7=
+pkgmgr.importmismatch.helpLine8=
+pkgmgr.importmismatch.helpLine9=
 
 # "import" failure dialog
-pkgmgr.importfailed.title=BlueJ:  상태값 가져오기
-pkgmgr.importfailed.helpLine1=다음과 같은 파일로부터 가져오기가 실패하였습니다 .
-pkgmgr.importfailed.helpLine2=대상 프로젝트 내의 다음과 같은 파일들이 존재하
-pkgmgr.importfailed.helpLine3=기 때문에 파일로부터 가져오기가 실패하였습니다 .
+pkgmgr.importfailed.title=BlueJ:  가져오기 상태
+pkgmgr.importfailed.helpLine1=다음 파일들을 복사하는 데 실패했습니다.
+pkgmgr.importfailed.helpLine2=이는 대상 프로젝트에 이미 해당 파일들이
+pkgmgr.importfailed.helpLine3=있는 경우가 가장 가능성이 높습니다.
 
 # "version check" dialog
-pkgmgr.versionDlg.title=BlueJ:  새 버전 확인하기  
-pkgmgr.versionDlg.helpLine1=이 기능은 새로운 BlueJ 버전이 있는지를 확인합니다 
-pkgmgr.versionDlg.helpLine2=와 같은 버전을 사용할 수 있습니다. 최상위 버전으로 업그레이드를 하기 위해서는 온라인 상태이어야 합니다.
-pkgmgr.versionDlg.check=버전 확인 
-pkgmgr.versionDlg.upToDate=현재 버전이 최상위 버전입니다.
-pkgmgr.versionDlg.currentVersion=현재 BlueJ 버전은 
-pkgmgr.versionDlg.newVersion=가장 최신의 BlueJ 버전은 
+pkgmgr.versionDlg.title=BlueJ:  새 버전 확인
+pkgmgr.versionDlg.helpLine1=이 기능은 새로운 BlueJ 버전이 있는지 확인합니다.
+pkgmgr.versionDlg.helpLine2=온라인 상태에서만 작동합니다.
+pkgmgr.versionDlg.upToDate=현재 버전이 최신입니다.
+pkgmgr.versionDlg.currentVersion=현재 BlueJ 버전:
+pkgmgr.versionDlg.newVersion=가장 최근 BlueJ 버전:
 
-# run applet dialog
-pkgmgr.runApplet.title=BlueJ:  애플릿 실행하기
-pkgmgr.runApplet.webPageLabel=웹 페이지 생성하기
-pkgmgr.runApplet.webPage=웹페이지만 생성하기 
-pkgmgr.runApplet.appletviewer=애플릿 뷰어에서 애플릿 실행하기 
-pkgmgr.runApplet.webBrowser=웹 브라우저에서 애플릿 실행하기
-pkgmgr.runApplet.heightLbl=Height =
-pkgmgr.runApplet.widthLbl=Width =
-pkgmgr.runApplet.newParameterLbl=새 매개변수 추가하기 
-pkgmgr.runApplet.appletParameterLbl= 애플릿 매개변수 
-pkgmgr.runApplet.nameLbl=Name =
-pkgmgr.runApplet.valueLbl=Value =
-pkgmgr.runApplet.paramName=PARAM NAME
-pkgmgr.runApplet.value=VALUE
-pkgmgr.runApplet.htmlComment=<!-- 이 파일은  BlueJ 자바 개발 환경에 의해 자동적으로 생성됩니다  -->\n<!-- 애플릿이 실행될 때 마다 -->\n<!-- 자동적으로 재생성됩니다.  수작업에 의해 발생하는 파일변경은 -->\n<!-- BlueJ 환경하에서 애플릿이 실행될 때 적용되지 않습니다.       -->\n<!-- 이 파일을 보존하려면 패키지 디렉토리의 외부에 있는     -->\n<!-- 디렉토리에 저장하십시오. -->
-pkgmgr.runApplet.htmlExportedComment=<!-- 이 파일은 BlueJ 자바 개발 환경에 의해 자동적으로 생성됩니다.  -->\n<!-- 이 페이지가 생성될 때 코드기반 변수는 애플릿이 존재하는   -->\n<!--  BlueJ 패키지 디렉토리까지의 절대경로로 설정됩니다. -->\n<!-- 패키지 디렉토리까지의 절대경로로 설정됩니다.       -->
-
-
-
+#print project dialog
+pkgmgr.printDialog.title=BlueJ:  프로젝트 출력
+pkgmgr.printDialog.printDiagram=클래스 다이어그램 출력
+pkgmgr.printDialog.printSource=소스 코드 출력
+pkgmgr.printDialog.printReadme=프로젝트 readme 출력 
 
 # method call dialog
-pkgmgr.methodCall.titleCreate=BlueJ: 객체 생성하기 
-pkgmgr.methodCall.titleCall=BlueJ:  메소드 호출하기 
-pkgmgr.methodCall.namePrompt=인스턴스 이름 :
-error.methodCall.emptyField=에러: 매개변수 입력란이 비었습니다
-error.methodCall.illegalName=인스턴스 이름이 자바 식별자이거나 잘못되었습니다.
-error.methodCall.duplicateName=이미 존재하는 객체이름입니다.\n유일한 이름을 선택하십시오.
+pkgmgr.methodCall.titleCreate=객체 생성
+pkgmgr.methodCall.titleCall=메소드 호출
+pkgmgr.methodCall.namePrompt=인스턴스 이름:
+pkgmgr.methodCall.typeParametersPrompt=타입 파라미터:
+pkgmgr.methodCall.typeParameterPrompt=타입 파라미터:
+error.methodCall.emptyField=에러: 파라미터 필드가 비어 있습니다.
+error.methodCall.emptyTypeField=에러: 타입 파라미터 필드가 비어 있습니다.\n모든 타입 파라미터를 채우거나 모두 비워주세요.
+error.methodCall.illegalName=인스턴스 이름은 Java 식별자여야 합니다.
+error.methodCall.duplicateName=이 이름을 가진 객체가 이미 존재합니다.\n유니크한 이름을 선택해주세요.
 
 # Debugger dialog (ExecControls.java)
-debugger.execControls.windowTitle = BlueJ:  디버거 
+debugger.execControls.windowTitle = 디버거
 debugger.execControls.stackTitle = 호출 순서
-debugger.execControls.staticTitle = 정적 변수들
-debugger.execControls.instanceTitle = 인스턴스 변수들
-debugger.execControls.localTitle = 지역 변수들
-debugger.execControls.threadTitle = 스레드들
-debugger.execControls.updateText = 갱신하기
-debugger.execControls.systemThreads = 시스템 스레드 표시
-debugger.execControls.haltButtonText = 중단
-debugger.execControls.stepButtonText = Step (다음단계) 
-debugger.execControls.stepIntoButtonText = Step Into (\n 내부 진입) 
-debugger.execControls.continueButtonText = 계속 
-debugger.execControls.terminateButtonText = 종료 
+debugger.execControls.staticTitle = 정적 변수
+debugger.execControls.instanceTitle = 인스턴스 변수
+debugger.execControls.localTitle = 로컬 변수
+debugger.execControls.threadTitle = 스레드
+debugger.execControls.haltButtonText = 중지
+debugger.execControls.stepButtonText = 단계
+debugger.execControls.stepIntoButtonText = 단계 안으로
+debugger.execControls.continueButtonText = 계속
+debugger.execControls.terminateButtonText = 종료
+
+debugger.options = 옵션
+debugger.hideSystemThreads = 시스템 스레드 숨기기
+debugger.threadRunning = <html><center>스레드가 실행 중이거나 완료되었습니다.<br>세부 정보를 보려면 스레드를 중지해야 합니다.</html>
+debugger.noThreadSelected = 스레드가 선택되지 않았습니다.
 
 # DialogManager labels
-dialogmgr.error = BlueJ:  에러
-dialogmgr.question = BlueJ:  질문
-dialogmgr.message = BlueJ:  메세지
+
+dialogmgr.error = 오류
+dialogmgr.question = 질문
+dialogmgr.message = 메시지
 
 #Terminal Window
 terminal.options = 옵션
-terminal.title = BlueJ:  출력 화면
+terminal.title = 터미널 창
 terminal.clear = 지우기
 terminal.copy = 복사
 terminal.save = 파일로 저장...
+terminal.print = 출력
 terminal.close = 닫기
-terminal.clearScreen = 메소드 호출화면 지우기
-terminal.recordCalls = 메소드 호출 기록 
-terminal.buffering = 버퍼링 무제한
-terminal.save.title = 터미널 문서 저장
+terminal.clearScreen = 메소드 호출 시 화면 지우기
+terminal.recordCalls = 메소드 호출 기록
+terminal.buffering = 무제한 버퍼링
+terminal.save.title = 터미널 텍스트 저장
 terminal.save.buttonText = 저장
+terminal.notRunning=프로그램이 실행 중일 때만 입력 가능합니다.
+terminal.running=입력 후 Enter를 눌러 프로그램에 전송하세요.
+
+#TestDisplay Window
+testdisplay.title = BlueJ:  테스트 결과
+testdisplay.counter.runs=테스트 수:
+testdisplay.counter.errors=오류 수:
+testdisplay.counter.failures=실패 수:
+testdisplay.counter.totalTime=총 시간:
+testdisplay.showsource=소스 보기
 
 # status messages
-pkgmgr.compiling=컴파일...
-pkgmgr.compileDone=컴파일... 완료
-pkgmgr.creating=객체 생성...
-pkgmgr.createDone=객체 생성... 완료
-pkgmgr.creatingVM=virtual machine 생성...
-pkgmgr.creatingVMDone=virtual machine 생성... 완료
-pkgmgr.generatingDocu=문서 생성...
-pkgmgr.docuGenerated=문서 생성... 완료
-pkgmgr.docuAborted=문서 생성... 중지
-pkgmgr.webBrowserMsg=웹 브라우저가 이미 실행중입니다
-pkgmgr.webBrowserError=웹 브라우저를 시작하지 못했습니다.
-pkgmgr.usesArrowMsg="사용" 의존관계가 선언되었지만 실제 사용되지 않았습니다:
-pkgmgr.breakpointMsg=중단점을 설정하려면 클래스가 컴파일 되어야 합니다.
-pkgmgr.appletInViewer=애플릿뷰어로 애플릿 실행
-pkgmgr.appletInBrowser=웹 브라우저로 애플릿 실행
-pkgmgr.exported=내보내기 완료.
+pkgmgr.compiling=컴파일 중...
+pkgmgr.compileDone=컴파일 완료.
+pkgmgr.creating=객체 생성 중...
+pkgmgr.createDone=객체 생성 완료.
+pkgmgr.creatingVM=가상 머신 초기화 중...
+pkgmgr.creatingVMDone=가상 머신 초기화 완료.
+pkgmgr.generatingDocu=문서 생성 중...
+pkgmgr.docuGenerated=문서 생성 완료.
+pkgmgr.docuAborted=문서 생성 취소.
+pkgmgr.webBrowserMsg=웹 브라우저가 시작되었습니다.
+pkgmgr.webBrowserError=웹 브라우저 시작 오류.
+pkgmgr.breakpointMsg=중단점를 설정하려면 클래스를 컴파일해야 합니다.
 pkgmgr.exported.jar=jar 파일로 내보내기 완료.
-pkgmgr.error.open=프로젝트가 존재하지 않습니다.
+pkgmgr.error.open=프로젝트가 더 이상 존재하지 않습니다.
+pkgmgr.checkingVersion=버전 서버에 연결 중...
 
 
-properties.heading.bluej=BlueJ 속성. \"bluej.defs\" 파일을 오버라이드 하여 설정.
-properties.heading.moe=Moe 에디터 속성. \"moe.defs\" 파일을 오버라이드 하여 설정.
+
+# accessibility messages
+pkgmgr.accessibility.compileDone=컴파일이 성공적으로 완료되었습니다.
+
+properties.heading.bluej=BlueJ 속성. 이 파일에서 설정된 값은 \"bluej.defs\" 파일에서 설정된 값보다 우선적으로 적용됩니다.
+properties.heading.moe=Moe Editor 속성. 이 파일에서 설정된 값은 \"moe.defs\" 파일에서 설정된 값보다 우선적으로 적용됩니다.
 
 # menus and menu items
 
-menu.package=프로젝트
-menu.package.new=새 프로젝트...
-menu.package.open=프로젝트 열기...
-menu.package.openRecent=최근에 사용한 프로젝트 열기
-menu.package.openNonBlueJ=BlueJ로 만들지 않은 프로젝트 열기...
-menu.package.close=닫기
-menu.package.save=저장
-menu.package.saveAs=다른 이름으로 저장...
-menu.package.import=가져오기...
-menu.package.export=내보내기...
-menu.package.pageSetup=페이지 설정...
-menu.package.print=인쇄...
-menu.package.quit=종료
+menu.package=_프로젝트
+menu.package.new=_새 프로젝트...
+menu.mepackage.new=_새 ME 프로젝트...
+menu.package.open=_프로젝트 열기...@O
+menu.package.openRecent=최근에 열린 _프로젝트 열기
+menu.package.openNonBlueJ=_BlueJ가 아닌 프로젝트 열기...@^O
+menu.package.openArchive=_ZIP/JAR 파일 열기...@^O
+menu.package.close=_닫기@W
+menu.package.save=_저장@S
+menu.package.saveAs=다른 이름으로 _저장...
+menu.package.import=_불러오기...
+menu.package.export=_Jar 파일 생성...
+menu.package.pageSetup=페이지 설정...@^P
+menu.package.print=_인쇄...@P
+menu.package.quit=_종료@Q
 
-menu.edit=편집
-menu.edit.newClass=새 클래스...
-menu.edit.newPackage=새 패키지...
-menu.edit.addClass=파일로부터 클래스 추가...
-menu.edit.remove=삭제
-menu.edit.newUses=사용 화살표 추가...
-menu.edit.newInherits=상속화살표 추가...
-menu.edit.removeArrow=화살표 삭제...
 
-menu.tools=도구
-menu.tools.compile=컴파일
-menu.tools.compileSelected=선택 컴파일
-menu.tools.rebuild=패키지 다시 빌드
-menu.tools.callLibrary=라이브러리 클래스 사용...
-menu.tools.callFreeForm=표현식 평가...
-menu.tools.generateDoc=프로젝트 문서화
-menu.tools.preferences=옵션...
+menu.edit=_편집
+menu.edit.newClass=새 _클래스...@N
+menu.edit.newPackage=새 _패키지...@R
+menu.edit.newCSS=새 C_SS 파일...
+menu.edit.addClass=_파일에서 클래스 추가...
+menu.edit.remove=_삭제@BACK_SPACE
+menu.edit.newUses=새 _사용 화살표...
+menu.edit.newInherits=새 _상속 화살표...
+menu.edit.removeArrow=삭제 화살표...
 
-menu.view=보기
-menu.view.showUses=사용 화살표 보기 
-menu.view.showInherits=상속 화살표 보기 
-menu.view.showExecControls=디버거 보기 
-menu.view.showTerminal=출력화면 보기
+menu.tools=_도구
+menu.tools.compile=_컴파일@K
+menu.tools.compileSelected=선택한 항목 컴파일@^K
+menu.tools.rebuild=_패키지 다시 빌드
+menu.tools.callLibrary=_라이브러리 클래스 사용...@L
+menu.tools.generateDoc=프로젝트 문서화@J
+menu.tools.testing=_테스트
+menu.tools.run=테스트 실행@^T
+menu.tools.end=녹화 종료
+menu.tools.cancel=녹화 취소
+menu.tools.teamwork=팀
 
-menu.group=그룹 작업
-menu.group.make=그룹 패키지 생성
-menu.group.open=그룹 패키지 열기
-menu.group.updateSelected=선택된 그룹 갱신
-menu.group.updateAll=전체 갱신
-menu.group.commitSelected=선택된 그룹 실행
-menu.group.commitAll=전체 실행
-menu.group.statusSelection=선택 상태
-menu.group.statusAll=선택 상태
-menu.group.users=사용자
-menu.group.configuration=옵션
+menu.tools.preferences=_환경 설정...@,
 
-menu.help=도움말
-menu.help.about=$APPNAME에 대하여
-menu.help.extensions=Installed Extensions
+
+menu.view=_보기
+menu.view.showUses=사용 표시
+menu.view.showInherits=상속 표시
+menu.view.showExecControls=디버거 표시@D
+menu.view.showTerminal=터미널 표시@T
+menu.view.showTextEval=코드 패드 표시@E
+menu.view.showTestDisplay=테스트 결과 표시
+menu.view.showTeamTest=팀 및 테스트 컨트롤 표시@G
+
+codepad.prompt=평가할 Java 코드 입력
+codepad.selectAll=전체 기록 선택
+codepad.addToBench=객체 벤치에 추가
+codepad.inspect=검사
+codepad.clear=기록 지우기
+
+team.project.marker=공유 프로젝트
+team.commit=커밋@I
+team.commitPush=커밋/푸시@I
+team.commitButton=커밋
+team.menu.commit=저장소에 커밋하기...@I
+team.menu.commitPush=저장소에 커밋/푸시하기...@I
+team.commit.title=저장소에 파일 커밋하기
+team.commit.dcvs.title=저장소에 파일 커밋/푸시하기
+team.commit.files=커밋할 파일
+team.commitPush.commit.files=커밋할 준비가 된 파일
+team.commitPush.push.files=푸시할 준비가 된 파일
+team.commit.comment=커밋 메시지
+team.commit.layout=(다이어그램 레이아웃)
+team.commit.includelayout=다이어그램 레이아웃 커밋하기
+team.commit.statusMessage=프로젝트를 저장소에 커밋하는 중입니다...
+team.commit.statusDone=커밋이 완료되었습니다
+team.commit.moreFiles=(그 외 - 상태를 확인하세요)
+team.update=업데이트@U
+team.menu.update=저장소에서 업데이트하기...@U
+team.push=푸시
+team.push.error=변경 사항을 푸시할 수 없습니다
+team.push.statusMessage=프로젝트를 원격 저장소에 푸시하는 중입니다...
+team.push.statusDone=푸시가 완료되었습니다
+team.update.statusMessage=프로젝트를 업데이트하는 중입니다...
+team.update.statusDone=업데이트가 완료되었습니다
+team.update.title=저장소에서 파일 업데이트하기
+team.update.includelayout=다이어그램 레이아웃 업데이트하기
+team.update.files=업데이트할 파일
+team.checkout=프로젝트 체크아웃...
+team.checkout.statusMessage=공유 프로젝트를 체크아웃하는 중입니다
+team.history.allUsers=모든 사용자
+team.history.allFiles=모든 파일
+team.history=프로젝트 히스토리
+team.history.title=프로젝트 히스토리
+team.history.filefilter=파일 보기:
+team.history.userfilter=사용자 보기:
+team.share=이 프로젝트 공유하기
+team.share.short=공유...
+team.share.statusMessage=이 프로젝트를 공유하는 중입니다
+team.includeLayout=업데이트할 때 다이어그램 레이아웃 포함하기
+team.settings=팀워크 설정...
+team.status=상태
+team.status.local=로컬 상태
+team.status.remote=원격 상태
+team.status.resource=파일 이름
+team.status.version=버전
+team.status.refresh=새로고침
+team.conflicts.title=충돌 발생
+team.conflicts.classes=다음 클래스에서 충돌이 발생했습니다:
+team.conflicts.files=다음 파일에서 충돌이 발생했습니다:
+team.conflicts.show=충돌 보기
+team.error.username.at=사용자 이름에 @ 문자가 포함되어 있어 BlueJ에서 지원되지 않습니다.
+team.error.username.colon=사용자 이름에 : 문자가 포함되어 있어 BlueJ에서 지원되지 않습니다.
+team.error.password.at=비밀번호에 @ 문자가 포함되어 있어 BlueJ에서 지원되지 않습니다.
+team.error.unknownProtocol=알 수 없는 프로토콜입니다.
+team.error.cannotParseServer=URI에서 서버를 식별할 수 없습니다. URI가 올바른지 확인하세요.
+team.error.cannotParsePath=URI에서 저장소 경로를 식별할 수 없습니다. URI가 올바른지 확인하세요.
+team.error.needsPull=저장소가 병합 상태이며, 커밋되지 않은 변경 사항이 있습니다. 진행하려면 해당 변경 사항을 커밋하고 풀해야 합니다.
+team.error.noHeadBranch=로컬 HEAD 브랜치를 가져오는 중에 오류가 발생했습니다.
+
+# The following appear in brackets after a filename, in the
+# update/commit dialogs.
+team.status.delete=저장소에서 삭제
+team.status.add=저장소에 추가
+team.status.new=새 파일
+team.status.removed=삭제
+team.status.needsmerge=업데이트 병합 필요
+team.status.needsupdate=저장소에서 업데이트 필요
+
+team.commit.message=커밋하기 위해, 커밋 메시지를 작성하세요.
+team.nocommitfiles=커밋할 파일이 없습니다.
+team.nopushfiles=푸시할 파일이 없습니다. (먼저 커밋하세요)
+team.noupdatefiles=업데이트할 파일이 없습니다.
+team.pushNeeded=원격 저장소보다 저장소가 앞서 있습니다. 푸시가 필요합니다.
+team.pullNeeded=원격 저장소보다 저장소가 뒤쳐져 있습니다. 업데이트가 필요합니다.
+
+team.statusinfo.upToDate=최신 상태입니다.
+team.statusinfo.needsCheckout=저장소에 추가되었습니다.
+team.statusinfo.needsUpdate=저장소에서 수정되었습니다.
+team.statusinfo.removed=저장소에서 제거되었습니다.
+team.statusinfo.needsAdd=로컬에 추가되었습니다.
+team.statusinfo.needsCommit=로컬에서 수정되었습니다.
+team.statusinfo.deleted=로컬에서 제거되었습니다.
+team.statusinfo.needsMerge=병합이 필요합니다.
+team.statusinfo.unresolved=해결되지 않은 충돌이 있습니다.
+team.statusinfo.hasConflicts=충돌이 있습니다.
+team.statusinfo.weird=이상한 상태입니다.
+team.statusinfo.conflictAdd=로컬과 저장소에 모두 추가되었습니다(충돌).
+team.statusinfo.conflictLMRD=로컬에서 수정되었고 저장소에서 제거되었습니다(충돌).
+team.statusinfo.conflictLDRM=로컬에서 제거되었고 저장소에서 수정되었습니다(충돌).
+team.statusinfo.renamed=파일 이름이 변경되었습니다.
+
+team.statusinfo.dcvs.local.new=새로운 것
+team.statusinfo.dcvs.local.modified=변경된 것
+team.statusinfo.dcvs.local.deleted=삭제된 것
+team.statusinfo.dcvs.remote.new=푸시 필요(새로운 것)
+team.statusinfo.dcvs.remote.modified=푸시 필요(변경된 것)
+team.statusinfo.dcvs.remote.deleted=푸시 필요(삭제된 것)
+team.statusinfo.dcvs.remote.needs.pull=업데이트 필요
+team.statusinfo.dcvs.remote.removed=업데이트 필요(제거됨)
+team.statusinfo.dcvs.remote.needs.push=푸시 필요
+
+team.settings.title = 팀 설정
+team.settings.personal=개인
+team.settings.location=위치
+team.settings.yourName=당신의 이름
+team.settings.yourEmail=당신의 이메일
+team.settings.user=사용자
+team.settings.password=비밀번호
+team.settings.savepwd=이 컴퓨터에 비밀번호 저장(권장하지 않음)
+team.settings.savepwd.details=비밀번호는 인코딩되어 파일에 저장됩니다. Git을 통해 원본 프로젝트 디렉토리를 공유할 예정이라면 상자를 체크하지 마세요.
+team.settings.server=서버
+team.settings.prefix=저장소 경로
+team.settings.ext=ext (SSH 사용)
+team.settings.pserver=pserver
+team.settings.protocol=프로토콜
+team.settings.uri=저장소 URI
+team.settings.branch=브랜치
+team.settings.defaultBranch=기본 브랜치
+team.settings.checkConnection=연결 확인
+
+team.moduleselect.title=프로젝트 선택 및 체크아웃
+team.moduleselect.label=프로젝트 이름을 선택하거나 입력하세요:
+team.moduleselect.available=사용 가능한 프로젝트:
+team.moduleselect.show=보기
+
+team.checkingout=프로젝트 체크아웃 중...
+team.checkedout=프로젝트 체크아웃 완료.
+team.checkout.filechooser.title=체크아웃 위치 지정
+team.checkout.DVCS.filechooser.title=체크아웃할 프로젝트 생성
+team.checkout.filechooser.button=체크아웃
+
+team.share.initialMessage=프로젝트 공유 초기화
+
+team.sharing=프로젝트 공유 중...
+team.shared=프로젝트 공유 완료.
+
+team.checkconn.checking=연결 확인 중...
+team.checkconn.ok=연결이 정상입니다.
+team.checkconn.bad=서버에 연결할 수 없습니다.
+
+team.load.SVNnotSupported.title=SVN 미지원
+
+team.load.SVNnotSupported.details=이 버전의 BlueJ는 더 이상 SVN을 지원하지 않습니다.\n\n다음 중 하나를 선택하세요:\n\t- 이 프로젝트를 독립 실행형으로 만들기\n\t  (이렇게 하면 SVN과 관련된 모든 정보가 제거됩니다),\n또는\n\t- 이 프로젝트를 팀 작업 기능 없이 열기\n\t  (SVN 정보는 유지되며, BlueJ 4 및 이전 버전과 공유 프로젝트로 여전히 열 수 있습니다).
+
+team.load.SVNnotSupported.details.RemoveSVNOption=이 프로젝트를 독립 실행형으로 만들기
+team.load.SVNnotSupported.details.KeepSVNOption=이 프로젝트를 팀 작업 기능 없이 열기
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+menu.help=도움말 (_H)
+menu.help.about=$APPNAME 정보 (_A)
+menu.help.extensions=설치된 확장 기능 (_x)
 menu.help.versionCheck=버전 확인...
-menu.help.copyright=저작권
-menu.help.website=BlueJ 홈페이지 
-menu.help.tutorial=BlueJ 튜토리얼 
-menu.help.standardApi=자바 클래스 라이브러리 
+menu.help.copyright=저작권 (_C)
+menu.help.website=BlueJ 웹 사이트 (_W)
+menu.help.onlinedoc=온라인 문서 (_D)
+menu.help.tutorial=인터랙티브 튜토리얼 (_T)
+menu.help.standardApi=Java 클래스 라이브러리 (_C)
 
 # tool tips
 
-tooltip.newClass=현재 패키지안에 새 클래스를 생성합니다.
-tooltip.newUses=사용 관계 화살표를 삽입합니다.
-tooltip.newExtends=상속 관계 화살표를 삽입합니다.
-tooltip.compile=현재 패키지 안의 컴파일되지 않은 모든 클래스를 컴파일 합니다.
-tooltip.showUses=사용관계 화살표 표시 전환.
-tooltip.showExtends=상속관계 화살표 표시 전환. 
-tooltip.progress=상태 표시바 : virtual machine 이 실행중일때 표시됩니다.
+tooltip.newClass=Create a new class in this package
+tooltip.newUses=Insert a 'uses' relation
+tooltip.newExtends=Insert an inheritance relation
+tooltip.compile=Compile all uncompiled classes in this package
+tooltip.test=Run all compiled test classes in this package
+tooltip.progress=Work indicator: indicates when virtual machine is executing
+tooltip.test.end=End a recording of a test method and save it.
+tooltip.test.cancel=Cancel and discard a recording of a test method.
+tooltip.commit=Commit local changes back to the repository
+tooltip.update=Update local files that have been modified in the repository
+tooltip.status=Show the status of all teamwork files in the project
 
+
+graph.tooltip.classBroken=This class cannot currently be parsed
+
+
+#Copyright
+
+menu.help.copyright.title=BlueJ Copyright, Licensing and Redistribution
+menu.help.copyright.line1=BlueJ is available under the GNU General Public License  
+menu.help.copyright.line2=version 2 with Classpath exception.
+menu.help.copyright.line3=For more information please see the files LICENSE.txt 
+menu.help.copyright.line4=and THIRDPARTYLICENSE.txt.
+
+#Collection
+# The content for these is HTML, so don't use <, > or & without escaping:
+
+collect.dialog.title=Research Participation
+
+collect.dialog.header1=BlueJ collects anonymous interaction information to improve the software and help researchers
+collect.dialog.header2=understand how students learn to program.
+collect.dialog.header3=Please help us by participating.
+
+collect.dialog.no=No thanks
+collect.dialog.yes=I agree to take part, and I certify that I am 16 or older
+
+collect.dialog.ethics1=If you agree to take part, you will permit us to collect anonymous data about your use of BlueJ, including the features you use and the code you write. This will be used by the BlueJ group and other academic researchers to help understand how students learn to program and to improve BlueJ itself. No personal information will be transmitted to, or stored by, us and any Java class comments you write will be removed before transmission.
+collect.dialog.ethics.seemore=See more information
+collect.dialog.ethics2=If you change your mind about helping us with this work, you can stop contributing at any time using the checkbox in the Tools/Preferences/Miscellaneous dialog.
+
+collect.status.optedin=You are currently allowing anonymous research data collection
+collect.status.nextsession=You will allow anonymous data collection research next time BlueJ is started
+collect.status.optedout=You are currently not participating in the anonymous research data collection
+
+# About
+
+about.version=$APPNAME version
+about.java.version=Java version
+about.vm=Virtual machine:
+about.javafx=JavaFX version:
+about.runningOn=Running on:
+about.logfile=Debug log file:
+about.moreInformation=For more information, see
+about.theTeam=$APPNAME team:
+about.openFolder=Open Folder
+about.general.title=General
+about.translators.title=Translators
+about.contributors.title=Contributors
+about.previousTeamMembers.title=Previous Team Members:
+
+# Work Indicator
+workIndicator.resetMachine=Reset Java Virtual Machine@^R
+
+# Not a package
+notAProject.bluej.title=Not A BlueJ Project
+notAProject.bluej.message=The selected folder does not contain a BlueJ project:
+notAProject.bluej.subDirs=Some child folders have BlueJ projects.  Did you mean:
+notAProject.bluej.subDirButton=Open Selected
+notAProject.bluej.button=Choose Again...
+
+# New project
+newProject.name=Name
+newProject.parent=Location
+newProject.path=Path
+newProject.parent.choose=Choose...
+newProject.error.parentNotExist=Location does not exist
+newProject.error.compoundExist=Path already exists
+newProject.error.pathInvalid=Path is invalid
+newProject.prompt=Enter a name for the new project
+
+# Class Diagram
+classTarget.noSource=no source
+
+bluej.central.msg.title=BlueJ - Latest News
+
+printing.progress.title=Printing
+printing.progress.file=File progress (${cur}/${total} lines)
+printing.progress.project=Project progress (${cur}/${total} items)
+printing.progress.canceling=Canceling...
