@@ -236,10 +236,10 @@ editor.reset-fontLabel = 폰트 크기 초기화
 editor.key-bindingsLabel = 단축키 설정...
 editor.preferencesLabel = 환경 설정...
 
-editor.printDialog.title=BlueJ:  소스 코드 출력
-editor.printDialog.printLineNumbers=줄 번호 출력
-editor.printDialog.printHighlighting=범위 강조와 함께 출력
-editor.printDialog.printHighlighting.tooltip=이 기능은 출력 속도가 느려지며 대규모 출력 작업에서 지원되지 않습니다.
+editor.printDialog.title=BlueJ:  소스 코드 인쇄
+editor.printDialog.printLineNumbers=줄 번호 포함
+editor.printDialog.printHighlighting=범위 강조 포함
+editor.printDialog.printHighlighting.tooltip=이 기능은 인쇄 속도가 느려지며 대규모 인쇄 작업에서 지원되지 않습니다.
 editor.printDialog.fontSize=폰트 크기
 editor.printDialog.fontSize.small=작게
 editor.printDialog.fontSize.standard=보통
@@ -537,10 +537,10 @@ pkgmgr.versionDlg.currentVersion=현재 BlueJ 버전:
 pkgmgr.versionDlg.newVersion=가장 최근 BlueJ 버전:
 
 #print project dialog
-pkgmgr.printDialog.title=BlueJ:  프로젝트 출력
-pkgmgr.printDialog.printDiagram=클래스 다이어그램 출력
-pkgmgr.printDialog.printSource=소스 코드 출력
-pkgmgr.printDialog.printReadme=프로젝트 readme 출력 
+pkgmgr.printDialog.title=BlueJ:  프로젝트 인쇄
+pkgmgr.printDialog.printDiagram=클래스 다이어그램 포함
+pkgmgr.printDialog.printSource=소스 코드 포함
+pkgmgr.printDialog.printReadme=프로젝트 readme 포함 
 
 # method call dialog
 pkgmgr.methodCall.titleCreate=객체 생성
@@ -583,7 +583,7 @@ terminal.title = 터미널 창
 terminal.clear = 지우기
 terminal.copy = 복사
 terminal.save = 파일로 저장...
-terminal.print = 출력
+terminal.print = 인쇄
 terminal.close = 닫기
 terminal.clearScreen = 메소드 호출 시 화면 지우기
 terminal.recordCalls = 메소드 호출 기록
@@ -950,6 +950,6 @@ classTarget.noSource=소스가 없습니다
 bluej.central.msg.title=BlueJ - 최신 뉴스
 
 printing.progress.title=인쇄 중
-printing.progress.file=파일 진행 (${cur}/${total} 라인)
+printing.progress.file=파일 진행 (${cur}/${total} 줄)
 printing.progress.project=프로젝트 진행 (${cur}/${total} 항목)
 printing.progress.canceling=취소 중...

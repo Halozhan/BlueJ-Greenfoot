@@ -236,10 +236,10 @@ editor.reset-fontLabel = \ud3f0\ud2b8 \ud06c\uae30 \ucd08\uae30\ud654
 editor.key-bindingsLabel = \ub2e8\ucd95\ud0a4 \uc124\uc815...
 editor.preferencesLabel = \ud658\uacbd \uc124\uc815...
 
-editor.printDialog.title=BlueJ:  \uc18c\uc2a4 \ucf54\ub4dc \ucd9c\ub825
-editor.printDialog.printLineNumbers=\uc904 \ubc88\ud638 \ucd9c\ub825
-editor.printDialog.printHighlighting=\ubc94\uc704 \uac15\uc870\uc640 \ud568\uaed8 \ucd9c\ub825
-editor.printDialog.printHighlighting.tooltip=\uc774 \uae30\ub2a5\uc740 \ucd9c\ub825 \uc18d\ub3c4\uac00 \ub290\ub824\uc9c0\uba70 \ub300\uaddc\ubaa8 \ucd9c\ub825 \uc791\uc5c5\uc5d0\uc11c \uc9c0\uc6d0\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
+editor.printDialog.title=BlueJ:  \uc18c\uc2a4 \ucf54\ub4dc \uc778\uc1c4
+editor.printDialog.printLineNumbers=\uc904 \ubc88\ud638 \ud3ec\ud568
+editor.printDialog.printHighlighting=\ubc94\uc704 \uac15\uc870 \ud3ec\ud568
+editor.printDialog.printHighlighting.tooltip=\uc774 \uae30\ub2a5\uc740 \uc778\uc1c4 \uc18d\ub3c4\uac00 \ub290\ub824\uc9c0\uba70 \ub300\uaddc\ubaa8 \uc778\uc1c4 \uc791\uc5c5\uc5d0\uc11c \uc9c0\uc6d0\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
 editor.printDialog.fontSize=\ud3f0\ud2b8 \ud06c\uae30
 editor.printDialog.fontSize.small=\uc791\uac8c
 editor.printDialog.fontSize.standard=\ubcf4\ud1b5
@@ -537,10 +537,10 @@ pkgmgr.versionDlg.currentVersion=\ud604\uc7ac BlueJ \ubc84\uc804:
 pkgmgr.versionDlg.newVersion=\uac00\uc7a5 \ucd5c\uadfc BlueJ \ubc84\uc804:
 
 #print project dialog
-pkgmgr.printDialog.title=BlueJ:  \ud504\ub85c\uc81d\ud2b8 \ucd9c\ub825
-pkgmgr.printDialog.printDiagram=\ud074\ub798\uc2a4 \ub2e4\uc774\uc5b4\uadf8\ub7a8 \ucd9c\ub825
-pkgmgr.printDialog.printSource=\uc18c\uc2a4 \ucf54\ub4dc \ucd9c\ub825
-pkgmgr.printDialog.printReadme=\ud504\ub85c\uc81d\ud2b8 readme \ucd9c\ub825 
+pkgmgr.printDialog.title=BlueJ:  \ud504\ub85c\uc81d\ud2b8 \uc778\uc1c4
+pkgmgr.printDialog.printDiagram=\ud074\ub798\uc2a4 \ub2e4\uc774\uc5b4\uadf8\ub7a8 \ud3ec\ud568
+pkgmgr.printDialog.printSource=\uc18c\uc2a4 \ucf54\ub4dc \ud3ec\ud568
+pkgmgr.printDialog.printReadme=\ud504\ub85c\uc81d\ud2b8 readme \ud3ec\ud568 
 
 # method call dialog
 pkgmgr.methodCall.titleCreate=\uac1d\uccb4 \uc0dd\uc131
@@ -583,7 +583,7 @@ terminal.title = \ud130\ubbf8\ub110 \ucc3d
 terminal.clear = \uc9c0\uc6b0\uae30
 terminal.copy = \ubcf5\uc0ac
 terminal.save = \ud30c\uc77c\ub85c \uc800\uc7a5...
-terminal.print = \ucd9c\ub825
+terminal.print = \uc778\uc1c4
 terminal.close = \ub2eb\uae30
 terminal.clearScreen = \uba54\uc18c\ub4dc \ud638\ucd9c \uc2dc \ud654\uba74 \uc9c0\uc6b0\uae30
 terminal.recordCalls = \uba54\uc18c\ub4dc \ud638\ucd9c \uae30\ub85d
@@ -950,6 +950,6 @@ classTarget.noSource=\uc18c\uc2a4\uac00 \uc5c6\uc2b5\ub2c8\ub2e4
 bluej.central.msg.title=BlueJ - \ucd5c\uc2e0 \ub274\uc2a4
 
 printing.progress.title=\uc778\uc1c4 \uc911
-printing.progress.file=\ud30c\uc77c \uc9c4\ud589 (${cur}/${total} \ub77c\uc778)
+printing.progress.file=\ud30c\uc77c \uc9c4\ud589 (${cur}/${total} \uc904)
 printing.progress.project=\ud504\ub85c\uc81d\ud2b8 \uc9c4\ud589 (${cur}/${total} \ud56d\ubaa9)
 printing.progress.canceling=\ucde8\uc18c \uc911...
