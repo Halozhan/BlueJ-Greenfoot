@@ -307,7 +307,7 @@ editor.addjavadoc.notAMethod=메소드 내에서만 사용 가능합니다.
 editor.addjavadoc.hasJavadoc=이 메소드는 이미 Javadoc 주석이 있습니다.
 editor.addjavadoc.constructor=생성자
 editor.addjavadoc.method=메소드
-editor.addjavadoc.parameter=매개변수
+editor.addjavadoc.parameter=파라미터
 editor.addjavadoc.returnValue=반환 값
 
 # Messages shown as a result of a search with replace all
@@ -546,10 +546,10 @@ pkgmgr.printDialog.printReadme=프로젝트 readme 포함
 pkgmgr.methodCall.titleCreate=객체 생성
 pkgmgr.methodCall.titleCall=메소드 호출
 pkgmgr.methodCall.namePrompt=인스턴스 이름:
-pkgmgr.methodCall.typeParametersPrompt=타입 파라미터:
-pkgmgr.methodCall.typeParameterPrompt=타입 파라미터:
+pkgmgr.methodCall.typeParametersPrompt=파라미터 타입:
+pkgmgr.methodCall.typeParameterPrompt=파라미터 타입:
 error.methodCall.emptyField=에러: 파라미터 필드가 비어 있습니다.
-error.methodCall.emptyTypeField=에러: 타입 파라미터 필드가 비어 있습니다.\n모든 타입 파라미터를 채우거나 모두 비워주세요.
+error.methodCall.emptyTypeField=에러: 파라미터 타입 필드가 비어 있습니다.\n모든 파라미터 타입을 채우거나 모두 비워주세요.
 error.methodCall.illegalName=인스턴스 이름은 Java 식별자여야 합니다.
 error.methodCall.duplicateName=이 이름을 가진 객체가 이미 존재합니다.\n유니크한 이름을 선택해주세요.
 
