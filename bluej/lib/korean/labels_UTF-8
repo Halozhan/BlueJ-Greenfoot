@@ -116,7 +116,7 @@ prefmgr.collection.identifier.participant=참가자 식별자
 # Editor Preferences panel
 prefmgr.edit.prefpaneltitle=에디터
 prefmgr.edit.editor.title=자바 에디터 설정
-prefmgr.edit.editorfontsize=글꼴 크기
+prefmgr.edit.editorfontsize=글자 크기
 prefmgr.edit.colortransparency=범위 강조
 prefmgr.edit.usesyntaxhilighting=구문 강조 사용
 prefmgr.edit.autoindent=자동 들여쓰기 (Enter 및 Tab 키)
@@ -230,9 +230,9 @@ editor.state.readOnly = 읽기 전용
 editor.state.saved = 저장 완료
 editor.state.changed = 변경됨
 
-editor.increase-fontLabel = 폰트 크기 증가
-editor.decrease-fontLabel = 폰트 크기 감소
-editor.reset-fontLabel = 폰트 크기 초기화
+editor.increase-fontLabel = 글자 크기 증가
+editor.decrease-fontLabel = 글자 크기 감소
+editor.reset-fontLabel = 글자 크기 초기화
 editor.key-bindingsLabel = 단축키 설정...
 editor.preferencesLabel = 환경 설정...
 
@@ -240,7 +240,7 @@ editor.printDialog.title=BlueJ:  소스 코드 인쇄
 editor.printDialog.printLineNumbers=줄 번호 포함
 editor.printDialog.printHighlighting=범위 강조 포함
 editor.printDialog.printHighlighting.tooltip=이 기능은 인쇄 속도가 느려지며 대규모 인쇄 작업에서 지원되지 않습니다.
-editor.printDialog.fontSize=폰트 크기
+editor.printDialog.fontSize=글자 크기
 editor.printDialog.fontSize.small=작게
 editor.printDialog.fontSize.standard=보통
 editor.printDialog.fontSize.large=크게

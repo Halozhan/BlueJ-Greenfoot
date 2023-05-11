@@ -116,7 +116,7 @@ prefmgr.collection.identifier.participant=\ucc38\uac00\uc790 \uc2dd\ubcc4\uc790
 # Editor Preferences panel
 prefmgr.edit.prefpaneltitle=\uc5d0\ub514\ud130
 prefmgr.edit.editor.title=\uc790\ubc14 \uc5d0\ub514\ud130 \uc124\uc815
-prefmgr.edit.editorfontsize=\uae00\uaf34 \ud06c\uae30
+prefmgr.edit.editorfontsize=\uae00\uc790 \ud06c\uae30
 prefmgr.edit.colortransparency=\ubc94\uc704 \uac15\uc870
 prefmgr.edit.usesyntaxhilighting=\uad6c\ubb38 \uac15\uc870 \uc0ac\uc6a9
 prefmgr.edit.autoindent=\uc790\ub3d9 \ub4e4\uc5ec\uc4f0\uae30 (Enter \ubc0f Tab \ud0a4)
@@ -230,9 +230,9 @@ editor.state.readOnly = \uc77d\uae30 \uc804\uc6a9
 editor.state.saved = \uc800\uc7a5 \uc644\ub8cc
 editor.state.changed = \ubcc0\uacbd\ub428
 
-editor.increase-fontLabel = \ud3f0\ud2b8 \ud06c\uae30 \uc99d\uac00
-editor.decrease-fontLabel = \ud3f0\ud2b8 \ud06c\uae30 \uac10\uc18c
-editor.reset-fontLabel = \ud3f0\ud2b8 \ud06c\uae30 \ucd08\uae30\ud654
+editor.increase-fontLabel = \uae00\uc790 \ud06c\uae30 \uc99d\uac00
+editor.decrease-fontLabel = \uae00\uc790 \ud06c\uae30 \uac10\uc18c
+editor.reset-fontLabel = \uae00\uc790 \ud06c\uae30 \ucd08\uae30\ud654
 editor.key-bindingsLabel = \ub2e8\ucd95\ud0a4 \uc124\uc815...
 editor.preferencesLabel = \ud658\uacbd \uc124\uc815...
 
@@ -240,7 +240,7 @@ editor.printDialog.title=BlueJ:  \uc18c\uc2a4 \ucf54\ub4dc \uc778\uc1c4
 editor.printDialog.printLineNumbers=\uc904 \ubc88\ud638 \ud3ec\ud568
 editor.printDialog.printHighlighting=\ubc94\uc704 \uac15\uc870 \ud3ec\ud568
 editor.printDialog.printHighlighting.tooltip=\uc774 \uae30\ub2a5\uc740 \uc778\uc1c4 \uc18d\ub3c4\uac00 \ub290\ub824\uc9c0\uba70 \ub300\uaddc\ubaa8 \uc778\uc1c4 \uc791\uc5c5\uc5d0\uc11c \uc9c0\uc6d0\ub418\uc9c0 \uc54a\uc2b5\ub2c8\ub2e4.
-editor.printDialog.fontSize=\ud3f0\ud2b8 \ud06c\uae30
+editor.printDialog.fontSize=\uae00\uc790 \ud06c\uae30
 editor.printDialog.fontSize.small=\uc791\uac8c
 editor.printDialog.fontSize.standard=\ubcf4\ud1b5
 editor.printDialog.fontSize.large=\ud06c\uac8c
