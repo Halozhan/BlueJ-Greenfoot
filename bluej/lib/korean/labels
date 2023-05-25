@@ -308,7 +308,7 @@ editor.addjavadoc.hasJavadoc=\uc774 \uba54\uc18c\ub4dc\ub294 \uc774\ubbf8 Javado
 editor.addjavadoc.constructor=\uc0dd\uc131\uc790
 editor.addjavadoc.method=\uba54\uc18c\ub4dc
 editor.addjavadoc.parameter=\ud30c\ub77c\ubbf8\ud130
-editor.addjavadoc.returnValue=\ubc18\ud658 \uac12
+editor.addjavadoc.returnValue=\ubc18\ud658\uac12
 
 # Messages shown as a result of a search with replace all
 editor.replaceAll.replaced=\ub300\uccb4\ub428

@@ -308,7 +308,7 @@ editor.addjavadoc.hasJavadoc=이 메소드는 이미 Javadoc 주석이 있습니다.
 editor.addjavadoc.constructor=생성자
 editor.addjavadoc.method=메소드
 editor.addjavadoc.parameter=파라미터
-editor.addjavadoc.returnValue=반환 값
+editor.addjavadoc.returnValue=반환값
 
 # Messages shown as a result of a search with replace all
 editor.replaceAll.replaced=대체됨
