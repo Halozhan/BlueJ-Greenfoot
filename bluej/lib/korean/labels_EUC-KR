@@ -867,14 +867,14 @@ menu.help.standardApi=Java 클래스 라이브러리 (_C)
 tooltip.newClass=이 패키지에 새 클래스 생성
 tooltip.newUses='uses' 관계 삽입
 tooltip.newExtends=상속 관계 삽입
-tooltip.compile=이 패키지의 컴파일되지 않은 모든 클래스 컴파일
-tooltip.test=이 패키지의 컴파일된 모든 테스트 클래스 실행
+tooltip.compile=이 패키지의 컴파일되지 않은 모든 클래스를 컴파일
+tooltip.test=이 패키지의 컴파일된 모든 테스트 클래스를 실행
 tooltip.progress=작업 표시기: 가상 머신이 실행 중인지 표시
 tooltip.test.end=테스트 메소드 녹화 종료 및 저장
 tooltip.test.cancel=테스트 메소드 녹화 취소 및 삭제
 tooltip.commit=로컬 변경 내용을 저장소에 커밋
 tooltip.update=저장소에서 수정된 로컬 파일 업데이트
-tooltip.status=프로젝트의 모든 팀워크 파일의 상태 표시
+tooltip.status=프로젝트의 모든 팀워크 파일 상태를 표시
 
 
 graph.tooltip.classBroken=이 클래스는 현재 파싱할 수 없습니다.
