@@ -38,15 +38,15 @@ debugger.inspector.enum.nameLabel=\uc5f4\uac70\ud615
 debugger.inspector.interface.nameLabel=\uc778\ud130\ud398\uc774\uc2a4
 debugger.inspector.numFields=\ud544\ub4dc \uc218
 
-debugger.objectwrapper.methodException=\uba54\uc11c\ub4dc \uc811\uadfc \uc911 \uc608\uc678 \ubc1c\uc0dd:
+debugger.objectwrapper.methodException=\uba54\uc18c\ub4dc \uc811\uadfc \uc911 \uc608\uc678 \ubc1c\uc0dd:
 debugger.objectwrapper.invocationException=\ud638\ucd9c \uc911 \uc608\uc678 \ubc1c\uc0dd:
 debugger.objectwrapper.inspect=\uac80\uc0ac
 debugger.objectwrapper.remove=\uc81c\uac70
 debugger.objectwrapper.serializable=\uc9c1\ub82c\ud654
 debugger.objectwrapper.redefined=\ub2e4\uc74c\uc5d0\uc11c \uc7ac\uc815\uc758\ub428:
 debugger.objectwrapper.inherited=\ub2e4\uc74c\uc5d0\uc11c \uc0c1\uc18d\ub428:
-debugger.objectwrapper.noMethods=(\uc811\uadfc \uac00\ub2a5\ud55c \uba54\uc11c\ub4dc \uc5c6\uc74c)
-debugger.objectwrapper.moreMethods=\ucd94\uac00 \uba54\uc11c\ub4dc
+debugger.objectwrapper.noMethods=(\uc811\uadfc \uac00\ub2a5\ud55c \uba54\uc18c\ub4dc \uc5c6\uc74c)
+debugger.objectwrapper.moreMethods=\ucd94\uac00 \uba54\uc18c\ub4dc
 
 debugger.threadstatus.finished=\uc885\ub8cc\ub428
 debugger.threadstatus.breakpoint=\uc911\ub2e8\uc810\uc5d0\uc11c
@@ -414,7 +414,7 @@ pkgmgr.classmenu.convertToJava=Java\ub85c \ubcc0\ud658
 pkgmgr.classmenu.convertToStride=Stride\ub85c \ubcc0\ud658
 pkgmgr.classmenu.createTest=\ud14c\uc2a4\ud2b8 \ud074\ub798\uc2a4 \uc0dd\uc131
 pkgmgr.classmenu.launchFX=JavaFX \uc560\ud50c\ub9ac\ucf00\uc774\uc158 \uc2e4\ud589
-pkgmgr.classmenu.moreMethods=\ub354 \ub9ce\uc740 \uba54\uc11c\ub4dc
+pkgmgr.classmenu.moreMethods=\ub354 \ub9ce\uc740 \uba54\uc18c\ub4dc
 
 pkgmgr.extfilemenu.open=\uc5f4\uae30 (BlueJ \uc678\ubd80\uc5d0\uc11c)
 pkgmgr.extfilemenu.delete=\ud30c\uc77c \uc0ad\uc81c
@@ -433,7 +433,7 @@ pkgmgr.test.recording=\ub179\ud654 \uc911
 pkgmgr.test.popup.testAll=\uc804\uccb4 \ud14c\uc2a4\ud2b8 \uc2e4\ud589
 pkgmgr.test.popup.noTests=\ud14c\uc2a4\ud2b8 \uba54\uc18c\ub4dc\uac00 \uc5c6\uc2b5\ub2c8\ub2e4
 pkgmgr.test.popup.abstract=\ucd94\uc0c1 \ud074\ub798\uc2a4\ub294 \ud14c\uc2a4\ud2b8 \ud074\ub798\uc2a4\ub85c \uc0ac\uc6a9\ud560 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4
-pkgmgr.test.popup.createTest=\ud14c\uc2a4\ud2b8 \uba54\uc11c\ub4dc \uc0dd\uc131...
+pkgmgr.test.popup.createTest=\ud14c\uc2a4\ud2b8 \uba54\uc18c\ub4dc \uc0dd\uc131...
 pkgmgr.test.popup.benchToFixture=\uac1d\uccb4 \ubca4\uce58\ub97c \ud14c\uc2a4\ud2b8 \ud53d\uc2a4\ucc98\ub85c \ubcc0\uacbd
 pkgmgr.test.popup.fixtureToBench=\ud14c\uc2a4\ud2b8 \ud53d\uc2a4\ucc98\ub97c \uac1d\uccb4 \ubca4\uce58\ub85c \ubcc0\uacbd
 
@@ -495,7 +495,7 @@ callLibraryDialog.classLabel=\ud074\ub798\uc2a4:
 callLibraryDialog.docButton=\ubb38\uc11c
 callLibraryDialog.listHeading=\uc0dd\uc131\uc790 \ubc0f \uc815\uc801 \uba54\uc18c\ub4dc
 callLibraryDialog.clickHere1=\uc804\uccb4 \ud074\ub798\uc2a4 \uc774\ub984\uc744 \uc785\ub825\ud558\uace0, Enter\ub97c \ub204\ub974\uc138\uc694.
-callLibraryDialog.clickHere2=\uc0dd\uc131\uc790\uc640 \uba54\uc11c\ub4dc\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.
+callLibraryDialog.clickHere2=\uc0dd\uc131\uc790\uc640 \uba54\uc18c\ub4dc\ub97c \ud45c\uc2dc\ud569\ub2c8\ub2e4.
 callLibraryDialog.classNotFound1=\ud074\ub798\uc2a4\ub97c \ucc3e\uc744 \uc218 \uc5c6\uc2b5\ub2c8\ub2e4.
 callLibraryDialog.classNotFound2=(\ud074\ub798\uc2a4 \uc774\ub984\uc744 \ud655\uc778\ud558\uace0 \ub2e4\uc2dc Enter\ub97c \ub204\ub974\uc138\uc694.)
 

@@ -23,7 +23,7 @@ frame.catalogue.hint.removeobject=\uc811\ucd09\ud55c \uac8c\uc7ac\uc790 \uc81c\u
 
 # Stride Dictionary:
 stride.dictionary.call.method.name=\uba54\uc18c\ub4dc \ud638\ucd9c
-stride.dictionary.call.method.description=\uba54\uc11c\ub4dc\ub97c \ud638\ucd9c\ud569\ub2c8\ub2e4
+stride.dictionary.call.method.description=\uba54\uc18c\ub4dc\ub97c \ud638\ucd9c\ud569\ub2c8\ub2e4
 stride.dictionary.blank.name=\ube48 \uc904
 stride.dictionary.blank.description=\ube48 \uc904\uc785\ub2c8\ub2e4
 stride.dictionary.comment.name=\uc8fc\uc11d

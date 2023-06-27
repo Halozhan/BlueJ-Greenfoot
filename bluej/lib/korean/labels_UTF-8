@@ -38,15 +38,15 @@ debugger.inspector.enum.nameLabel=열거형
 debugger.inspector.interface.nameLabel=인터페이스
 debugger.inspector.numFields=필드 수
 
-debugger.objectwrapper.methodException=메서드 접근 중 예외 발생:
+debugger.objectwrapper.methodException=메소드 접근 중 예외 발생:
 debugger.objectwrapper.invocationException=호출 중 예외 발생:
 debugger.objectwrapper.inspect=검사
 debugger.objectwrapper.remove=제거
 debugger.objectwrapper.serializable=직렬화
 debugger.objectwrapper.redefined=다음에서 재정의됨:
 debugger.objectwrapper.inherited=다음에서 상속됨:
-debugger.objectwrapper.noMethods=(접근 가능한 메서드 없음)
-debugger.objectwrapper.moreMethods=추가 메서드
+debugger.objectwrapper.noMethods=(접근 가능한 메소드 없음)
+debugger.objectwrapper.moreMethods=추가 메소드
 
 debugger.threadstatus.finished=종료됨
 debugger.threadstatus.breakpoint=중단점에서
@@ -414,7 +414,7 @@ pkgmgr.classmenu.convertToJava=Java로 변환
 pkgmgr.classmenu.convertToStride=Stride로 변환
 pkgmgr.classmenu.createTest=테스트 클래스 생성
 pkgmgr.classmenu.launchFX=JavaFX 애플리케이션 실행
-pkgmgr.classmenu.moreMethods=더 많은 메서드
+pkgmgr.classmenu.moreMethods=더 많은 메소드
 
 pkgmgr.extfilemenu.open=열기 (BlueJ 외부에서)
 pkgmgr.extfilemenu.delete=파일 삭제
@@ -433,7 +433,7 @@ pkgmgr.test.recording=녹화 중
 pkgmgr.test.popup.testAll=전체 테스트 실행
 pkgmgr.test.popup.noTests=테스트 메소드가 없습니다
 pkgmgr.test.popup.abstract=추상 클래스는 테스트 클래스로 사용할 수 없습니다
-pkgmgr.test.popup.createTest=테스트 메서드 생성...
+pkgmgr.test.popup.createTest=테스트 메소드 생성...
 pkgmgr.test.popup.benchToFixture=객체 벤치를 테스트 픽스처로 변경
 pkgmgr.test.popup.fixtureToBench=테스트 픽스처를 객체 벤치로 변경
 
@@ -495,7 +495,7 @@ callLibraryDialog.classLabel=클래스:
 callLibraryDialog.docButton=문서
 callLibraryDialog.listHeading=생성자 및 정적 메소드
 callLibraryDialog.clickHere1=전체 클래스 이름을 입력하고, Enter를 누르세요.
-callLibraryDialog.clickHere2=생성자와 메서드를 표시합니다.
+callLibraryDialog.clickHere2=생성자와 메소드를 표시합니다.
 callLibraryDialog.classNotFound1=클래스를 찾을 수 없습니다.
 callLibraryDialog.classNotFound2=(클래스 이름을 확인하고 다시 Enter를 누르세요.)
 

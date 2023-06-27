@@ -23,7 +23,7 @@ frame.catalogue.hint.removeobject=접촉한 게재자 제거하기
 
 # Stride Dictionary:
 stride.dictionary.call.method.name=메소드 호출
-stride.dictionary.call.method.description=메서드를 호출합니다
+stride.dictionary.call.method.description=메소드를 호출합니다
 stride.dictionary.blank.name=빈 줄
 stride.dictionary.blank.description=빈 줄입니다
 stride.dictionary.comment.name=주석
