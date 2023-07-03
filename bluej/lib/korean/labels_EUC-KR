@@ -182,12 +182,12 @@ editor.closeLabel = 닫기
 editor.page-setupLabel = 페이지 설정...
 
 # menu labels (MUST be defined)
-editor.classLabel = _클래스
-editor.editLabel = _편집
-editor.toolsLabel = _도구
-editor.debugLabel = _디버그
-editor.optionLabel = _옵션
-editor.helpLabel = _도움말
+editor.classLabel = 클래스
+editor.editLabel = 편집
+editor.toolsLabel = 도구
+editor.debugLabel = 디버그
+editor.optionLabel = 옵션
+editor.helpLabel = 도움말
 
 # item labels (can be omitted if same as action name)
 editor.saveLabel = 저장
@@ -628,49 +628,49 @@ properties.heading.moe=Moe Editor 속성. 이 파일에서 설정된 값은 \"moe.defs\" 파�
 
 # menus and menu items
 
-menu.package=_프로젝트
-menu.package.new=_새 프로젝트...
-menu.mepackage.new=_새 ME 프로젝트...
-menu.package.open=_프로젝트 열기...@O
-menu.package.openRecent=최근에 열린 _프로젝트 열기
-menu.package.openNonBlueJ=_BlueJ가 아닌 프로젝트 열기...@^O
-menu.package.openArchive=_ZIP/JAR 파일 열기...@^O
-menu.package.close=_닫기@W
-menu.package.save=_저장@S
-menu.package.saveAs=다른 이름으로 _저장...
-menu.package.import=_불러오기...
-menu.package.export=_Jar 파일 생성...
+menu.package=프로젝트
+menu.package.new=새 프로젝트...
+menu.mepackage.new=새 ME 프로젝트...
+menu.package.open=프로젝트 열기...@O
+menu.package.openRecent=최근에 열린 프로젝트 열기
+menu.package.openNonBlueJ=BlueJ가 아닌 프로젝트 열기...@^O
+menu.package.openArchive=ZIP/JAR 파일 열기...@^O
+menu.package.close=닫기@W
+menu.package.save=저장@S
+menu.package.saveAs=다른 이름으로 저장...
+menu.package.import=불러오기...
+menu.package.export=Jar 파일 생성...
 menu.package.pageSetup=페이지 설정...@^P
-menu.package.print=_인쇄...@P
-menu.package.quit=_종료@Q
+menu.package.print=인쇄...@P
+menu.package.quit=종료@Q
 
 
-menu.edit=_편집
-menu.edit.newClass=새 _클래스...@N
-menu.edit.newPackage=새 _패키지...@R
-menu.edit.newCSS=새 C_SS 파일...
-menu.edit.addClass=_파일에서 클래스 추가...
-menu.edit.remove=_삭제@BACK_SPACE
-menu.edit.newUses=새 _사용 화살표...
-menu.edit.newInherits=새 _상속 화살표...
+menu.edit=편집
+menu.edit.newClass=새 클래스...@N
+menu.edit.newPackage=새 패키지...@R
+menu.edit.newCSS=새 CSS 파일...
+menu.edit.addClass=파일에서 클래스 추가...
+menu.edit.remove=삭제@BACK_SPACE
+menu.edit.newUses=새 사용 화살표...
+menu.edit.newInherits=새 상속 화살표...
 menu.edit.removeArrow=삭제 화살표...
 
-menu.tools=_도구
-menu.tools.compile=_컴파일@K
+menu.tools=도구
+menu.tools.compile=컴파일@K
 menu.tools.compileSelected=선택한 항목 컴파일@^K
-menu.tools.rebuild=_패키지 다시 빌드
-menu.tools.callLibrary=_라이브러리 클래스 사용...@L
+menu.tools.rebuild=패키지 다시 빌드
+menu.tools.callLibrary=라이브러리 클래스 사용...@L
 menu.tools.generateDoc=프로젝트 문서화@J
-menu.tools.testing=_테스트
+menu.tools.testing=테스트
 menu.tools.run=테스트 실행@^T
 menu.tools.end=녹화 종료
 menu.tools.cancel=녹화 취소
 menu.tools.teamwork=팀
 
-menu.tools.preferences=_환경 설정...@,
+menu.tools.preferences=환경 설정...@,
 
 
-menu.view=_보기
+menu.view=보기
 menu.view.showUses=사용 표시
 menu.view.showInherits=상속 표시
 menu.view.showExecControls=디버거 표시@D
@@ -852,15 +852,15 @@ team.load.SVNnotSupported.details.KeepSVNOption=이 프로젝트를 팀 작업 기능 없이 
 
 
 
-menu.help=도움말 (_H)
-menu.help.about=$APPNAME 정보 (_A)
-menu.help.extensions=설치된 확장 기능 (_x)
+menu.help=도움말
+menu.help.about=$APPNAME 정보
+menu.help.extensions=설치된 확장 기능
 menu.help.versionCheck=버전 확인...
-menu.help.copyright=저작권 (_C)
-menu.help.website=BlueJ 웹 사이트 (_W)
-menu.help.onlinedoc=온라인 문서 (_D)
-menu.help.tutorial=인터랙티브 튜토리얼 (_T)
-menu.help.standardApi=Java 클래스 라이브러리 (_C)
+menu.help.copyright=저작권
+menu.help.website=BlueJ 웹 사이트
+menu.help.onlinedoc=온라인 문서
+menu.help.tutorial=인터랙티브 튜토리얼
+menu.help.standardApi=Java 클래스 라이브러리
 
 # tool tips
 

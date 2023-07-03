@@ -182,12 +182,12 @@ editor.closeLabel = \ub2eb\uae30
 editor.page-setupLabel = \ud398\uc774\uc9c0 \uc124\uc815...
 
 # menu labels (MUST be defined)
-editor.classLabel = _\ud074\ub798\uc2a4
-editor.editLabel = _\ud3b8\uc9d1
-editor.toolsLabel = _\ub3c4\uad6c
-editor.debugLabel = _\ub514\ubc84\uadf8
-editor.optionLabel = _\uc635\uc158
-editor.helpLabel = _\ub3c4\uc6c0\ub9d0
+editor.classLabel = \ud074\ub798\uc2a4
+editor.editLabel = \ud3b8\uc9d1
+editor.toolsLabel = \ub3c4\uad6c
+editor.debugLabel = \ub514\ubc84\uadf8
+editor.optionLabel = \uc635\uc158
+editor.helpLabel = \ub3c4\uc6c0\ub9d0
 
 # item labels (can be omitted if same as action name)
 editor.saveLabel = \uc800\uc7a5
@@ -628,49 +628,49 @@ properties.heading.moe=Moe Editor \uc18d\uc131. \uc774 \ud30c\uc77c\uc5d0\uc11c 
 
 # menus and menu items
 
-menu.package=_\ud504\ub85c\uc81d\ud2b8
-menu.package.new=_\uc0c8 \ud504\ub85c\uc81d\ud2b8...
-menu.mepackage.new=_\uc0c8 ME \ud504\ub85c\uc81d\ud2b8...
-menu.package.open=_\ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30...@O
-menu.package.openRecent=\ucd5c\uadfc\uc5d0 \uc5f4\ub9b0 _\ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30
-menu.package.openNonBlueJ=_BlueJ\uac00 \uc544\ub2cc \ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30...@^O
-menu.package.openArchive=_ZIP/JAR \ud30c\uc77c \uc5f4\uae30...@^O
-menu.package.close=_\ub2eb\uae30@W
-menu.package.save=_\uc800\uc7a5@S
-menu.package.saveAs=\ub2e4\ub978 \uc774\ub984\uc73c\ub85c _\uc800\uc7a5...
-menu.package.import=_\ubd88\ub7ec\uc624\uae30...
-menu.package.export=_Jar \ud30c\uc77c \uc0dd\uc131...
+menu.package=\ud504\ub85c\uc81d\ud2b8
+menu.package.new=\uc0c8 \ud504\ub85c\uc81d\ud2b8...
+menu.mepackage.new=\uc0c8 ME \ud504\ub85c\uc81d\ud2b8...
+menu.package.open=\ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30...@O
+menu.package.openRecent=\ucd5c\uadfc\uc5d0 \uc5f4\ub9b0 \ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30
+menu.package.openNonBlueJ=BlueJ\uac00 \uc544\ub2cc \ud504\ub85c\uc81d\ud2b8 \uc5f4\uae30...@^O
+menu.package.openArchive=ZIP/JAR \ud30c\uc77c \uc5f4\uae30...@^O
+menu.package.close=\ub2eb\uae30@W
+menu.package.save=\uc800\uc7a5@S
+menu.package.saveAs=\ub2e4\ub978 \uc774\ub984\uc73c\ub85c \uc800\uc7a5...
+menu.package.import=\ubd88\ub7ec\uc624\uae30...
+menu.package.export=Jar \ud30c\uc77c \uc0dd\uc131...
 menu.package.pageSetup=\ud398\uc774\uc9c0 \uc124\uc815...@^P
-menu.package.print=_\uc778\uc1c4...@P
-menu.package.quit=_\uc885\ub8cc@Q
+menu.package.print=\uc778\uc1c4...@P
+menu.package.quit=\uc885\ub8cc@Q
 
 
-menu.edit=_\ud3b8\uc9d1
-menu.edit.newClass=\uc0c8 _\ud074\ub798\uc2a4...@N
-menu.edit.newPackage=\uc0c8 _\ud328\ud0a4\uc9c0...@R
-menu.edit.newCSS=\uc0c8 C_SS \ud30c\uc77c...
-menu.edit.addClass=_\ud30c\uc77c\uc5d0\uc11c \ud074\ub798\uc2a4 \ucd94\uac00...
-menu.edit.remove=_\uc0ad\uc81c@BACK_SPACE
-menu.edit.newUses=\uc0c8 _\uc0ac\uc6a9 \ud654\uc0b4\ud45c...
-menu.edit.newInherits=\uc0c8 _\uc0c1\uc18d \ud654\uc0b4\ud45c...
+menu.edit=\ud3b8\uc9d1
+menu.edit.newClass=\uc0c8 \ud074\ub798\uc2a4...@N
+menu.edit.newPackage=\uc0c8 \ud328\ud0a4\uc9c0...@R
+menu.edit.newCSS=\uc0c8 CSS \ud30c\uc77c...
+menu.edit.addClass=\ud30c\uc77c\uc5d0\uc11c \ud074\ub798\uc2a4 \ucd94\uac00...
+menu.edit.remove=\uc0ad\uc81c@BACK_SPACE
+menu.edit.newUses=\uc0c8 \uc0ac\uc6a9 \ud654\uc0b4\ud45c...
+menu.edit.newInherits=\uc0c8 \uc0c1\uc18d \ud654\uc0b4\ud45c...
 menu.edit.removeArrow=\uc0ad\uc81c \ud654\uc0b4\ud45c...
 
-menu.tools=_\ub3c4\uad6c
-menu.tools.compile=_\ucef4\ud30c\uc77c@K
+menu.tools=\ub3c4\uad6c
+menu.tools.compile=\ucef4\ud30c\uc77c@K
 menu.tools.compileSelected=\uc120\ud0dd\ud55c \ud56d\ubaa9 \ucef4\ud30c\uc77c@^K
-menu.tools.rebuild=_\ud328\ud0a4\uc9c0 \ub2e4\uc2dc \ube4c\ub4dc
-menu.tools.callLibrary=_\ub77c\uc774\ube0c\ub7ec\ub9ac \ud074\ub798\uc2a4 \uc0ac\uc6a9...@L
+menu.tools.rebuild=\ud328\ud0a4\uc9c0 \ub2e4\uc2dc \ube4c\ub4dc
+menu.tools.callLibrary=\ub77c\uc774\ube0c\ub7ec\ub9ac \ud074\ub798\uc2a4 \uc0ac\uc6a9...@L
 menu.tools.generateDoc=\ud504\ub85c\uc81d\ud2b8 \ubb38\uc11c\ud654@J
-menu.tools.testing=_\ud14c\uc2a4\ud2b8
+menu.tools.testing=\ud14c\uc2a4\ud2b8
 menu.tools.run=\ud14c\uc2a4\ud2b8 \uc2e4\ud589@^T
 menu.tools.end=\ub179\ud654 \uc885\ub8cc
 menu.tools.cancel=\ub179\ud654 \ucde8\uc18c
 menu.tools.teamwork=\ud300
 
-menu.tools.preferences=_\ud658\uacbd \uc124\uc815...@,
+menu.tools.preferences=\ud658\uacbd \uc124\uc815...@,
 
 
-menu.view=_\ubcf4\uae30
+menu.view=\ubcf4\uae30
 menu.view.showUses=\uc0ac\uc6a9 \ud45c\uc2dc
 menu.view.showInherits=\uc0c1\uc18d \ud45c\uc2dc
 menu.view.showExecControls=\ub514\ubc84\uac70 \ud45c\uc2dc@D
@@ -852,15 +852,15 @@ team.load.SVNnotSupported.details.KeepSVNOption=\uc774 \ud504\ub85c\uc81d\ud2b8\
 
 
 
-menu.help=\ub3c4\uc6c0\ub9d0 (_H)
-menu.help.about=$APPNAME \uc815\ubcf4 (_A)
-menu.help.extensions=\uc124\uce58\ub41c \ud655\uc7a5 \uae30\ub2a5 (_x)
+menu.help=\ub3c4\uc6c0\ub9d0
+menu.help.about=$APPNAME \uc815\ubcf4
+menu.help.extensions=\uc124\uce58\ub41c \ud655\uc7a5 \uae30\ub2a5
 menu.help.versionCheck=\ubc84\uc804 \ud655\uc778...
-menu.help.copyright=\uc800\uc791\uad8c (_C)
-menu.help.website=BlueJ \uc6f9 \uc0ac\uc774\ud2b8 (_W)
-menu.help.onlinedoc=\uc628\ub77c\uc778 \ubb38\uc11c (_D)
-menu.help.tutorial=\uc778\ud130\ub799\ud2f0\ube0c \ud29c\ud1a0\ub9ac\uc5bc (_T)
-menu.help.standardApi=Java \ud074\ub798\uc2a4 \ub77c\uc774\ube0c\ub7ec\ub9ac (_C)
+menu.help.copyright=\uc800\uc791\uad8c
+menu.help.website=BlueJ \uc6f9 \uc0ac\uc774\ud2b8
+menu.help.onlinedoc=\uc628\ub77c\uc778 \ubb38\uc11c
+menu.help.tutorial=\uc778\ud130\ub799\ud2f0\ube0c \ud29c\ud1a0\ub9ac\uc5bc
+menu.help.standardApi=Java \ud074\ub798\uc2a4 \ub77c\uc774\ube0c\ub7ec\ub9ac
 
 # tool tips
 
