@@ -82,7 +82,7 @@ classmgr.statusnew=로드되지 않음
 classmgr.locationcolumn=위치
 classmgr.error.unresolvable=해결할 수 없는 경로
 classmgr.error.nodescription=설명 없음
-classmgr.error.missingclasspath=Java 클래스패스 없음. 현재 디렉토리의 클래스가 먼저 해결될 수 있으므로\n클래스 로딩 동작이 이상할 수 있습니다.
+classmgr.error.missingclasspath=Java 클래스패스 없음. 현재 디렉터리의 클래스가 먼저 해결될 수 있으므로\n클래스 로딩 동작이 이상할 수 있습니다.
 classmgr.error.missingbootclasspath=Sun 부트 클래스패스 없음. BlueJ는 JDK 1.2 이전 환경에서 실행되지 않아야 합니다.
 
 # Preferences Manager user interface elements and error messages
@@ -93,7 +93,7 @@ prefmgr.misc.prefpaneltitle=기타
 prefmgr.misc.documentation.title=문서 설정
 prefmgr.misc.jdkurlpath=JDK 문서 URL
 prefmgr.misc.linkToLib=프로젝트 문서 작성 시 이 URL을 사용해 주세요.
-prefmgr.misc.linkToLibNoteLine1=만약 이 URL이 문서 생성에 사용된다면, 정확하고 접근 가능해야합니다.
+prefmgr.misc.linkToLibNoteLine1=만약 이 URL이 문서 생성에 사용된다면, 정확하고 접근할 수 있어야 합니다.
 prefmgr.misc.linkToLibNoteLine2=그렇지 않으면 문서 생성이 실패할 수 있습니다. 오프라인 작업을 원할 경우 이 옵션을 체크해제 하세요.
 prefmgr.misc.tools.title=선택적인 도구 설정
 prefmgr.misc.showTesting=단위 테스트 도구 표시
@@ -115,7 +115,7 @@ prefmgr.collection.identifier.participant=참가자 식별자
 
 # Editor Preferences panel
 prefmgr.edit.prefpaneltitle=에디터
-prefmgr.edit.editor.title=자바 에디터 설정
+prefmgr.edit.editor.title=Java 에디터 설정
 prefmgr.edit.editorfontsize=글자 크기
 prefmgr.edit.colortransparency=범위 강조
 prefmgr.edit.usesyntaxhilighting=구문 강조 사용
@@ -197,7 +197,7 @@ editor.closeLabel = 닫기
 editor.redoLabel = 재실행
 editor.cut-to-clipboardLabel = 잘라내기
 editor.copy-to-clipboardLabel = 복사
-editor.paste-from-clipboardLabel = 붙여넣기
+editor.paste-from-clipboardLabel = 붙여 넣기
 editor.indent-blockLabel = 들여쓰기 더하기
 editor.deindent-blockLabel = 들여쓰기 빼기
 editor.autoindentLabel = 자동 정렬
@@ -258,7 +258,7 @@ editor.quickfix.wrongComparisonOperator.errorMsg=불리언 표현식 대신 대입문을 사�
                                                  "=="를 의미하였나요?
 editor.quickfix.wrongComparisonOperator.fixMsg="=" 대신 "=="로 바꾸세요
 editor.quickfix.unreportedException.errorMsg.part1=가능한 예외 타입\u0020
-editor.quickfix.unreportedException.errorMsg.part2=\u0020관리가 필요합니다
+editor.quickfix.unreportedException.errorMsg.part2=\u0020관리가 필요합니다.
 editor.quickfix.unreportedException.fixMsg.trycatch=이 라인을 try/catch로 감싸세요
 editor.quickfix.unreportedException.fixMsg.throws=이 예외를 담고 있는 메소드에서 throws 문을 추가하세요
 
@@ -381,7 +381,7 @@ pkgmgr.openNonBlueJPkg.title=Non-BlueJ 프로젝트 열기
 pkgmgr.openNonBlueJPkg.buttonLabel=BlueJ에서 열기
 pkgmgr.saveAs.title=프로젝트 저장
 pkgmgr.saveAs.buttonLabel=저장
-pkgmgr.addClass.title=추가할 자바 클래스 선택
+pkgmgr.addClass.title=추가할 Java 클래스 선택
 pkgmgr.addClass.buttonLabel=추가
 pkgmgr.importPkg.title=가져올 디렉터리 선택
 pkgmgr.importPkg.buttonLabel=가져오기
@@ -400,7 +400,7 @@ pkgmgr.parentpackagetarget.open=열기
 pkgmgr.parentpackagetarget.openunamed=이름 없는 패키지 열기
 
 pkgmgr.noProjectOpened.message=\u2196 프로젝트 메뉴를 사용하여 프로젝트를 만들거나 열어주세요.
-pkgmgr.noClassesExisted.message=\u2196 편집 메뉴를 사용하여 클래스를 만들거나 추가해주세요.
+pkgmgr.noClassesExisted.message=\u2196 편집 메뉴를 사용하여 클래스를 만들거나 추가해 주세요.
 
 pkgmgr.packagemenu.open=열기
 pkgmgr.packagemenu.remove=삭제하기
@@ -512,11 +512,11 @@ pkgmgr.export.specifyJar=Jar 파일 이름 지정
 
 # "open-non-bluej" mismatch dialog
 pkgmgr.importmismatch.title=BlueJ:  패키지 라인 불일치
-pkgmgr.importmismatch.helpLine1=경고: 이는 일부 클래스의 패키지 선언에서 예상되는 최상위 디렉토리가 아닙니다.
-pkgmgr.importmismatch.helpLine2=해당 디렉토리를 열면 프로젝트의 모든 패키지 선언이 변경됩니다.
-pkgmgr.importmismatch.helpLine3=대부분의 경우 선택한 디렉토리의 상위 디렉토리를 열어야 합니다.
+pkgmgr.importmismatch.helpLine1=경고: 이는 일부 클래스의 패키지 선언에서 예상되는 최상위 디렉터리가 아닙니다.
+pkgmgr.importmismatch.helpLine2=해당 디렉터리를 열면 프로젝트의 모든 패키지 선언이 변경됩니다.
+pkgmgr.importmismatch.helpLine3=대부분의 경우 선택한 디렉터리의 상위 디렉터리를 열어야 합니다.
 pkgmgr.importmismatch.helpLine4=예를 들어, "org.bluej" 패키지를 포함하는 Java 프로젝트를 열려면
-pkgmgr.importmismatch.helpLine5=디렉토리를 선택할 때 "org" 디렉토리가 아닌 "org"를 포함하는 디렉토리를 선택해야 합니다.
+pkgmgr.importmismatch.helpLine5=디렉터리를 선택할 때 "org" 디렉터리가 아닌 "org"를 포함하는 디렉터리를 선택해야 합니다.
 pkgmgr.importmismatch.helpLine6=프로젝트의 패키지 선언을 변경하고 계속해서 열까요?
 pkgmgr.importmismatch.helpLine7=
 pkgmgr.importmismatch.helpLine8=
@@ -551,7 +551,7 @@ pkgmgr.methodCall.typeParameterPrompt=파라미터 타입:
 error.methodCall.emptyField=에러: 파라미터 필드가 비어 있습니다.
 error.methodCall.emptyTypeField=에러: 파라미터 타입 필드가 비어 있습니다.\n모든 파라미터 타입을 채우거나 모두 비워주세요.
 error.methodCall.illegalName=인스턴스 이름은 Java 식별자여야 합니다.
-error.methodCall.duplicateName=이 이름을 가진 객체가 이미 존재합니다.\n유니크한 이름을 선택해주세요.
+error.methodCall.duplicateName=이 이름을 가진 객체가 이미 존재합니다.\n유니크한 이름을 선택해 주세요.
 
 # Debugger dialog (ExecControls.java)
 debugger.execControls.windowTitle = 디버거
@@ -795,7 +795,7 @@ team.settings.yourEmail=당신의 이메일
 team.settings.user=사용자
 team.settings.password=비밀번호
 team.settings.savepwd=이 컴퓨터에 비밀번호 저장(권장하지 않음)
-team.settings.savepwd.details=비밀번호는 인코딩되어 파일에 저장됩니다. Git을 통해 원본 프로젝트 디렉토리를 공유할 예정이라면 상자를 체크하지 마세요.
+team.settings.savepwd.details=비밀번호는 인코딩 되어 파일에 저장됩니다. Git을 통해 원본 프로젝트 디렉터리를 공유할 예정이라면 상자를 체크하지 마세요.
 team.settings.server=서버
 team.settings.prefix=저장소 경로
 team.settings.ext=ext (SSH 사용)
