@@ -652,7 +652,7 @@ menu.edit.newCSS=새 CSS 파일...
 menu.edit.addClass=파일에서 클래스 추가...
 menu.edit.remove=삭제@BACK_SPACE
 menu.edit.newUses=새 사용 화살표...
-menu.edit.newInherits=새 상속 화살표...
+menu.edit.newInherits=새 상속 관계...
 menu.edit.removeArrow=삭제 화살표...
 
 menu.tools=도구
@@ -671,8 +671,8 @@ menu.tools.preferences=환경 설정...@,
 
 
 menu.view=보기
-menu.view.showUses=사용 표시
-menu.view.showInherits=상속 표시
+menu.view.showUses=사용 관계 표시
+menu.view.showInherits=상속 관계 표시
 menu.view.showExecControls=디버거 표시@D
 menu.view.showTerminal=터미널 표시@T
 menu.view.showTextEval=코드 패드 표시@E
